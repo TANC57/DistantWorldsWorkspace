@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:dalite_crystal"
+    },
+    "b": {
+      "item": "distant_worlds:polished_lithum_slab"
+    },
+    "c": {
+      "tag": "forge:lithum_items"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:lithum_transmitter",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LithumFurnace"
+      },
+      {
+        "value": "CUSTOM:LithumStorageInitial"
+      },
+      {
+        "value": "CUSTOM:LithumStorageExtended"
+      },
+      {
+        "value": "CUSTOM:LithumStorageAdvanced"
+      },
+      {
+        "value": "CUSTOM:LithumPedestal"
+      },
+      {
+        "value": "CUSTOM:LithumCore"
+      },
+      {
+        "value": "CUSTOM:LithumTransmitter"
+      },
+      {
+        "value": "CUSTOM:LithumConverter"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_altar_interactive_blocks",
+    "namespace": "mod"
+  }
+}

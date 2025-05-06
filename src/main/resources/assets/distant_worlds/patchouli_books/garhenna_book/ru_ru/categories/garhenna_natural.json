@@ -1,0 +1,6 @@
+{
+	"name": "Природное",
+	"description": "Эта категория содержит некоторые природные объекты, добавляемые измерением Гархенны.",
+	"icon": "distant_worlds:textures/screens/garhenna_natural_icon.png",
+	"sortnum": 5
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:glowing_pollen"
+    },
+    "b": {
+      "item": "distant_worlds:glistering_garsale_fruit"
+    },
+    "c": {
+      "item": "distant_worlds:garsale_elixir"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:glistering_garsale_elixir",
+    "count": 1
+  }
+}

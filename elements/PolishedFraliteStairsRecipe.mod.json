@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedFralite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedFralite"
+      },
+      {
+        "value": "CUSTOM:PolishedFralite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedFralite"
+      },
+      {
+        "value": "CUSTOM:PolishedFralite"
+      },
+      {
+        "value": "CUSTOM:PolishedFralite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedFraliteStairs"
+    },
+    "name": "polished_fralite_stairs_recipe",
+    "namespace": "mod"
+  }
+}

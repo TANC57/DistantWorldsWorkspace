@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:overgrown_fralite"
+    },
+    "title": {
+      "translate": "advancements.molten_hills_explore.title"
+    },
+    "description": {
+      "translate": "advancements.molten_hills_explore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "molten_hills_explore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "distant_worlds:molten_hills"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "distant_worlds:garhenna_explore"
+}

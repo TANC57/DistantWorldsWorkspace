@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Revelite"
+      },
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      },
+      {
+        "value": "CUSTOM:ReveliteBricks"
+      },
+      {
+        "value": "CUSTOM:CobbledRevelite"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "revelite_items",
+    "namespace": "forge"
+  }
+}

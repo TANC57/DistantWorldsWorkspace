@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "firon_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Firon Shovel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEquipment"
+    },
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 8.5,
+    "usageCount": 3000,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:FironIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FironToolsLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "FironToolsBlockDestroyedWithTool"
+    }
+  }
+}

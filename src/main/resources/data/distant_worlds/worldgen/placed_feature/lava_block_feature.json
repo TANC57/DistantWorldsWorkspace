@@ -1,0 +1,143 @@
+{
+  "feature": "distant_worlds:lava_block_feature",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 5
+        },
+        "max_inclusive": {
+          "below_top": 5
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "distant_worlds:fralite",
+              "distant_worlds:revelite",
+              "distant_worlds:lithum"
+            ]
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "distant_worlds:fralite",
+                  "distant_worlds:revelite",
+                  "distant_worlds:lithum"
+                ],
+                "offset": [
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "distant_worlds:fralite",
+                      "distant_worlds:revelite",
+                      "distant_worlds:lithum"
+                    ],
+                    "offset": [
+                      -1,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "distant_worlds:fralite",
+                          "distant_worlds:revelite",
+                          "distant_worlds:lithum"
+                        ],
+                        "offset": [
+                          0,
+                          1,
+                          0
+                        ]
+                      },
+                      {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                          {
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                              "distant_worlds:fralite",
+                              "distant_worlds:revelite",
+                              "distant_worlds:lithum"
+                            ],
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ]
+                          },
+                          {
+                            "type": "minecraft:all_of",
+                            "predicates": [
+                              {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                  "distant_worlds:fralite",
+                                  "distant_worlds:revelite",
+                                  "distant_worlds:lithum"
+                                ],
+                                "offset": [
+                                  0,
+                                  0,
+                                  1
+                                ]
+                              },
+                              {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                  "distant_worlds:fralite",
+                                  "distant_worlds:revelite",
+                                  "distant_worlds:lithum"
+                                ],
+                                "offset": [
+                                  0,
+                                  0,
+                                  -1
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

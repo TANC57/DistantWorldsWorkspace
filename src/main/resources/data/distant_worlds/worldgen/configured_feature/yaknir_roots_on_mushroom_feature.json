@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 80,
+    "xz_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "distant_worlds:yaknir_roots",
+              "Properties": {
+                "waterlogged": "false"
+              }
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "distant_worlds:culafite_mushroom_block",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

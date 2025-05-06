@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ModuleFlowFilter"
+      },
+      {
+        "value": "CUSTOM:ModuleFlowAmplification"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_transmitter_modules",
+    "namespace": "mod"
+  }
+}

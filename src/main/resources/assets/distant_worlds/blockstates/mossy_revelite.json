@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/mossy_revelite"
+      },
+      {
+        "model": "distant_worlds:block/mossy_revelite",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/mossy_revelite",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/mossy_revelite",
+        "y": 270
+      }
+    ]
+  }
+}

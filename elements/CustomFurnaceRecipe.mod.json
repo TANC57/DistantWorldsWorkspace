@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      },
+      {
+        "value": "TAG:distant_worlds:cobblestone_blocks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FURNACE"
+    },
+    "name": "custom_furnace_recipe",
+    "namespace": "mod"
+  }
+}

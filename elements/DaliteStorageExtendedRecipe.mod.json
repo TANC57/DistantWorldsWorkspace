@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:lithum_items"
+      },
+      {
+        "value": "CUSTOM:DaliteCrystal"
+      },
+      {
+        "value": "TAG:forge:lithum_items"
+      },
+      {
+        "value": "CUSTOM:DaliteStorageInitial"
+      },
+      {
+        "value": "CUSTOM:DaliteCrystal"
+      },
+      {
+        "value": "CUSTOM:DaliteStorageInitial"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:lithum_items"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DaliteStorageExtended"
+    },
+    "name": "dalite_storage_extended_recipe",
+    "namespace": "mod"
+  }
+}

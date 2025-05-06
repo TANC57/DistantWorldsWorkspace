@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "distant_worlds:block/garsale_log_side",
+    "particle": "distant_worlds:block/garsale_log_side"
+  },
+  "render_type": "solid"
+}

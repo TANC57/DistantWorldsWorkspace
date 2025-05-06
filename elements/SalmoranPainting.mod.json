@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "dead_valley_painting.png",
+    "width": 64,
+    "height": 32,
+    "title": "Salmoran",
+    "author": "TANC57"
+  }
+}

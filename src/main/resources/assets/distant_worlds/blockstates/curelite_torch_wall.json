@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "distant_worlds:block/curelite_torch_wall"
+    },
+    "facing=north": {
+      "model": "distant_worlds:block/curelite_torch_wall",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "distant_worlds:block/curelite_torch_wall",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "distant_worlds:block/curelite_torch_wall",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"name": "Garhenna",
+	"icon": "distant_worlds:charged_wither_totem",
+	"category": "distant_worlds:getting_started",
+	"turnin": "distant_worlds:burning_world",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "This world, called Garhenna, is similar in structure to an endless expanse of caves. It belongs to the hot dimensions, where water evaporates, and most of the entities are immune to fire."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wither_totem",
+			"link_recipe": "true",
+			"text": "Defeat the wither to get a new unique artifact - Wither Totem.$(br2)It will be given with a 75% chance to the player who kills the boss with the final blow."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Garhenna Eye",
+			"recipe": "distant_worlds:garhenna_eye",
+			"text": "Craft Garhenna Eye using an Ender Eye and 3 Fire Charges."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Charged Wither Totem",
+			"recipe": "distant_worlds:charged_wither_totem",
+			"text": "Combine the Wither Totem and 2 Garhenna Eyes to get a Charged Wither Totem.$(br)Descend below height 5 in the Nether and use the Charged Wither Totem while holding it in your hand to teleport to the new dimension - Garhenna. You can save the point for the next teleportation."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Research",
+			"text": "Find abandoned libraries, look for Ancient Garhenna Papers, and do your own research to find out more about what you've come across in this dimension. New entries will appear in your book.$(br2)Check them out to learn more."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Research Equipment",
+			"recipe": "distant_worlds:garsale_bookshelf_recipe",
+			"recipe2": "distant_worlds:garhenna_researches_table_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Dalite Indicator",
+			"recipe": "distant_worlds:dalite_indicator_recipe",
+			"text": "This dimension is dangerous for you! Craft a device that will allow you to track the process of depletion, adaptation and permanent immunity. On it you can see three indicators, namely: Depletion, Adaptation and Permanent Immunity."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "While in the Garhenna Dimension, the level of depletion will increase and cause more and more negative effects. The adaptation level will increase with some chance after using the elixir depending on its rarity, but will be completely lost after the death of the player. The level of permanent immunity will increase after reaching 5 points of adaptation and is not lost after death. Permanent immunity slows down the negative effects of garhenna depletion, but does not fully protect. Some elixirs are able to lower the level of permanent immunity."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Elixirs",
+			"text": "Find and use healing plants to create special elixirs. It will help you last much longer before negative effects appear.$(br)Keep using elixirs to increase the level of adaptation, and in the future, the level of permanent immunity. But be careful, some plants and elixirs from them have the opposite effect!"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Return Ring",
+			"recipe": "distant_worlds:return_ring_recipe",
+			"text": "Use Return Ring to return to your home. It has 8 durability which can be increased by combining ring and Ender Eye on the crafting table.$(br)This artifact can be found with a small chance in various structures of Garhenna dimension. You can save the point for the next return."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/caged_garsale_lantern",
+  "textures": {
+    "all": "distant_worlds:block/caged_garsale_lantern",
+    "particle": "distant_worlds:item/caged_garsale_lantern_item",
+    "2": "distant_worlds:block/caged_garsale_lantern"
+  },
+  "render_type": "cutout_mipped"
+}

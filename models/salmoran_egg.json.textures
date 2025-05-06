@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "salmoran_egg_block"
+      },
+      "name": "default"
+    },
+    "cracked": {
+      "map": {
+        "0": "salmoran_egg_cracked_block"
+      },
+      "name": "cracked"
+    }
+  }
+}

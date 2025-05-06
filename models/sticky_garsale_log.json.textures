@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "garsale_log_top",
+        "1": "cracked_garsale_log",
+        "2": "sticky_garsale_log"
+      },
+      "name": "default"
+    }
+  }
+}

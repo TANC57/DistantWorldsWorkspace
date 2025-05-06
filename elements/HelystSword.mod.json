@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "helyst_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Helyst Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEquipment"
+    },
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.7000000000000002,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:HelystCrystal"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

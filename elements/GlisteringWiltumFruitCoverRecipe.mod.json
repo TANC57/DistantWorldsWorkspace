@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HelystCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HelystCrystal"
+      },
+      {
+        "value": "CUSTOM:WiltumFruit"
+      },
+      {
+        "value": "CUSTOM:HelystCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HelystCrystal"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlisteringWiltumFruit"
+    },
+    "name": "glistering_wiltum_fruit_cover_recipe",
+    "namespace": "mod"
+  }
+}

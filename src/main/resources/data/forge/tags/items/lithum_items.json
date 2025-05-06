@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:lithum",
+    "distant_worlds:polished_lithum",
+    "distant_worlds:lithum_bricks",
+    "distant_worlds:cobbled_lithum"
+  ]
+}

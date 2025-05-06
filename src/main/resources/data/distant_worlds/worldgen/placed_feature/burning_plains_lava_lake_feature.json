@@ -1,0 +1,43 @@
+{
+  "feature": "distant_worlds:burning_plains_lava_lake_feature",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "environment_scan",
+      "direction_of_search": "down",
+      "target_condition": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:air"
+        }
+      },
+      "max_steps": 32
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 80
+        }
+      }
+    }
+  ]
+}

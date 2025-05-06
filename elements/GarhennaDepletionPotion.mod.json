@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Garhenna Depletion",
+    "splashName": "Splash Potion of Garhenna Depletion",
+    "lingeringName": "Lingering Potion of Garhenna Depletion",
+    "arrowName": "Arrow of Garhenna Depletion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:GarhennaDepletion"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "UNDERGROUND_ORES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MoltenHills"
+      },
+      {
+        "value": "CUSTOM:BurningPlains"
+      },
+      {
+        "value": "CUSTOM:StickyMarshes"
+      },
+      {
+        "value": "CUSTOM:DeadValley"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_ore\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"size\">3</field><field name=\"discardOnAirChance\">1</field><value name=\"target0\"><block type=\"ore_target\"><value name=\"target\"><block type=\"rule_test_blockstate_match\"><value name=\"blockstate\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Revelite</field></block></value></block></value><value name=\"state\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:FironOre</field></block></value></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">6</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_biome_filter\"><next><block type=\"placement_height_range\"><value name=\"height\"><block type=\"height_provider_biased_to_bottom\"><field name=\"inner\">1</field><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-64</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">0</field></block></value></block></value></block></next></block></next></block></next></block></next></block><block type=\"placement_height_triangular\" x=\"666\" y=\"27\"><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-128</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">0</field></block></value></block><block type=\"height_provider_constant\" x=\"508\" y=\"245\"><value name=\"value\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">64</field></block></value></block></xml>"
+  }
+}

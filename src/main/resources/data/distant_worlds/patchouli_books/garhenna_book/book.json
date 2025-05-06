@@ -1,0 +1,18 @@
+{
+	"name": "patchouli.garhenna_book.name",
+	"landing_text": "patchouli.garhenna_book.description",
+	"version": 6,
+	"book_texture": "distant_worlds:textures/screens/garhenna_book.png",
+	"crafting_texture": "distant_worlds:textures/screens/garhenna_book_crafting_texture.png",
+	"model": "distant_worlds:garhenna_book",
+	"nameplate_color": "e3a276",
+	"text_color": "230d09",
+	"header_color": "230d09",
+	"progress_bar_color": "ea7f17",
+	"progress_bar_background": "61291a",
+	"link_color": "620c0c",
+	"link_hover_color": "861f15",
+	"show_progress": "true",
+	"creative_tab": "distant_worlds:distant_worlds",
+	"use_resource_pack": "true"
+}

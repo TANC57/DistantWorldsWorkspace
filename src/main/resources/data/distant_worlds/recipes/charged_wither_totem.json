@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:garhenna_eye"
+    },
+    "b": {
+      "item": "distant_worlds:wither_totem"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:charged_wither_totem",
+    "count": 1
+  }
+}

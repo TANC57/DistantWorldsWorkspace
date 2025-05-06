@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:noarhorn_spike"
+    },
+    "title": {
+      "translate": "advancements.better_without_hugs.title"
+    },
+    "description": {
+      "translate": "advancements.better_without_hugs.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "better_without_hugs": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:molten_hills_explore"
+}

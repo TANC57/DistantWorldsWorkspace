@@ -1,0 +1,34 @@
+{
+	"name": "Торан",
+	"icon": "distant_worlds:sticky_garsale_bark",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 6,
+	"advancement": "distant_worlds:trees_are_watching",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Торан",
+			"item": "distant_worlds:toran_spawn_egg",
+			"text": "$(l)$(#990000)Здоровье: 30$(#336600)$(br)Броня: 2$(#660066)$(br)Атака: 6$()$(br)Торан – большой наземный моб, который встречается в биоме Липкие болота. Они выглядят как живые гарсалевые деревья и могут быть незаметными в их среде обитания. После атаки он откинет вас и наложит новый эффект Липкие оковы. После смерти из него выпадает гарсалевая древесина и липкая гарсалевая кора с небольшим шансом.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Sticky Shackles",
+			"item": "minecraft:potion{Potion:\"distant_worlds:sticky_shackles_potion\"}",
+			"text": "Этот эффект будет наносить вам урон, равный уровню эффекта, после падения более чем с половины блока."
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:garsale_slime",
+			"text": "Липкую гарсалевую кору можно переплавить в гарсалевую слизь."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees",
+				"distant_worlds:garhenna_mobs/loteress"
+			]
+		}
+	]
+}

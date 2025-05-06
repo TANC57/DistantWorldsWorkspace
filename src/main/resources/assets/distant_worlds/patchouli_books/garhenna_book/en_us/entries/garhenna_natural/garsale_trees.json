@@ -1,0 +1,32 @@
+{
+	"name": "Garsale Trees",
+	"icon": "distant_worlds:garsale_sapling",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 2,
+	"advancement": "distant_worlds:sticky_marshes_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:garsale_sapling",
+			"link_recipe": "true",
+			"text": "Garsale Trees are often found in the Sticky Marshes biome and can be grown by you from saplings, including wide species of trees from 4 adjacent saplings. These trees are made from Garsale Wood, which can be stripped or recycled into a variety of other decorative and functional blocks. Cracked garsale wood can occasionally spawn on trees, and over time it becomes covered in a layer of leaking slime, turning into sticky garsale wood. Slime on sticky wood can be neatly picked up in small quantities many times, or just once along with the sticky bark when stripped."
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:garsale_slime",
+			"text": "Garsale slime can also be taken from the sticky bark at high temperatures."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:garsale_lantern",
+			"link_recipe": "true",
+			"text": "The tops of garsal trees often grow Garsale Lanterns, which can be used as decoration, or to produce glowing pollen with a small chance."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

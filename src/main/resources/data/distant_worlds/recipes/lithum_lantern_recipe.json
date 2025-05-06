@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:soul_lantern"
+    },
+    "b": {
+      "item": "distant_worlds:meshed_lithum"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:lithum_lantern",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"name": "Подготовка к ритуалам",
+	"icon": "distant_worlds:dalite_staff",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 1,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:dalite_staff_recipe",
+			"text": "Создайте далитовый посох, чтобы начать свои ритуалы. Каждый раз он будет терять немного прочности."
+		},
+		{
+			"type": "patchouli:multiblock",
+			"name": "Lithum Altar",
+			"text": "Здесь показан простейший вариант литумового алтаря, но некоторые его элементы в дальнейшем могут быть улучшены.",
+			"multiblock": {
+				"pattern": [
+					[ "T   T", "     ", "     ", "     ", "T   T" ], 
+					[ "S   S", "     ", "     ", "     ", "S   S" ],
+					[ "FP PF", "P   P", "  C  ", "P   P", "FP PF" ], 
+					[ "GGRGG", "GLLLG", "RL0LR", "GLLLG", "GGRGG" ], 
+					[ "MMMMM", "MMMMM", "MMMMM", "MMMMM", "MMMMM" ]
+				],
+				"mapping": {
+					"M": "distant_worlds:meshed_lithum",
+					"R": "distant_worlds:polished_lithum",
+					"0": "distant_worlds:polished_lithum",
+					"G": "distant_worlds:glistering_lithum",
+					"L": "distant_worlds:lithum_tiles",
+					"P": "distant_worlds:lithum_pedestal",
+					"F": "distant_worlds:lithum_furnace",
+					"S": "distant_worlds:lithum_storage_initial",
+					"T": "distant_worlds:lithum_transmitter",
+					"C": "distant_worlds:lithum_core"
+				},
+				"symmetrical": true
+			}
+		}
+	]
+}

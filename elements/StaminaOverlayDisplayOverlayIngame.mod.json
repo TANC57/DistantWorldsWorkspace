@@ -1,0 +1,7 @@
+{
+  "_fv": 57,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"return_logic\"><value name=\"return\"><block inline=\"false\" type=\"logic_binary_ops\"><field name=\"OP\">AND</field><value name=\"A\"><block type=\"entity_isriding\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"B\"><block inline=\"false\" type=\"logic_binary_ops\"><field name=\"OP\">AND</field><value name=\"A\"><block type=\"java_code_get\"><field name=\"CODE\">entity.getVehicle().getFirstPassenger() == entity</field></block></value><value name=\"B\"><block type=\"logic_entity_compare\"><field name=\"entity\">CUSTOM:AlphaSalmoran</field><value name=\"compareTo\"><block type=\"entity_getridingentity\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value></block></value></block></value></block></next></block><block type=\"logic_boolean\" x=\"110\" y=\"377\"><field name=\"BOOL\">TRUE</field></block><block type=\"controls_if\" x=\"211\" y=\"372\"><next><block type=\"return_logic\"><value name=\"return\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedWiltumLog"
+      },
+      {
+        "value": "CUSTOM:StrippedWiltumLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedWiltumLog"
+      },
+      {
+        "value": "CUSTOM:StrippedWiltumLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedWiltumWood"
+    },
+    "name": "stripped_wiltum_wood_recipe",
+    "namespace": "mod"
+  }
+}

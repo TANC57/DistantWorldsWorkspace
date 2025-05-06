@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:raw_curelite_block"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:raw_curelite",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:layered_mud",
+    "distant_worlds:sticky_layered_mud",
+    "distant_worlds:coarse_layered_mud"
+  ]
+}

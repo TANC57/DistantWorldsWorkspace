@@ -1,0 +1,19 @@
+{
+	"name": "Huge Culafite Mushrooms",
+	"icon": "distant_worlds:culafite_shroomlight",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 7,
+	"advancement": "distant_worlds:molten_hills_explore",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "The expanse of the Molten Hills biome has become a great place for the growth of Culafite Mushrooms, where they have grown to huge sizes and filled all open areas.$(br)Their stems can be harvested and crafted into decorative blocks, and you can get several Culafite Mushrooms from each part of the top.$(br)Culafite Shroomlight is an excellent source of illumination of dark corners of the world and will fit for decoration."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/culafite_mushroom"
+			]
+		}
+	]
+}

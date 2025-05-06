@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "distant_worlds:firon_ore"
+  },
+  "result": "distant_worlds:firon_nugget"
+}

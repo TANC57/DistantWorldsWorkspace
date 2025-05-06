@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:burning_plains",
+  "features": "distant_worlds:curelite_ore",
+  "step": "underground_ores"
+}

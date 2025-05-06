@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:dalite_crystal"
+    },
+    "b": {
+      "tag": "forge:lithum_items"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:glistering_lithum",
+    "count": 3
+  }
+}

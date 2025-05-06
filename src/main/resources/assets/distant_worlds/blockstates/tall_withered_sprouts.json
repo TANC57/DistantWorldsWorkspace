@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "distant_worlds:block/tall_withered_sprouts"
+    },
+    "half=lower": {
+      "model": "distant_worlds:block/tall_withered_sprouts_bottom"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Hot Snack",
+    "achievementDescription": "Get a Glistering Garsale Fruit",
+    "achievementIcon": {
+      "value": "CUSTOM:GlisteringGarsaleFruit"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:DoesItSmile"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"52\" y=\"87\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

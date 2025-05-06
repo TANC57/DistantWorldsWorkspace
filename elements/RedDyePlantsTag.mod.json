@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Lioress"
+      },
+      {
+        "value": "CUSTOM:Otrebore"
+      },
+      {
+        "value": "CUSTOM:YaknirRoots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "red_dye_plants",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:garsale_wood",
+    "distant_worlds:garsale_log",
+    "distant_worlds:cracked_garsale_log",
+    "distant_worlds:sticky_garsale_log",
+    "distant_worlds:wiltum_wood",
+    "distant_worlds:wiltum_log",
+    "distant_worlds:stripped_garsale_log",
+    "distant_worlds:stripped_wiltum_log",
+    "distant_worlds:wiltum_core",
+    "distant_worlds:stripped_garsale_wood",
+    "distant_worlds:stripped_wiltum_wood"
+  ]
+}

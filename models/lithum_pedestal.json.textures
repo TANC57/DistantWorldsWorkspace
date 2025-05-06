@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lithum_pedestal_main",
+        "1": "lithum_pedestal_additional"
+      },
+      "name": "default"
+    }
+  }
+}

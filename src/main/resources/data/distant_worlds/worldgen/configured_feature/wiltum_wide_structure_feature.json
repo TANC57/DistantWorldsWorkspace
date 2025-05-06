@@ -1,0 +1,15 @@
+{
+  "type": "distant_worlds:wiltum_wide_structure_feature",
+  "config": {
+    "structure": "distant_worlds:wiltum_wide",
+    "ignored_blocks": [
+      "minecraft:air",
+      "minecraft:structure_block"
+    ],
+    "offset": [
+      -2,
+      0,
+      -2
+    ]
+  }
+}

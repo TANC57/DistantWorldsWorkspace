@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "distant_worlds:item/garsale_door"
+  },
+  "render_type": "translucent"
+}

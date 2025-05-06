@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:wither_totem"
+    },
+    "title": {
+      "translate": "advancements.withered_bones.title"
+    },
+    "description": {
+      "translate": "advancements.withered_bones.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "withered_bones": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "distant_worlds:garhenna_eye",
+      "distant_worlds:charged_wither_totem"
+    ]
+  },
+  "parent": "distant_worlds:distant_worlds_explore"
+}

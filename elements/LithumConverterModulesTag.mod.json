@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ModuleCalmSpark"
+      },
+      {
+        "value": "CUSTOM:ModuleRagingSpark"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_converter_modules",
+    "namespace": "mod"
+  }
+}

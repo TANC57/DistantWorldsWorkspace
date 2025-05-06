@@ -1,0 +1,101 @@
+{
+  "_fv": 57,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "wokamire",
+    "textureBottom": "ofypletta_bottom",
+    "customModelName": "wokamire:default",
+    "itemTexture": "wokamire_stick",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "growapable",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 4,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 7.0,
+        "my": 0.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 16.0,
+        "Mz": 9.0,
+        "subtract": false
+      }
+    ],
+    "name": "Wokamire",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEnvironment"
+    },
+    "hardness": 0.19999999999999998,
+    "resistance": 0.5,
+    "luminance": 15,
+    "unbreakable": false,
+    "isSolid": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "BAMBOO"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": true,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "BROWN_TERRACOTTA",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:WitheredSoil"
+      }
+    ],
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "PlantBlockOnBoneMealSuccess"
+    },
+    "frequencyOnChunks": 30,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DeadValley"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 24,
+    "generateAtAnyHeight": true
+  }
+}

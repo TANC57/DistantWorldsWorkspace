@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "distant_worlds:block/polished_revelite"
+  },
+  "render_type": "solid"
+}

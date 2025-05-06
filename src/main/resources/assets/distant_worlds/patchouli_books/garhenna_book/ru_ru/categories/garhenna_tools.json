@@ -1,0 +1,6 @@
+{
+	"name": "Инструменты",
+	"description": "Эта категория содержит сводку всех инструментов, добавляемых измерением Гархенны.",
+	"icon": "distant_worlds:textures/screens/garhenna_tools_icon.png",
+	"sortnum": 2
+}

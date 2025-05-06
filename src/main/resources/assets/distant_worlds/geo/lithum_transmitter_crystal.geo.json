@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lithum_transmitter_crystal",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Everything",
+					"pivot": [0, 3, 0]
+				},
+				{
+					"name": "Cube",
+					"parent": "Everything",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-3, 3, -3], "size": [6, 6, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Particles",
+					"parent": "Everything",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-4, 2, -4], "size": [8, 8, 8], "pivot": [0, 6, 0], "rotation": [0, 0, 45], "uv": [0, 16]},
+						{"origin": [-4, 2, -4], "size": [8, 8, 8], "pivot": [0, 6, 0], "rotation": [0, -45, 0], "uv": [0, 16]},
+						{"origin": [-4, 2, -4], "size": [8, 8, 8], "pivot": [0, 6, 0], "rotation": [-45, 0, 0], "uv": [0, 16]}
+					]
+				}
+			]
+		}
+	]
+}

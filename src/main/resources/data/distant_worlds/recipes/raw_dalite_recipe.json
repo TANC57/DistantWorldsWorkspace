@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:raw_dalite_block"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:raw_dalite",
+    "count": 9
+  }
+}

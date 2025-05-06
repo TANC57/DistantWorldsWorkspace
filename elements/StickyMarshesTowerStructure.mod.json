@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "sticky_marshes_tower",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:StickyMarshes"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING_NO_LEAVES",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "UNDERGROUND_STRUCTURES"
+  }
+}

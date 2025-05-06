@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:wiltum_planks"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:wiltum_pressure_plate",
+    "count": 1
+  }
+}

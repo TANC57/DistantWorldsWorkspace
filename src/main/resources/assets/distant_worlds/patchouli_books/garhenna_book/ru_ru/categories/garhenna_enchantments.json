@@ -1,0 +1,6 @@
+{
+	"name": "Зачарования",
+	"description": "Эта категория содержит сводку зачарований, добавляемых измерением Гархенны.",
+	"icon": "distant_worlds:textures/screens/enchantments_icon.png",
+	"sortnum": 7
+}

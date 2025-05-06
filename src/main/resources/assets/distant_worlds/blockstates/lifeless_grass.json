@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/lifeless_grass"
+      },
+      {
+        "model": "distant_worlds:block/lifeless_grass",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/lifeless_grass",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/lifeless_grass",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:noarhorn_spike"
+    },
+    "b": {
+      "item": "minecraft:iron_chestplate"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:noarhorn_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Afolla"
+      },
+      {
+        "value": "CUSTOM:Walis"
+      },
+      {
+        "value": "CUSTOM:Suwonna"
+      },
+      {
+        "value": "CUSTOM:Aphlavis"
+      },
+      {
+        "value": "CUSTOM:LifelessSprouts"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "burning_plains_flowers",
+    "namespace": "mod"
+  }
+}

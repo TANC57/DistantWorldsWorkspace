@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Afolla"
+      },
+      {
+        "value": "CUSTOM:Walis"
+      },
+      {
+        "value": "CUSTOM:Suwonna"
+      },
+      {
+        "value": "CUSTOM:Aphlavis"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "orange_dye_plants",
+    "namespace": "mod"
+  }
+}

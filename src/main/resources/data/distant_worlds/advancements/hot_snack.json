@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:glistering_garsale_fruit"
+    },
+    "title": {
+      "translate": "advancements.hot_snack.title"
+    },
+    "description": {
+      "translate": "advancements.hot_snack.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hot_snack": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:does_it_smile"
+}

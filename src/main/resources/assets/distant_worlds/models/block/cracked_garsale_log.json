@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "distant_worlds:block/garsale_log_top",
+    "up": "distant_worlds:block/garsale_log_top",
+    "north": "distant_worlds:block/cracked_garsale_log",
+    "east": "distant_worlds:block/cracked_garsale_log",
+    "south": "distant_worlds:block/cracked_garsale_log",
+    "west": "distant_worlds:block/cracked_garsale_log",
+    "particle": "distant_worlds:block/garsale_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Fralite"
+      },
+      {
+        "value": "CUSTOM:PolishedFralite"
+      },
+      {
+        "value": "CUSTOM:FraliteBricks"
+      },
+      {
+        "value": "CUSTOM:CobbledFralite"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "fralite_items",
+    "namespace": "forge"
+  }
+}

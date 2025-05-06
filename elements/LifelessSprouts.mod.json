@@ -1,0 +1,107 @@
+{
+  "_fv": 57,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "lifeless_sprouts",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": true,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 13.0,
+        "Mz": 14.0,
+        "subtract": false
+      }
+    ],
+    "name": "Lifeless Sprouts",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEnvironment"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "NETHER_SPROUT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "Blocks.AIR"
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": true,
+    "colorOnMap": "ORANGE_TERRACOTTA",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:LifelessGrass"
+      }
+    ],
+    "isBonemealable": true,
+    "isBonemealTargetCondition": {
+      "name": "GrassBlockCanBoneMealBeUsedOnThisBlock"
+    },
+    "onBonemealSuccess": {
+      "name": "PlantBlockOnBoneMealSuccess"
+    },
+    "frequencyOnChunks": 40,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BurningPlains"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 40,
+    "generateAtAnyHeight": true,
+    "onDestroyedByPlayer": {
+      "name": "PlantDestroyedByPlayer"
+    }
+  }
+}

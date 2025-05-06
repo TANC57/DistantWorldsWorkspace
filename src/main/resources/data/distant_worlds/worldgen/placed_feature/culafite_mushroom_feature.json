@@ -1,0 +1,88 @@
+{
+  "feature": "distant_worlds:culafite_mushroom_feature",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                0,
+                1,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:solid",
+                  "offset": [
+                    0,
+                    3,
+                    0
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:not",
+                    "predicate": {
+                      "type": "minecraft:solid",
+                      "offset": [
+                        0,
+                        5,
+                        0
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:not",
+                        "predicate": {
+                          "type": "minecraft:solid",
+                          "offset": [
+                            0,
+                            7,
+                            0
+                          ]
+                        }
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "distant_worlds:overgrown_fralite",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

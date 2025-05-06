@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "distant_worlds:item/culafite_mushroom_on_a_stick"
+  }
+}

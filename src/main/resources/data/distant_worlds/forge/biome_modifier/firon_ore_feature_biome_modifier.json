@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "distant_worlds:molten_hills",
+    "distant_worlds:burning_plains",
+    "distant_worlds:sticky_marshes",
+    "distant_worlds:dead_valley"
+  ],
+  "features": "distant_worlds:firon_ore_feature",
+  "step": "underground_ores"
+}

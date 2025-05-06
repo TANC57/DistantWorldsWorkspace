@@ -1,0 +1,70 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Afolla"
+      },
+      {
+        "value": "CUSTOM:Walis"
+      },
+      {
+        "value": "CUSTOM:Suwonna"
+      },
+      {
+        "value": "CUSTOM:Aphlavis"
+      },
+      {
+        "value": "CUSTOM:Vinretty"
+      },
+      {
+        "value": "CUSTOM:Ulbiseaf"
+      },
+      {
+        "value": "CUSTOM:Crewanolla"
+      },
+      {
+        "value": "CUSTOM:Ceblum"
+      },
+      {
+        "value": "CUSTOM:Rinyot"
+      },
+      {
+        "value": "CUSTOM:Ofypletta"
+      },
+      {
+        "value": "CUSTOM:Irotine"
+      },
+      {
+        "value": "CUSTOM:Lafosia"
+      },
+      {
+        "value": "CUSTOM:Prifonna"
+      },
+      {
+        "value": "CUSTOM:Anewort"
+      },
+      {
+        "value": "CUSTOM:Wokamire"
+      },
+      {
+        "value": "CUSTOM:Lioress"
+      },
+      {
+        "value": "CUSTOM:Flemmawies"
+      },
+      {
+        "value": "CUSTOM:Otrebore"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "flowers",
+    "namespace": "minecraft"
+  }
+}

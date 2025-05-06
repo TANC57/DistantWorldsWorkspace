@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/withered_soil"
+      },
+      {
+        "model": "distant_worlds:block/withered_soil",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/withered_soil",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/withered_soil",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:ubricite_crystal"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:ubricite_ingot",
+    "count": 1
+  }
+}

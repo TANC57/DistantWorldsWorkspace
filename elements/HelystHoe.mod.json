@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "helyst_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Helyst Hoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEquipment"
+    },
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 22,
+    "damageVsEntity": 2.0,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:HelystCrystal"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

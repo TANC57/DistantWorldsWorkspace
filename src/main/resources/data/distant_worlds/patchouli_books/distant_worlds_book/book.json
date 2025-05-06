@@ -1,0 +1,16 @@
+{
+	"name": "patchouli.distant_worlds_book.name",
+	"landing_text": "patchouli.distant_worlds_book.description",
+	"version": 6,
+	"book_texture": "distant_worlds:textures/screens/distant_worlds_book.png",
+	"crafting_texture": "distant_worlds:textures/screens/distant_worlds_book_crafting_texture.png",
+	"model": "distant_worlds:distant_worlds_book",
+	"nameplate_color": "f3c44a",
+	"text_color": "220529",
+	"header_color": "220529",
+	"link_color": "ac2c08",
+	"link_hover_color": "ea7f17",
+	"show_progress": "false",
+	"creative_tab": "distant_worlds:distant_worlds",
+	"use_resource_pack": "true"
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Гарсалевый фрукт",
+	"icon": "distant_worlds:garsale_fruit",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 3,
+	"advancement": "distant_worlds:does_it_smile",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:garsale_fruit",
+			"link_recipe": "true",
+			"text": "Из листвы гарсалевого дерева с небольшим шансом вы можете получить гарсалевый фрукт, способный понизить уровень истощения гархенны, благодаря своим целебным свойствам. Из него вы можете создать очень питательный гарсалевый пирог или гарсалевый эликсир, что способен ещё сильнее понизить уровень истощения и дать временную защиту. Гарсалевые фрукты для удобства можно хранить в больших ящиках по несколько штук."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:garsale_cake_recipe",
+			"recipe2": "distant_worlds:garsale_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:garsale_fruit_box_recipe",
+			"recipe2": "distant_worlds:garsale_fruit_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees"
+			]
+		}
+	]
+}

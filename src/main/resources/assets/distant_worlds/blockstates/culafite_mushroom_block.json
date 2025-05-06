@@ -1,0 +1,98 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block"
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "x": 90
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "x": 180
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "x": 270
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted"
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "x": 90
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "x": 180
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "x": 270
+      },
+
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block"
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "y": 270
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted"
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "y": 270
+      },
+
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block"
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "z": 90
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "z": 180
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block",
+        "z": 270
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted"
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "z": 90
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "z": 180
+      },
+      {
+        "model": "distant_worlds:block/culafite_mushroom_block_dotted",
+        "z": 270
+      }
+    ]
+  }
+}

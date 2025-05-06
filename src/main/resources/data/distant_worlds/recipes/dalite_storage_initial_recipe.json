@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "distant_worlds:dalite_crystal"
+    },
+    "c": {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:dalite_storage_initial",
+    "count": 1
+  }
+}

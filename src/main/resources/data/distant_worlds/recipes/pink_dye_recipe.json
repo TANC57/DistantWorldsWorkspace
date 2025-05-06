@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "distant_worlds:pink_dye_plants"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_dye",
+    "count": 1
+  }
+}

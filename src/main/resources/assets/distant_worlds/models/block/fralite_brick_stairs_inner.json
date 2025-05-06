@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "distant_worlds:block/fralite_bricks",
+    "top": "distant_worlds:block/fralite_bricks",
+    "side": "distant_worlds:block/fralite_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:garsale_slab"
+    },
+    "b": {
+      "item": "distant_worlds:garsale_bookshelf"
+    },
+    "c": {
+      "item": "distant_worlds:garsale_log"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garhenna_researches_table",
+    "count": 1
+  }
+}

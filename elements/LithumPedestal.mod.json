@@ -1,0 +1,155 @@
+{
+  "_fv": 57,
+  "_type": "block",
+  "definition": {
+    "texture": "lithum_blocks_top",
+    "textureTop": "lithum_blocks_top",
+    "textureLeft": "lithum_furnace",
+    "textureFront": "lithum_furnace",
+    "textureRight": "lithum_furnace",
+    "textureBack": "lithum_furnace",
+    "renderType": 2,
+    "customModelName": "lithum_pedestal:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 3.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 3.0,
+        "mz": 5.0,
+        "Mx": 11.0,
+        "My": 11.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 11.0,
+        "mz": 3.0,
+        "Mx": 13.0,
+        "My": 16.0,
+        "Mz": 13.0,
+        "subtract": false
+      }
+    ],
+    "name": "Lithum Pedestal",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 4.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEnvironment"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 1,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "BLACK_TERRACOTTA",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "DEEPSLATE_TILES"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 3,
+    "unbreakable": false,
+    "breakHarvestLevel": 2,
+    "isBonemealable": false,
+    "hasInventory": true,
+    "guiBoundTo": "LithumPedestalGUI",
+    "openGUIOnRightClick": false,
+    "inventorySize": 2,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "LithumPedestalOnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "LithumPedestalUpdateTick"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 25,
+    "frequencyOnChunk": 25,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 200
+  }
+}

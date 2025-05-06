@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/anewort_top",
+    "particle": "distant_worlds:block/anewort_top"
+  },
+  "render_type": "cutout"
+}

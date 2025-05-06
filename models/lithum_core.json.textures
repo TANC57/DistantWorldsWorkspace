@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lithum_core_top",
+        "1": "lithum_core_side",
+        "2": "lithum_blocks_top"
+      },
+      "name": "default"
+    }
+  }
+}

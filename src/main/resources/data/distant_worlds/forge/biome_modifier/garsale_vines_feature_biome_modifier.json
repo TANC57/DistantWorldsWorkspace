@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:sticky_marshes",
+  "features": "distant_worlds:garsale_vines_feature",
+  "step": "vegetal_decoration"
+}

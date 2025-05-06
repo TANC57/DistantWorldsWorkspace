@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:stripped_wiltum_log"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:stripped_wiltum_wood",
+    "count": 3
+  }
+}

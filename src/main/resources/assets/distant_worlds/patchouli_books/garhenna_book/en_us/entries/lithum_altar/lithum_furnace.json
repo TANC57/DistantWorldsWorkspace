@@ -1,0 +1,32 @@
+{
+	"name": "Lithum Furnace",
+	"icon": "distant_worlds:lithum_furnace",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 3,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Dalite Energy can be accumulated as a result of special reactions with the combustion of Curelite in Lithum Furnaces. In all elements of the Litum Altar, the stone of the same name is used, because it has fairly stable properties and is the least susceptible to the strong influence of large accumulations of Dalite."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_furnace_recipe",
+			"text": "Fralite, on the other hand, has rather weak containment properties due to accumulations of Dalite ores in its natural environment - the Molten Hills."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:lithum_furnace",
+			"text": "After using fuel in a Lithum Furnace, you will see a flame, which is an indicator that shows the remaining fuel level. Dalite energy can be immediately transferred to the connected lithum storage if it is not full.",
+			"link_recipe": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/curelite",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

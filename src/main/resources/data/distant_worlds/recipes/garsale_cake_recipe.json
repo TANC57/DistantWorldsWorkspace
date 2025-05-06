@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:garsale_fruit"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:wheat"
+    },
+    "d": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garsale_cake",
+    "count": 1
+  }
+}

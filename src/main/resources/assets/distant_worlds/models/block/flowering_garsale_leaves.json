@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "distant_worlds:block/flowering_garsale_leaves",
+    "particle": "distant_worlds:block/flowering_garsale_leaves"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "_fv": 57,
+  "_type": "block",
+  "definition": {
+    "texture": "caged_garsale_lantern",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "garsale_lantern:default",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "caged_garsale_lantern_item",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 3.0,
+        "my": 0.0,
+        "mz": 3.0,
+        "Mx": 13.0,
+        "My": 10.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 10.0,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 16.0,
+        "Mz": 10.0,
+        "subtract": false
+      }
+    ],
+    "name": "Caged Garsale Lantern",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 4.5,
+    "resistance": 4.5,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEnvironment"
+    },
+    "destroyTool": "axe",
+    "customDrop": {
+      "value": "Blocks.AIR"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 0,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "IRON",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "HONEY"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 15,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "HangingBlockValidPlacementCondition"
+    },
+    "isBonemealable": false,
+    "bonemealSuccessCondition": {
+      "name": "GarsaleLanternBoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "LeavesBlockOnBoneMealSuccess"
+    },
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onBlockAdded": {
+      "name": "CagedGarsaleLanternUpdateTick"
+    },
+    "onNeighbourBlockChanges": {
+      "name": "CagedGarsaleLanternUpdateTick"
+    },
+    "onTickUpdate": {
+      "name": "CagedGarsaleLanternUpdateTick"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 10
+  }
+}

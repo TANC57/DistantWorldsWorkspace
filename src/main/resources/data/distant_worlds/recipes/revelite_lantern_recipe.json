@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lantern"
+    },
+    "b": {
+      "item": "distant_worlds:meshed_revelite"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:revelite_lantern",
+    "count": 1
+  }
+}

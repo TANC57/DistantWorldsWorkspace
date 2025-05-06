@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/otrebore",
+    "particle": "distant_worlds:block/otrebore"
+  },
+  "render_type": "cutout"
+}

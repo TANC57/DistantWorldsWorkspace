@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Dalite Energy Mending",
+    "type": "BREAKABLE",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "INFINITY"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:magenta_wool"
+    },
+    "b": {
+      "item": "distant_worlds:garsale_planks"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:magenta_garsale_couch",
+    "count": 1
+  }
+}

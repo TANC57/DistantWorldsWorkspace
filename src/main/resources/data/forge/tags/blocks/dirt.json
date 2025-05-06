@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:layered_mud",
+    "distant_worlds:lifeless_grass",
+    "distant_worlds:sticky_layered_mud",
+    "distant_worlds:withered_soil"
+  ]
+}

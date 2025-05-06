@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "molten_hills_monument",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 16,
+    "separation": 8,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MoltenHills"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING_NO_LEAVES",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "UNDERGROUND_STRUCTURES"
+  }
+}

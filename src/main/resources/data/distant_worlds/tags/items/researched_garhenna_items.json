@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:asmulda_berries",
+    "distant_worlds:raw_firon",
+    "distant_worlds:firon_nugget",
+    "distant_worlds:firon_ingot",
+    "distant_worlds:molten_fralite",
+    "distant_worlds:fralite_heart",
+    "distant_worlds:raw_curelite",
+    "distant_worlds:curelite",
+    "distant_worlds:noarhorn_spike",
+    "distant_worlds:ubricite_crystal",
+    "distant_worlds:culafite_mushroom",
+    "distant_worlds:raw_dalite",
+    "distant_worlds:dalite_nugget",
+    "distant_worlds:dalite_crystal",
+    "distant_worlds:garsale_fruit",
+    "distant_worlds:sticky_garsale_bark",
+    "distant_worlds:glowing_pollen",
+    "distant_worlds:raw_vairis",
+    "distant_worlds:vairis_crystal",
+    "distant_worlds:salmoran_scales",
+    "distant_worlds:salmoran_eye",
+    "distant_worlds:wiltum_fruit",
+    "distant_worlds:raw_helyst",
+    "distant_worlds:helyst_nugget",
+    "distant_worlds:helyst_crystal"
+  ]
+}

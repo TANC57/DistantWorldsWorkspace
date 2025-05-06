@@ -1,0 +1,198 @@
+{
+  "_fv": 57,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Noarhorn",
+    "mobLabel": "",
+    "mobModelTexture": "noarhorn.png",
+    "mobModelGlowTexture": "noarhorn_glowing.png",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "Behavior",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "InLove",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "BabyAge",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "BabyType",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "modelWidth": 0.9,
+    "modelHeight": 0.7,
+    "modelShadowSize": 0.4,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -4243649,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -11855848,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 2.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 20,
+    "xpAmount": 3,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 1,
+    "inventoryStackSize": 1,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.zoglin.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.zoglin.hurt"
+    },
+    "deathSound": {
+      "value": "entity.zoglin.death"
+    },
+    "stepSound": {
+      "value": "entity.zoglin.step"
+    },
+    "whenMobDies": {
+      "name": "NoarhornEntityDies"
+    },
+    "whenMobIsHurt": {
+      "name": "EntityIsHurtBehavior"
+    },
+    "onRightClickedOn": {
+      "name": "NoarhornRightClickedOnEntity"
+    },
+    "onMobTickUpdate": {
+      "name": "NoarhornOnEntityTickUpdate"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">FollowAdditionalCondition,FollowAdditionalCondition</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">WanderAdditionalCondition,WanderAdditionalCondition</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.4</field><field name=\"condition\">WanderAdditionalCondition,WanderAdditionalCondition</field><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">WanderAdditionalCondition,WanderAdditionalCondition</field><next><block type=\"look_around\"><field name=\"condition\">FollowAdditionalCondition,FollowAdditionalCondition</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"watch_closest_entity\"><field name=\"entity\">EntityLiving</field><field name=\"radius\">6</field><field name=\"condition\">WanderAdditionalCondition,WanderAdditionalCondition</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">WanderAdditionalCondition,WanderAdditionalCondition</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CulafiteMushroomOnAStick</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "noarhorn.geo.json",
+    "groupName": "Head",
+    "animation1": "idle",
+    "animation2": "running",
+    "animation3": "",
+    "animation4": "attack",
+    "animation5": "",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": true,
+    "enable3": false,
+    "enable4": true,
+    "enable5": false,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
+    "breedable": true,
+    "tameable": true,
+    "disableDeathRotation": false,
+    "headMovement": true,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "height": 0.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "NoarhornNaturalEntitySpawningCondition"
+    },
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MoltenHills"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

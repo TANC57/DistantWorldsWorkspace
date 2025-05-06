@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "distant_worlds:revelite"
+    },
+    "state": {
+      "Name": "distant_worlds:fralite"
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 7
+      }
+    }
+  }
+}

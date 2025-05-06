@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/vinretty_bottom",
+    "particle": "distant_worlds:block/vinretty_bottom"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Curelite",
+	"icon": "distant_worlds:curelite",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 5,
+	"advancement": "distant_worlds:new_energy",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:curelite",
+			"text": "Curelite ores are often found in the Burning Plains biome. By destroying it, you will get Raw Curelite, which can already be used as fuel to maintain fire in conventional and Lithum Furnaces. Raw Curelite can be made into a more saturated form of this material, which is able to give off more energy."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_curelite_block_recipe",
+			"recipe2": "distant_worlds:curelite_block_recipe"
+		}
+	]
+}

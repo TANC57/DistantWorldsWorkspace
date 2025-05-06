@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "distant_worlds:item/dalite_indicator0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "distant_worlds:dalite_indicator_depletion_level": 0
+      },
+      "model": "distant_worlds:item/dalite_indicator_0"
+    },
+    {
+      "predicate": {
+        "distant_worlds:dalite_indicator_depletion_level": 1
+      },
+      "model": "distant_worlds:item/dalite_indicator_1"
+    },
+    {
+      "predicate": {
+        "distant_worlds:dalite_indicator_depletion_level": 2
+      },
+      "model": "distant_worlds:item/dalite_indicator_2"
+    },
+    {
+      "predicate": {
+        "distant_worlds:dalite_indicator_depletion_level": 3
+      },
+      "model": "distant_worlds:item/dalite_indicator_3"
+    },
+    {
+      "predicate": {
+        "distant_worlds:dalite_indicator_depletion_level": 4
+      },
+      "model": "distant_worlds:item/dalite_indicator_4"
+    }
+  ]
+}

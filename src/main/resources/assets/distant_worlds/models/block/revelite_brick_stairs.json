@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "distant_worlds:block/revelite_bricks",
+    "top": "distant_worlds:block/revelite_bricks",
+    "side": "distant_worlds:block/revelite_bricks"
+  },
+  "render_type": "solid"
+}

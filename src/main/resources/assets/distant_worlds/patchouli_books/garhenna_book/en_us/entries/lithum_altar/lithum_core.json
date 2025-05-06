@@ -1,0 +1,29 @@
+{
+	"name": "Lithum Core",
+	"icon": "distant_worlds:lithum_core",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 8,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_core_recipe",
+			"text": "Litum Core is the heart of the whole structure. It combines all the previously listed elements into a single whole and directs the activities of the entire structure during the ritual."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "On it you can see two indicators. The first one, when active, shows the amount of dalite energy transferred compared to the required supply. If you interrupt an active ritual, the energy will not return to the storage, but will be completely lost. The second indicator shows the level of stress on the structure and the time it takes for the dalite crystals to recover from the previous ritual."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Further in the description of each ritual, you will meet such conventional units of measurement as $(#ea7f17)$(l)DE - Dalite Energy$() and $(#992032)$(l)DRP - Dalite Recovery Points$(), which indicate the corresponding values."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

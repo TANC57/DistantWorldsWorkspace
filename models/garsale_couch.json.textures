@@ -1,0 +1,132 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "red_garsale_couch_top",
+        "1": "red_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "default"
+    },
+    "orange": {
+      "map": {
+        "0": "orange_garsale_couch_top",
+        "1": "orange_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "orange"
+    },
+    "yellow": {
+      "map": {
+        "0": "yellow_garsale_couch_top",
+        "1": "yellow_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "yellow"
+    },
+    "lime": {
+      "map": {
+        "0": "lime_garsale_couch_top",
+        "1": "lime_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "lime"
+    },
+    "green": {
+      "map": {
+        "0": "green_garsale_couch_top",
+        "1": "green_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "green"
+    },
+    "cyan": {
+      "map": {
+        "0": "cyan_garsale_couch_top",
+        "1": "cyan_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "cyan"
+    },
+    "light_blue": {
+      "map": {
+        "0": "light_blue_garsale_couch_top",
+        "1": "light_blue_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "light_blue"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_garsale_couch_top",
+        "1": "blue_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "blue"
+    },
+    "purple": {
+      "map": {
+        "0": "purple_garsale_couch_top",
+        "1": "purple_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "purple"
+    },
+    "magenta": {
+      "map": {
+        "0": "magenta_garsale_couch_top",
+        "1": "magenta_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "magenta"
+    },
+    "pink": {
+      "map": {
+        "0": "pink_garsale_couch_top",
+        "1": "pink_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "pink"
+    },
+    "brown": {
+      "map": {
+        "0": "brown_garsale_couch_top",
+        "1": "brown_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "brown"
+    },
+    "white": {
+      "map": {
+        "0": "white_garsale_couch_top",
+        "1": "white_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "white"
+    },
+    "light_gray": {
+      "map": {
+        "0": "light_gray_garsale_couch_top",
+        "1": "light_gray_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "light_gray"
+    },
+    "gray": {
+      "map": {
+        "0": "gray_garsale_couch_top",
+        "1": "gray_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "gray"
+    },
+    "black": {
+      "map": {
+        "0": "black_garsale_couch_top",
+        "1": "black_garsale_couch_side",
+        "2": "garsale_bookshelf_top"
+      },
+      "name": "black"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:sticky_layered_mud"
+    },
+    "title": {
+      "translate": "advancements.sticky_marshes_explore.title"
+    },
+    "description": {
+      "translate": "advancements.sticky_marshes_explore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sticky_marshes_explore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "distant_worlds:sticky_marshes"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "distant_worlds:garhenna_explore"
+}

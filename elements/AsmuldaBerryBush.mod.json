@@ -1,0 +1,110 @@
+{
+  "_fv": 57,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "asmulda_bush_1",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "asmulda_berries",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 12.0,
+        "My": 12.0,
+        "Mz": 12.0,
+        "subtract": false
+      }
+    ],
+    "name": "Asmulda Berry Bush",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "SWEET_BERRY_BUSH"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:AsmuldaBerries"
+    },
+    "dropAmount": 1,
+    "forceTicking": true,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "ORANGE_TERRACOTTA",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:LayeredMud"
+      },
+      {
+        "value": "CUSTOM:LifelessGrass"
+      }
+    ],
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "PlantBlockOnBoneMealSuccess"
+    },
+    "frequencyOnChunks": 32,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BurningPlains"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 32,
+    "generateAtAnyHeight": true,
+    "onTickUpdate": {
+      "name": "AsmuldaBerryBushUpdateTick"
+    },
+    "onRightClicked": {
+      "name": "AsmuldaBerryBushPlantRightClicked"
+    }
+  }
+}

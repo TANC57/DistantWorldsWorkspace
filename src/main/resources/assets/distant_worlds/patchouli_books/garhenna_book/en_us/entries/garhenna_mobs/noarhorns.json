@@ -1,0 +1,71 @@
+{
+	"name": "Noarhorn",
+	"icon": "distant_worlds:noarhorn_spike",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 4,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Noarhorn",
+			"item": "distant_worlds:noarhorn_spawn_egg",
+			"text": "$(l)$(#990000)Health: 20$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 4$()$(br)Noarhorns are ground mobs from the Molten Hills biome. This mob is neutral towards the player and will run away when you hit them. From these mobs, you can get raw meat that can be cooked.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Armored Noarhorn",
+			"item": "distant_worlds:armored_noarhorn_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 4$(#660066)$(br)Attack: 6$()$(br)Noarhorns with spikes will be hostile towards the player A feature of these mobs are incredibly strong spikes and growths on the back. They allow these creatures to partially return damage to the enemy that attacked them. From these mobs, you can get raw meat that can be cooked, and small fragments of their spikes.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Baby Noarhorn",
+			"item": "distant_worlds:baby_noarhorn_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: Peaceful$()$(br)It takes time before a newborn Noarhorn becomes a real predator. For now, they are not yet able to defend themselves and will avoid conflicts with you or other creatures. As it grows up, it can take on armor from one of its parents if at least one was armored.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:text",
+			"advancement": "distant_worlds:experienced_mushroom_picker",
+			"title": "Interaction",
+			"text": "Using the Culafite Mushroom, Noarhorns can be tamed and the health of tamed ones can be increased. Using the Culafite Mushroom Stew, you can breed Noarhorns and only tamed Armored Noarhorns. Tamed Noarhorn can be armed using Noarhorn Spikes."
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:experienced_mushroom_picker",
+			"recipe": "distant_worlds:culafite_mushroom_on_a_stick_recipe",
+			"title": "Cul. Mushroom on a Stick",
+			"text": "You can ride a tamed spikeless Noarhorn and control it with a Culafite Mushroom on a Stick. Shake the bait to make Noarhorn $(t:RMB)$(o)attack the nearest targets$() or $(t:Ctrl + RMB)$(o)temporarily speed up$(). This tool can also be found in the structures of the Molten Hills biome."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_spikes_block_recipe",
+			"text": "Noarhorn Spikes can also be used to create a block that will deal damage to all entities nearby. And if there is lava in the immediate vicinity of the block, it will set fire to the victim."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_gloves_recipe",
+			"text": "Noarhorn gloves are an optional combat accessory. When worn, they add some armor, slightly reduce your attack speed, and increase your damage. Also, like Noarhorn Axe, it will slightly increase the drop rate of Garsale and Wiltum fruits."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:red_garsale_couch_recipe",
+			"text": "You can create a comfortable couch where tamed Narhorns will be waiting for you.$(br)It can also be used by players, or just be a nice decoration for your home as it can be dyed like beds"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:garsale_crate_recipe",
+			"text": "Craft a Garsale Crate to take tamed Baby Noarhorns over long distances and even to other worlds. When you release a Baby Noarhorn from the crate, you become its owner."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/noarhorn_tools",
+				"distant_worlds:garhenna_armor/noarhorn_armor",
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:raw_curelite",
+    "distant_worlds:curelite",
+    "distant_worlds:raw_curelite_block",
+    "distant_worlds:curelite_block"
+  ]
+}

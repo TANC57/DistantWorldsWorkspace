@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Vinretty"
+      },
+      {
+        "value": "CUSTOM:Ofypletta"
+      },
+      {
+        "value": "CUSTOM:Anewort"
+      },
+      {
+        "value": "CUSTOM:Wokamire"
+      },
+      {
+        "value": "CUSTOM:Flemmawies"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "tall_flowers",
+    "namespace": "minecraft"
+  }
+}

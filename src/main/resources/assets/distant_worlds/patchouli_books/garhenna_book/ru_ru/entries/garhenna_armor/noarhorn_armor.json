@@ -1,0 +1,29 @@
+{
+	"name": "Доспехи нархорна",
+	"icon": "distant_worlds:noarhorn_armor_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 5,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Также из этих шипов и других ресурсов можно создать элементы Брони Нархорна. С некоторым шансом, в зависимости от количества надетых элементов этой брони, она будет возвращать урон атакующему, подобно зачарованию шипы. При полном комплекте способна полностью защитить вас от урона наносимого шипами."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_helmet_recipe",
+			"recipe2": "distant_worlds:noarhorn_chestplate_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_leggings_recipe",
+			"recipe2": "distant_worlds:noarhorn_boots_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "distant_worlds:dalite_storage_initial",
+    "distant_worlds:dalite_storage_extended",
+    "distant_worlds:dalite_storage_advanced"
+  ]
+}

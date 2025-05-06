@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:module_flow_filter",
+    "distant_worlds:module_flow_amplification"
+  ]
+}

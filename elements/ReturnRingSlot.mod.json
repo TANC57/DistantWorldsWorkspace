@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "empty_return_ring_slot.png",
+    "name": "Return Ring",
+    "amount": 1
+  }
+}

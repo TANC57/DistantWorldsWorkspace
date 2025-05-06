@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "burning_plains_painting.png",
+    "width": 32,
+    "height": 16,
+    "title": "Burning Plains",
+    "author": "TANC57"
+  }
+}

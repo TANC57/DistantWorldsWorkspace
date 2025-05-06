@@ -1,0 +1,17 @@
+{
+	"name": "Feedback",
+	"icon": "minecraft:writable_book",
+	"category": "distant_worlds:misc_information",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "I would be grateful if you tell me about the bugs you find, share your ideas or help with localization. If you can offer your help, please contact me on social networks."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Links",
+			"text": "Click on the text to follow the link!$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/distant-worlds)Distant Worlds | Curseforge$(/l)$(br2)$(l:https://modrinth.com/mod/distant-worlds)Distant Worlds | Modrinth$(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Distant Worlds | MCreator$(/l)$(br2)$(l:https://discord.com/invite/PmYRE6Y)Discord Server$(/l)$(br2)$(l:https://patreon.com/TANC57)Patreon Page$(/l)"
+		}
+	]
+}

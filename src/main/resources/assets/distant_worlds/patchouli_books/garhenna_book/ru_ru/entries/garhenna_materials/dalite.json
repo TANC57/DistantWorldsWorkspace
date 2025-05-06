@@ -1,0 +1,28 @@
+{
+	"name": "Далит",
+	"icon": "distant_worlds:dalite_crystal",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 4,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:dalite_nugget",
+			"text": "Далит – его вы часто сможете найти в биоме Раскаленные холмы. Разрушив его руду, вы получите сырой далит, который должен быть переплавлен в кусочек далита для дальнейшей работы. Используя 5 кусочков далита, вы сможете создать несколько далитовых кристаллов. Чистый далит довольно хрупкий, но обладает способностью хранить, концентрировать и передавать особый вид энергии."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:dalite_crystal_recipe",
+			"recipe2": "distant_worlds:dalite_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_dalite_block_recipe",
+			"recipe2": "distant_worlds:raw_dalite_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

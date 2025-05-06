@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "distant_worlds:block/layered_mud",
+    "top": "distant_worlds:block/lifeless_grass_top",
+    "side": "distant_worlds:block/layered_mud",
+    "overlay": "distant_worlds:block/lifeless_grass_side",
+    "particle": "distant_worlds:block/layered_mud"
+  },
+  "render_type": "cutout_mipped"
+}

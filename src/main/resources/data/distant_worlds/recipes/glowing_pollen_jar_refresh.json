@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:glowing_pollen"
+    },
+    "b": {
+      "item": "distant_worlds:glowing_pollen_jar"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:glowing_pollen_jar",
+    "count": 1
+  }
+}

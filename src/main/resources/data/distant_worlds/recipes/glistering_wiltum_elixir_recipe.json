@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:fuzianna_jelly"
+    },
+    "b": {
+      "item": "distant_worlds:glistering_wiltum_fruit"
+    },
+    "c": {
+      "item": "distant_worlds:wiltum_elixir"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:glistering_wiltum_elixir",
+    "count": 1
+  }
+}

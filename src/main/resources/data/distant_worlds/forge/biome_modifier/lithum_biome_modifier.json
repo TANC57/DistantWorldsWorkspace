@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:dead_valley",
+  "features": "distant_worlds:lithum",
+  "step": "underground_ores"
+}

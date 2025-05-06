@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "distant_worlds:block/culafite_stem_pane"
+  },
+  "render_type": "cutout_mipped"
+}

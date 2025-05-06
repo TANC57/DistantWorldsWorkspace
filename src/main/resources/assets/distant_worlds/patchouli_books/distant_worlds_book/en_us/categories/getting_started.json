@@ -1,0 +1,6 @@
+{
+	"name": "Getting Started",
+	"description": "This category contains a summary of all the dimensions added by the mod. Here you will find instructions for moving to new worlds and other tips for surviving them.",
+	"icon": "distant_worlds:textures/screens/getting_started_icon.png",
+	"sortnum": 2
+}

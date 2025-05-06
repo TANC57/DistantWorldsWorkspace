@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=false": { "model": "distant_worlds:block/caged_garsale_lantern" },
+    "hanging=true": { "model": "distant_worlds:block/caged_garsale_lantern_hanging" }
+  }
+}

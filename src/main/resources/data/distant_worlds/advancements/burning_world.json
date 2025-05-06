@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:charged_wither_totem"
+    },
+    "title": {
+      "translate": "advancements.burning_world.title"
+    },
+    "description": {
+      "translate": "advancements.burning_world.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "burning_world": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "distant_worlds:garhenna"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "distant_worlds:return_ring_recipe",
+      "distant_worlds:return_ring_repair"
+    ]
+  },
+  "parent": "distant_worlds:withered_bones"
+}

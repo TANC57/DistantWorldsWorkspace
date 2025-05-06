@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Fly Up",
+    "keyBindingCategoryKey": "distant_worlds",
+    "onKeyReleased": {
+      "name": "FlyUpOnKeyReleased"
+    }
+  }
+}

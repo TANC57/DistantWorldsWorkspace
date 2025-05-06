@@ -1,0 +1,29 @@
+{
+	"name": "Noarhorn Armor",
+	"icon": "distant_worlds:noarhorn_armor_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 5,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Also from these spikes and other resources you can create elements of the Noarhorn Armor. With some chance, depending on the number of pieces of this armor worn, it will return damage to the attacker, similar to thorns enchantment. When fully equipped, it can fully protect you from thorns damage."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_helmet_recipe",
+			"recipe2": "distant_worlds:noarhorn_chestplate_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_leggings_recipe",
+			"recipe2": "distant_worlds:noarhorn_boots_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

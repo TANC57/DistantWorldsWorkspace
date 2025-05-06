@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Supervised",
+    "achievementDescription": "Get a Tamed Alpha Salmoran",
+    "achievementIcon": {
+      "value": "CUSTOM:SalmoranEgg"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 500,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:YoursAmongStrangers"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"44\" y=\"44\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

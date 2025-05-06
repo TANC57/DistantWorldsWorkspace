@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:fralite_heart"
+    },
+    "title": {
+      "translate": "advancements.awakened_stones.title"
+    },
+    "description": {
+      "translate": "advancements.awakened_stones.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "awakened_stones": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:burning_plains_explore"
+}

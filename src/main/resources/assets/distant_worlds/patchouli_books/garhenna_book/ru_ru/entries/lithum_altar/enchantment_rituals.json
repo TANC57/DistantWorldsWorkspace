@@ -1,0 +1,77 @@
+{
+	"name": "Ритуалы зачарований",
+	"icon": "minecraft:enchanted_book",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 10,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "На литумовом алтаре вы можете провести ритуалы, что усилят некоторые, наложенные на предмет, зачарования. За каждый ритуал уровень будет повышаться на один и может достичь значений выше, чем вы можете получить на столе зачарований или при комбинации на наковальне."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Чтобы начать ритуалы зачарований, вам также понадобится:$(br)$(li)$(#ea7f17)$(l)10 000 DE$()$(li)$(#59983a)$(l)Уровень опыта$(), что в пять раз выше текущего уровня желаемого зачарования.$(br2)Восстановление после полного ритуала: $(#992032)$(l)500 DRP$()"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Острота",
+			"item": "minecraft:iron_sword{Enchantments:[{id:sharpness,lvl:7}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Шип нархорна $(o)[x4]$()$(br2)Макс. уровень зачарования: VII"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Шипы",
+			"item": "minecraft:iron_helmet{Enchantments:[{id:thorns,lvl:5}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Шип нархорна $(o)[x4]$()$(br2)Макс. уровень зачарования: V"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Заговор огня",
+			"item": "minecraft:iron_sword{Enchantments:[{id:fire_aspect,lvl:4}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Фралитовое сердце $(o)[x2]$()$(li)Раскалённый фралит $(o)[x2]$()$(br2)Макс. уровень зачарования: IV"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Огнеупорность",
+			"item": "minecraft:iron_helmet{Enchantments:[{id:fire_protection,lvl:6}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Фралитовое сердце $(o)[x2]$()$(li)Раскалённый фралит $(o)[x2]$()$(br2)Макс. уровень зачарования: VI"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Защита от снарядов",
+			"item": "minecraft:iron_helmet{Enchantments:[{id:projectile_protection,lvl:6}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Фралитовый шар $(o)[x4]$()$(br2)Макс. уровень зачарования: VI"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Взрывоустойчивость",
+			"item": "minecraft:iron_helmet{Enchantments:[{id:blast_protection,lvl:6}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Фралитовый шар $(o)[x4]$()$(br2)Макс. уровень зачарования: VI"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Удача",
+			"item": "minecraft:iron_pickaxe{Enchantments:[{id:fortune,lvl:5}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Сияющая пыльца $(o)[x4]$()$(br2)Макс. уровень зачарования: V"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Невесомость",
+			"item": "minecraft:iron_boots{Enchantments:[{id:feather_falling,lvl:6}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Сияющая пыльца $(o)[x4]$()$(br2)Макс. уровень зачарования: VI"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Жало сальморана",
+			"item": "minecraft:iron_sword{Enchantments:[{id:\"distant_worlds:salmoran_sting\",lvl:5}]}",
+			"text": "Может быть улучшено на литумовом алтаре, используя:$(br)$(li)Зачарованный предмет$(o) [Основной]$()$(li)Лазурит $(o)[x4]$()$(li)Глаз сальморана $(o)[x2]$()$(li)Чешуя сальморана $(o)[x2]$()$(br2)Макс. уровень зачарования: V"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

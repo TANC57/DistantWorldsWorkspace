@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Crouthil"
+      },
+      {
+        "value": "CUSTOM:Druth"
+      },
+      {
+        "value": "CUSTOM:Shrullot"
+      }
+    ],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "water_afraid",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "distant_worlds:garsale_planks"
+    }
+  ],
+  "result": {
+    "item": "distant_worlds:garsale_button",
+    "count": 1
+  }
+}

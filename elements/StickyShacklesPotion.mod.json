@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Sticky Shackles",
+    "splashName": "Splash Potion of Sticky Shackles",
+    "lingeringName": "Lingering Potion of Sticky Shackles",
+    "arrowName": "Arrow of Sticky Shackles",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:StickyShackles"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

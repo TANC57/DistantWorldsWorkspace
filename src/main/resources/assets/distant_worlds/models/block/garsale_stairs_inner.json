@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "distant_worlds:block/garsale_planks",
+    "top": "distant_worlds:block/garsale_planks",
+    "side": "distant_worlds:block/garsale_planks"
+  },
+  "render_type": "solid"
+}

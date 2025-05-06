@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "distant_worlds:block/culafite_stem_slab"
+    },
+    "type=top": {
+      "model": "distant_worlds:block/culafite_stem_slab_top"
+    },
+    "type=double": {
+      "model": "distant_worlds:block/culafite_stem_slab_full"
+    }
+  }
+}

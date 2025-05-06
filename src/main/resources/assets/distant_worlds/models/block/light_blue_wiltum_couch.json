@@ -1,0 +1,10 @@
+{
+  "parent": "distant_worlds:custom/wiltum_couch",
+  "textures": {
+    "all": "distant_worlds:block/light_blue_wiltum_couch",
+    "particle": "distant_worlds:block/light_blue_wiltum_couch",
+    "0": "distant_worlds:block/light_blue_wiltum_couch",
+    "1": "distant_worlds:block/wiltum_couch"
+  },
+  "render_type": "solid"
+}

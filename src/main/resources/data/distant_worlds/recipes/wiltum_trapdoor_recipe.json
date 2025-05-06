@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:wiltum_planks"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:wiltum_trapdoor",
+    "count": 2
+  }
+}

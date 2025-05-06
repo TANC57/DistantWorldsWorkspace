@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "distant_worlds:block/garsale_box_bottom",
+    "up": "distant_worlds:block/garsale_fruit_box_top",
+    "north": "distant_worlds:block/garsale_fruit_box_side",
+    "east": "distant_worlds:block/garsale_fruit_box_side",
+    "south": "distant_worlds:block/garsale_fruit_box_side",
+    "west": "distant_worlds:block/garsale_fruit_box_side",
+    "particle": "distant_worlds:block/garsale_box_bottom"
+  },
+  "render_type": "solid"
+}

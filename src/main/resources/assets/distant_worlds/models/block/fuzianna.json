@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/fuzianna",
+  "textures": {
+    "all": "distant_worlds:block/fuzianna",
+    "particle": "distant_worlds:item/fuzianna_stick",
+    "0": "distant_worlds:block/fuzianna"
+  },
+  "render_type": "cutout"
+}

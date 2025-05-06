@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:salmoran_crown"
+    },
+    "title": {
+      "translate": "advancements.yours_among_strangers.title"
+    },
+    "description": {
+      "translate": "advancements.yours_among_strangers.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yours_among_strangers": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 250
+  },
+  "parent": "distant_worlds:treats_for_new_friends"
+}

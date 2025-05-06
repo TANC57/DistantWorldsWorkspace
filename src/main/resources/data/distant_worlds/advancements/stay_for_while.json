@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:asmulda_elixir"
+    },
+    "title": {
+      "translate": "advancements.stay_for_while.title"
+    },
+    "description": {
+      "translate": "advancements.stay_for_while.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stay_for_while": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "distant_worlds:distant_worlds_explore"
+}

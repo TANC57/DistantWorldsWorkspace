@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Ulbiseaf"
+      },
+      {
+        "value": "CUSTOM:Crewanolla"
+      },
+      {
+        "value": "CUSTOM:Ceblum"
+      },
+      {
+        "value": "CUSTOM:Rinyot"
+      },
+      {
+        "value": "CUSTOM:WitheredSprouts"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "dead_valley_flowers",
+    "namespace": "mod"
+  }
+}

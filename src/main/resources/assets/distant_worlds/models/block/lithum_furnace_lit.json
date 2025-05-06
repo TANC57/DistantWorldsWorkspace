@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "distant_worlds:block/lithum_blocks_top",
+    "up": "distant_worlds:block/lithum_blocks_top",
+    "north": "distant_worlds:block/lithum_furnace_lit",
+    "east": "distant_worlds:block/lithum_furnace_lit",
+    "south": "distant_worlds:block/lithum_furnace_lit",
+    "west": "distant_worlds:block/lithum_furnace_lit",
+    "particle": "distant_worlds:block/lithum_blocks_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Fralite Golems",
+	"icon": "distant_worlds:fralite_heart",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 1,
+	"advancement": "distant_worlds:awakened_stones",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Fralite golems are awakened molten stones that can move through magic and are often found in the Burning Plains biome. Those who created them have long since left this place, and faithful servants still continue to guard the abandoned libraries. It's been a long time, so many cracks appeared on them, and some of their parts were seriously damaged. There are 3 types of golems in total. They differ in their appearance and fighting styles."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Druth",
+			"item": "distant_worlds:druth_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 5$()$(br)Druth is s large golem and has a lot of health. It will also be difficult for you to knock him back with your attacks. He is able to inflict the Ignite effect on you and set you on fire with the next blows. It can give you Molten Fralite Shards and a small chance of a Fralite Heart.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Crouthil",
+			"item": "distant_worlds:crouthil_spawn_egg",
+			"text": "$(l)$(#990000)Health: 15$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: 2$()$(br)Couthil is a small golem with more movement speed than the others. They prefer to attack in groups and can apply a low-level Ignite effect to you.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Shrullot",
+			"item": "distant_worlds:shrullot_spawn_egg",
+			"text": "$(l)$(#990000)Health: 15$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: Special$()$(br)Shrullot is a flying golem capable of long-range air attacks by throwing explosive fralite stones. You can get Molten Fralite Shards and Fralite Balls from it.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Ignition",
+			"item": "minecraft:potion{Potion:\"distant_worlds:ignition_potion\"}",
+			"text": "Entity with Ignition effect will be set on fire for a number of seconds equal to the level of the effect after each hit by another living entity."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

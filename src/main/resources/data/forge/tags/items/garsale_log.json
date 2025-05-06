@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:garsale_wood",
+    "distant_worlds:garsale_log",
+    "distant_worlds:cracked_garsale_log",
+    "distant_worlds:sticky_garsale_log"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:dalite_storage_advanced"
+    },
+    "title": {
+      "translate": "advancements.here_and_there.title"
+    },
+    "description": {
+      "translate": "advancements.here_and_there.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "here_and_there": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:magic_of_stones_and_crystals"
+}

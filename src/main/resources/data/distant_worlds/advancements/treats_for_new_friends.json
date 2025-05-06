@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:salmoran_treat"
+    },
+    "title": {
+      "translate": "advancements.treats_for_new_friends.title"
+    },
+    "description": {
+      "translate": "advancements.treats_for_new_friends.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "treats_for_new_friends": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "distant_worlds:born_to_crawl"
+}

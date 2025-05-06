@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:wiltum_fruit"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:wiltum_fruit_box",
+    "count": 1
+  }
+}

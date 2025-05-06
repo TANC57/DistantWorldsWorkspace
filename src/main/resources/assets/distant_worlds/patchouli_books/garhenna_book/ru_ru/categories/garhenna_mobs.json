@@ -1,0 +1,6 @@
+{
+	"name": "Мобы",
+	"description": "Эта категория содержит сводку мобов, добавляемых измерением Гархенны.",
+	"icon": "distant_worlds:textures/screens/garhenna_mobs_icon.png",
+	"sortnum": 4
+}

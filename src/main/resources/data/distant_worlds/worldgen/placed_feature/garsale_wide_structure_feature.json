@@ -1,0 +1,98 @@
+{
+  "feature": "distant_worlds:garsale_wide_structure_feature",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 16,
+          "max_inclusive": 40
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 8
+        },
+        "max_inclusive": {
+          "absolute": 128
+        }
+      }
+    },
+    {
+      "type": "environment_scan",
+      "direction_of_search": "down",
+      "target_condition": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "distant_worlds:layered_mud",
+              "distant_worlds:sticky_layered_mud"
+            ],
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "distant_worlds:layered_mud",
+              "distant_worlds:sticky_layered_mud"
+            ],
+            "offset": [
+              1,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "distant_worlds:layered_mud",
+              "distant_worlds:sticky_layered_mud"
+            ],
+            "offset": [
+              0,
+              -1,
+              1
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "distant_worlds:layered_mud",
+              "distant_worlds:sticky_layered_mud"
+            ],
+            "offset": [
+              1,
+              -1,
+              1
+            ]
+          }
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      },
+      "max_steps": 5
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

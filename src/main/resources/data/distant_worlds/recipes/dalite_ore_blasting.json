@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "distant_worlds:dalite_ore"
+  },
+  "result": "distant_worlds:dalite_nugget"
+}

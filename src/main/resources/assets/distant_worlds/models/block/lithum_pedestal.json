@@ -1,0 +1,10 @@
+{
+  "parent": "distant_worlds:custom/lithum_pedestal",
+  "textures": {
+    "all": "distant_worlds:block/lithum_blocks_top",
+    "particle": "distant_worlds:block/lithum_blocks_top",
+    "0": "distant_worlds:block/lithum_pedestal_main",
+    "1": "distant_worlds:block/lithum_pedestal_additional"
+  },
+  "render_type": "solid"
+}

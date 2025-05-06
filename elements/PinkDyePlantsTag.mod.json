@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Irotine"
+      },
+      {
+        "value": "CUSTOM:Lafosia"
+      },
+      {
+        "value": "CUSTOM:Prifonna"
+      },
+      {
+        "value": "CUSTOM:FloweringGarsaleVines"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "pink_dye_plants",
+    "namespace": "mod"
+  }
+}

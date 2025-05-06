@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "distant_worlds:block/lithum_bricks",
+    "top": "distant_worlds:block/lithum_bricks",
+    "side": "distant_worlds:block/lithum_bricks"
+  },
+  "render_type": "solid"
+}

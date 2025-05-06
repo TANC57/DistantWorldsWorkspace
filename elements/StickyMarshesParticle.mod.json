@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "sticky_marshes_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 0.7000000000000001,
+    "speedFactor": 0.4,
+    "gravity": 0.2,
+    "maxAge": 30,
+    "maxAgeDiff": 5,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Damage types",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [
+      {
+        "value": "FIREBALL"
+      },
+      {
+        "value": "HOT_FLOOR"
+      },
+      {
+        "value": "IN_FIRE"
+      },
+      {
+        "value": "LAVA"
+      },
+      {
+        "value": "ON_FIRE"
+      }
+    ],
+    "name": "firon_armor_prevents_damage_types",
+    "namespace": "mod"
+  }
+}

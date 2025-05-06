@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:polished_revelite"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:polished_revelite_wall",
+    "count": 6
+  }
+}

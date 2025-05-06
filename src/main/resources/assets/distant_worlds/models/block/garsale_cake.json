@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/garsale_cake",
+  "textures": {
+    "all": "distant_worlds:block/garsale_cake",
+    "particle": "distant_worlds:item/garsale_cake",
+    "0": "distant_worlds:block/garsale_cake"
+  },
+  "render_type": "cutout_mipped"
+}

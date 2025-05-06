@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=false": { "model": "distant_worlds:block/garsale_cake" },
+    "half=true": { "model": "distant_worlds:block/garsale_cake_half" }
+  }
+}

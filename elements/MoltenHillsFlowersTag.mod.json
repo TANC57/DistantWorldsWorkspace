@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CulafiteMushroom"
+      },
+      {
+        "value": "CUSTOM:Lioress"
+      },
+      {
+        "value": "CUSTOM:MoltenSprouts"
+      },
+      {
+        "value": "CUSTOM:Otrebore"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "molten_hills_flowers",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:lifeless_grass",
+    "distant_worlds:lithum_tiles",
+    "distant_worlds:withered_soil",
+    "distant_worlds:layered_mud",
+    "distant_worlds:overgrown_fralite"
+  ]
+}

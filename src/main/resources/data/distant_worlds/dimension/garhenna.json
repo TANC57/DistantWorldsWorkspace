@@ -1,0 +1,586 @@
+{
+  "type": "distant_worlds:garhenna",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "distant_worlds:burning_plains",
+          "parameters": {
+            "temperature": [
+              0.9,
+              1.3
+            ],
+            "humidity": [
+              -1.1,
+              -0.896
+            ],
+            "continentalness": [
+              0.4,
+              0.7
+            ],
+            "erosion": [
+              0.7,
+              0.9
+            ],
+            "weirdness": [
+              -0.4202135289,
+              -0.2202135289
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "distant_worlds:sticky_marshes",
+          "parameters": {
+            "temperature": [
+              0.88,
+              1.12
+            ],
+            "humidity": [
+              -1.12,
+              -0.8855
+            ],
+            "continentalness": [
+              0.39,
+              0.63
+            ],
+            "erosion": [
+              0.78,
+              1.02
+            ],
+            "weirdness": [
+              -0.2287,
+              0.0113
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "distant_worlds:dead_valley",
+          "parameters": {
+            "temperature": [
+              0.92,
+              1.08
+            ],
+            "humidity": [
+              -1.3,
+              -0.898
+            ],
+            "continentalness": [
+              0.44,
+              0.6
+            ],
+            "erosion": [
+              0.62,
+              0.78
+            ],
+            "weirdness": [
+              0.2906753431,
+              0.4506753431
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "distant_worlds:molten_hills",
+          "parameters": {
+            "temperature": [
+              0.94,
+              1.06
+            ],
+            "humidity": [
+              -1.06,
+              -0.52
+            ],
+            "continentalness": [
+              0.48,
+              2
+            ],
+            "erosion": [
+              0.54,
+              0.67
+            ],
+            "weirdness": [
+              -1.0017888467,
+              -0.8817888467
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    },
+    "settings": {
+      "name": "distant_worlds:garhenna",
+      "sea_level": 0,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": true,
+  "default_block": {
+    "Name": "distant_worlds:revelite"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "spawn_target": [],
+  "noise": {
+    "min_y": -64,
+    "height": 192,
+    "size_horizontal": 4,
+    "size_vertical": 2
+  },
+  "noise_router": {
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
+    "temperature": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature",
+      "xz_scale": 0.65,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "vegetation": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:vegetation",
+      "xz_scale": 0.65,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "continents": 0,
+    "erosion": 0,
+    "depth": 0,
+    "ridges": 0,
+    "initial_density_without_jaggedness": 0,
+    "final_density": {
+      "type": "minecraft:squeeze",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": 0.61,
+        "argument2": {
+          "type": "minecraft:interpolated",
+          "argument": {
+            "type": "minecraft:blend_density",
+            "argument": {
+              "type": "minecraft:add",
+              "argument1": 2.55,
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_y": 91,
+                  "to_y": 1008,
+                  "from_value": 1,
+                  "to_value": 24
+                },
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": -2.52,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:max",
+                        "argument1": {
+                          "type": "minecraft:add",
+                          "argument1": {
+                            "type": "minecraft:weird_scaled_sampler",
+                            "rarity_value_mapper": "type_2",
+                            "noise": "minecraft:spaghetti_2d",
+                            "input": {
+                              "type": "minecraft:noise",
+                              "noise": "minecraft:spaghetti_2d_modulator",
+                              "xz_scale": 2,
+                              "y_scale": 4
+                            }
+                          },
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": 4.82,
+                            "argument2": "minecraft:overworld/caves/spaghetti_2d_thickness_modulator"
+                          }
+                        },
+                        "argument2": {
+                          "type": "minecraft:cube",
+                          "argument": {
+                            "type": "minecraft:add",
+                            "argument1": {
+                              "type": "minecraft:abs",
+                              "argument": {
+                                "type": "minecraft:add",
+                                "argument1": {
+                                  "type": "minecraft:add",
+                                  "argument1": "minecraft:end/base_3d_noise",
+                                  "argument2": {
+                                    "type": "minecraft:mul",
+                                    "argument1": "minecraft:overworld/caves/noodle",
+                                    "argument2": {
+                                      "type": "minecraft:noise",
+                                      "noise": "minecraft:spaghetti_2d_elevation",
+                                      "xz_scale": 1,
+                                      "y_scale": 0
+                                    }
+                                  }
+                                },
+                                "argument2": {
+                                  "type": "minecraft:y_clamped_gradient",
+                                  "from_y": -55,
+                                  "to_y": 345,
+                                  "from_value": 2,
+                                  "to_value": -7.7
+                                }
+                              }
+                            },
+                            "argument2": "minecraft:nether/base_3d_noise"
+                          }
+                        }
+                      },
+                      "min": -1,
+                      "max": 1.2
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_y": 108,
+                        "to_y": 128,
+                        "from_value": 1,
+                        "to_value": 0
+                      },
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": {
+                          "type": "minecraft:y_clamped_gradient",
+                          "from_y": 132,
+                          "to_y": -64,
+                          "from_value": -1.42,
+                          "to_value": 0.7
+                        },
+                        "argument2": "minecraft:nether/base_3d_noise"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "vein_toggle": 0,
+    "vein_ridged": 0,
+    "vein_gap": 0
+  },
+      "surface_rule": {
+        "type": "minecraft:sequence",
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "minecraft:bedrock_floor",
+              "true_at_and_below": {
+                "above_bottom": 0
+              },
+              "false_at_and_above": {
+                "above_bottom": 5
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:bedrock"
+              }
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "distant_worlds:burning_plains"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:water",
+                          "offset": -1,
+                          "surface_depth_multiplier": 0,
+                          "add_stone_depth": false
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "distant_worlds:lifeless_grass"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "distant_worlds:fralite"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": true,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "distant_worlds:layered_mud"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "distant_worlds:sticky_marshes"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:water",
+                          "offset": -1,
+                          "surface_depth_multiplier": 0,
+                          "add_stone_depth": false
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "distant_worlds:layered_mud"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "distant_worlds:fralite"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": true,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "distant_worlds:fralite"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "distant_worlds:dead_valley"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:water",
+                          "offset": -1,
+                          "surface_depth_multiplier": 0,
+                          "add_stone_depth": false
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "distant_worlds:withered_soil"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "distant_worlds:lithum"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": true,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "distant_worlds:lithum"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "distant_worlds:molten_hills"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:water",
+                          "offset": -1,
+                          "surface_depth_multiplier": 0,
+                          "add_stone_depth": false
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "distant_worlds:overgrown_fralite"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "distant_worlds:fralite"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "floor",
+                    "add_surface_depth": true,
+                    "secondary_depth_range": 0,
+                    "offset": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "distant_worlds:fralite"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:block",
+            "result_state": {
+              "Name": "distant_worlds:revelite"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

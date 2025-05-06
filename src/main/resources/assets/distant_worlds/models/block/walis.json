@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/walis",
+    "particle": "distant_worlds:block/walis"
+  },
+  "render_type": "cutout"
+}

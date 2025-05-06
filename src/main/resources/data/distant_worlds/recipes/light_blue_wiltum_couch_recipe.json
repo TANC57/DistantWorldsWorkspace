@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "distant_worlds:wiltum_log"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:light_blue_wiltum_couch",
+    "count": 1
+  }
+}

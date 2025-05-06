@@ -1,0 +1,79 @@
+{
+	"name": "Salmorans",
+	"icon": "distant_worlds:salmoran_eye",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 5,
+	"advancement": "distant_worlds:born_to_crawl",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Salmoran",
+			"item": "distant_worlds:salmoran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 4$(#660066)$(br)Attack: 5$()$(br)Salmoran is a flying mob that is often found in the Dead Valley biome.They do not tolerate strangers in their home, so when they see you, even from afar, they will try to get closer and hit with their strong tail with a poisonous spike at the end. Scales and meat that can be cooked can be derived from them.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Suppression",
+			"item": "minecraft:potion{Potion:\"distant_worlds:suppression_potion\"}",
+			"text": "If they manage to hit you, then you will, among other things, be subjected to a new negative effect named Suppression, which will not allow you to regenerate your health. Level 5 effect completely blocks regeneration."
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:at_the_very_top",
+			"recipe": "distant_worlds:salmoran_treat_recipe",
+			"text": "Players can tame them with the Salmoran Treat. But you should be careful, because wild salmorans will still try to attack you. The chance of taming them is 25%, and otherwise you will be able to make another attempt only after some time. Attacked Salmorans will also get angry at the player and taming will not be possible for some time. The health and stamina levels of tamed Salmorans can be increased by using the Wiltum Fruit. Tamed Salmorans and Alpha Salmorans can be bred using the Salmoran Treat."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Baby Salmoran",
+			"item": "distant_worlds:baby_salmoran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: 2$()$(br)After hatching from the egg, small salmorans still cannot use their wings, and move by crawling on the ground. If you were close enough at the time of hatching, baby salmonorans will be tamed by you, otherwise, they just won't be hostile towards you. But if you hit them, they will start attacking you, moving by jumping. When turning into an adult, small salmorans leaves behind scales, which is an ingredient for crafting new armor.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Alpha Salmoran",
+			"item": "distant_worlds:alpha_salmoran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 45$(#336600)$(br)Armor: 6$(#660066)$(br)Attack: 7$()$(br)Alpha Salmoran is much larger and stronger than usual. Their powerful blow pierces the shield, dealing significant damage to it. Upon death, they can drop an eye, which is used in crafting a special accessory - Salmoran Crown. A Salmoran you tamed can be turned into an Alpha using the Eye of Salmoran, and will also protect you from other Salmorans.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Alpha Salmoran Flight",
+			"text": "Tamed Alpha Salmoran can be used to fly by two players at once, although it is not easy for him. To do this, you will need to constantly hold or gain altitude using the assigned key. $(t:Up to 1 second)$(o)The longer the key is pressed$(), the higher you will fly. Each takeoff spends a corresponding amount of your Alpha Salmoran's stamina. Stamina regenerates itself over time."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:salmoran_crown_recipe",
+			"text": "The crown, when worn, will protect you from Salmorans attacks until you hit them. The Salmorans will consider the player with the crown as one of the leaders, but this will not save them from other alphas. Crown can be rapaired with Salmoran Eye on crafting table."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:red_wiltum_couch_recipe",
+			"text": "You can create a comfortable couch where tamed Salmorans will be waiting for you.$(br)It can also be just a nice decoration for your home as it can be dyed like beds."
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:encased_soul",
+			"recipe": "distant_worlds:helyst_bell_recipe",
+			"text": "Sometimes it happens that your salmorans flies too far. Use Helyst Bell to make them follow you."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:wiltum_crate_recipe",
+			"text": "Craft a Wiltum Crate to take tamed Baby Salmorans over long distances and even to other worlds. When you release a Baby Salmoran from the crate, you become its owner."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_armor/salmoran_armor",
+				"distant_worlds:garhenna_natural/wiltum_fruit"
+			]
+		}
+	]
+}

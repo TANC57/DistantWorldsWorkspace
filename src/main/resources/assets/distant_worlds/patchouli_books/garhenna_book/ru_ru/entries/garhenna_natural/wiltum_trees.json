@@ -1,0 +1,31 @@
+{
+	"name": "Деревья вильтума",
+	"icon": "distant_worlds:wiltum_sapling",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 4,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_sapling",
+			"link_recipe": "true",
+			"text": "Деревья Вильтума большим количеством растут в биоме Долина мёртвых и могут быть выращены вами из саженцев, в том числе широкие виды деревьев из 4 стоящих рядом саженцев. Эти деревья состоят из древесины вильтума, которая может быть обтесана или переработана в множество других декоративных и функциональных блоков."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_core",
+			"link_recipe": "true",
+			"text": "Ядро вильтума встречается на верхушке дерева за его листвой и может быть переработано в древесину или использоваться в качестве декоративного освещения."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/wiltum_fruit"
+			]
+		}
+	]
+}

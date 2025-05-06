@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:SalmoranMeat"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedSalmoranMeat"
+    },
+    "name": "cooked_salmoran_meat_smoking",
+    "namespace": "mod"
+  }
+}

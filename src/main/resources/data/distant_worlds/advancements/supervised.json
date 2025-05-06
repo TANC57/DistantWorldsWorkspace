@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:salmoran_egg"
+    },
+    "title": {
+      "translate": "advancements.supervised.title"
+    },
+    "description": {
+      "translate": "advancements.supervised.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "supervised": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "distant_worlds:yours_among_strangers"
+}

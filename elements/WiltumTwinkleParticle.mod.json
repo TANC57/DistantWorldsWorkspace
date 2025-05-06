@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "wiltum_twinkle_particle.png",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.0,
+    "speedFactor": 0.5,
+    "gravity": 0.1,
+    "maxAge": 50,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

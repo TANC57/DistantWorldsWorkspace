@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GarsaleFence"
+      },
+      {
+        "value": "CUSTOM:GarsaleFenceGate"
+      },
+      {
+        "value": "CUSTOM:PolishedReveliteWall"
+      },
+      {
+        "value": "CUSTOM:ReveliteBrickWall"
+      },
+      {
+        "value": "CUSTOM:PolishedFraliteWall"
+      },
+      {
+        "value": "CUSTOM:FraliteBrickWall"
+      },
+      {
+        "value": "CUSTOM:PolishedLithumWall"
+      },
+      {
+        "value": "CUSTOM:LithumBrickWall"
+      },
+      {
+        "value": "CUSTOM:WiltumFence"
+      },
+      {
+        "value": "CUSTOM:WiltumFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

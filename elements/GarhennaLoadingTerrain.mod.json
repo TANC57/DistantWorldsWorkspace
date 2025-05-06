@@ -1,0 +1,38 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_loading_terrain",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnLoadingTerrain"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 162,
+          "y": 106
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "DownloadTerrain",
+    "displayCondition": {
+      "name": "GarhennaLoadingTerrainDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

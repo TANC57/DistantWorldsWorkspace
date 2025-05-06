@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RawCurelite"
+      },
+      {
+        "value": "CUSTOM:Curelite"
+      },
+      {
+        "value": "CUSTOM:RawCureliteBlock"
+      },
+      {
+        "value": "CUSTOM:CureliteBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_furnace_fuel",
+    "namespace": "mod"
+  }
+}

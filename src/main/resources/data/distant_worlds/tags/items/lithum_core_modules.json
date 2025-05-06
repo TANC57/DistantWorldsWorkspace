@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:module_core_destabilization",
+    "distant_worlds:module_core_stabilization"
+  ]
+}

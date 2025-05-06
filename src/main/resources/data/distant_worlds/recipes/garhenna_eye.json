@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:fire_charge"
+    },
+    "b": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garhenna_eye",
+    "count": 1
+  }
+}

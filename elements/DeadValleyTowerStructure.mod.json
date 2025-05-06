@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "dead_valley_tower",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DeadValley"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING_NO_LEAVES",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "UNDERGROUND_STRUCTURES"
+  }
+}

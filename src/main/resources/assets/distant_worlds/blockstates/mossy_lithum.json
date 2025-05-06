@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/mossy_lithum"
+      },
+      {
+        "model": "distant_worlds:block/mossy_lithum",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/mossy_lithum",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/mossy_lithum",
+        "y": 270
+      }
+    ]
+  }
+}

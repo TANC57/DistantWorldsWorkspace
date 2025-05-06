@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "advancements.traveled_all_over.title"
+    },
+    "description": {
+      "translate": "advancements.traveled_all_over.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "traveled_all_over": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "distant_worlds:distant_worlds_explore"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GarsaleSlab"
+      },
+      {
+        "value": "CUSTOM:GarsaleSlab"
+      },
+      {
+        "value": "CUSTOM:GarsaleSlab"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GarsaleBookshelf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GarsaleLog"
+      },
+      {
+        "value": "CUSTOM:GarsaleLog"
+      },
+      {
+        "value": "CUSTOM:GarsaleLog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GarhennaResearchesTable"
+    },
+    "name": "garhenna_researches_table_recipe",
+    "namespace": "mod"
+  }
+}

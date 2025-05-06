@@ -1,0 +1,6 @@
+{
+	"name": "Mobs",
+	"description": "This category contains a summary of Mobs added by the Garhenna dimension.",
+	"icon": "distant_worlds:textures/screens/garhenna_mobs_icon.png",
+	"sortnum": 4
+}

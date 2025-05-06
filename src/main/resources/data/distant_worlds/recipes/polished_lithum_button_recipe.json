@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:polished_lithum"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:polished_lithum_button",
+    "count": 1
+  }
+}

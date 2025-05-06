@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "distant_worlds:block/garhenna_researches_table"
+    },
+    "facing=east": {
+      "model": "distant_worlds:block/garhenna_researches_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "distant_worlds:block/garhenna_researches_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "distant_worlds:block/garhenna_researches_table",
+      "y": 270
+    }
+  }
+}

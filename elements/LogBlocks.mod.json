@@ -1,0 +1,49 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GarsaleWood"
+      },
+      {
+        "value": "CUSTOM:GarsaleLog"
+      },
+      {
+        "value": "CUSTOM:CrackedGarsaleLog"
+      },
+      {
+        "value": "CUSTOM:StickyGarsaleLog"
+      },
+      {
+        "value": "CUSTOM:WiltumWood"
+      },
+      {
+        "value": "CUSTOM:WiltumLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGarsaleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedWiltumLog"
+      },
+      {
+        "value": "CUSTOM:WiltumCore"
+      },
+      {
+        "value": "CUSTOM:StrippedGarsaleWood"
+      },
+      {
+        "value": "CUSTOM:StrippedWiltumWood"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/crewanolla",
+    "particle": "distant_worlds:block/crewanolla"
+  },
+  "render_type": "cutout"
+}

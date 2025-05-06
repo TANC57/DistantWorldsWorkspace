@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:curelite"
+    },
+    "title": {
+      "translate": "advancements.new_energy.title"
+    },
+    "description": {
+      "translate": "advancements.new_energy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "new_energy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:burning_plains_explore"
+}

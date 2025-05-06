@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "garsale_cake"
+      },
+      "name": "default"
+    }
+  }
+}

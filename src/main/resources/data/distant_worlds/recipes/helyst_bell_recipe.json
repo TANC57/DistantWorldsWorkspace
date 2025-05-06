@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "distant_worlds:helyst_crystal"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:helyst_bell",
+    "count": 1
+  }
+}

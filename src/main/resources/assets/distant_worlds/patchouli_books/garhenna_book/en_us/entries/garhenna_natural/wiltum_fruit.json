@@ -1,0 +1,33 @@
+{
+	"name": "Wiltum Fruit",
+	"icon": "distant_worlds:wiltum_fruit",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 5,
+	"advancement": "distant_worlds:at_the_very_top",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_fruit",
+			"link_recipe": "true",
+			"text": "Wiltum Tree leaves have a small chance to drop Wiltum Fruit, which can reduce Garhenna depletion due to its strong healing properties. From it you can craft a Wiltum Cocktail, which is able to neutralize certain types of poisons. You can also craft a Wiltum Elixir that will lower your depletion level and give temporary Garhenna protection for a long time. Wiltum Fruits can also be stored in large boxes."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:wiltum_cocktail_recipe",
+			"recipe2": "distant_worlds:wiltum_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:wiltum_fruit_box_recipe",
+			"recipe2": "distant_worlds:wiltum_fruit_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/wiltum_trees"
+			]
+		}
+	]
+}

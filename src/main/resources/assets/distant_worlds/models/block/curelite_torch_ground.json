@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "distant_worlds:block/curelite_torch"
+  },
+  "render_type": "cutout_mipped"
+}

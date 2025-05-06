@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CulafiteMushroomStem"
+      },
+      {
+        "value": "CUSTOM:CulafiteMushroomStem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CulafiteMushroomStem"
+      },
+      {
+        "value": "CUSTOM:CulafiteMushroomStem"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CulafiteStemBlock"
+    },
+    "name": "culafite_stem_block_recipe",
+    "namespace": "mod"
+  }
+}

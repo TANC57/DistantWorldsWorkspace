@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "distant_worlds:raw_curelite"
+  },
+  "result": "distant_worlds:curelite"
+}

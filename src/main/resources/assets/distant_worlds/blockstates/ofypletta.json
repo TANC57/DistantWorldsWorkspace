@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "distant_worlds:block/ofypletta"
+    },
+    "half=lower": {
+      "model": "distant_worlds:block/ofypletta_bottom"
+    }
+  }
+}

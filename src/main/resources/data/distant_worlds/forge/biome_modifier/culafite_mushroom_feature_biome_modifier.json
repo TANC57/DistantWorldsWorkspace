@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:molten_hills",
+  "features": "distant_worlds:culafite_mushroom_feature",
+  "step": "surface_structures"
+}

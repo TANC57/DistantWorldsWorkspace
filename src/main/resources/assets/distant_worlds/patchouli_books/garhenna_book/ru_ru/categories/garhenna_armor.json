@@ -1,0 +1,6 @@
+{
+	"name": "Доспехи",
+	"description": "Эта категория содержит сводку всех доспехов, добавляемых измерением Гархенны.",
+	"icon": "distant_worlds:textures/screens/garhenna_armor_icon.png",
+	"sortnum": 3
+}

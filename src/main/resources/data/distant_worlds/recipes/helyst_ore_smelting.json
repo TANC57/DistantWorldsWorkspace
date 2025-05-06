@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "distant_worlds:helyst_ore"
+  },
+  "result": "distant_worlds:helyst_nugget"
+}

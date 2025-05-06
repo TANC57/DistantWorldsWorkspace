@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "distant_worlds:item/garsale_crate"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "distant_worlds:garsale_crate_contains": 0
+      },
+      "model": "distant_worlds:item/garsale_crate_0"
+    },
+    {
+      "predicate": {
+        "distant_worlds:garsale_crate_contains": 1
+      },
+      "model": "distant_worlds:item/garsale_crate_1"
+    }
+  ]
+}

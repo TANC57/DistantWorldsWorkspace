@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:molten_hills",
+  "features": "distant_worlds:molten_sprouts",
+  "step": "vegetal_decoration"
+}

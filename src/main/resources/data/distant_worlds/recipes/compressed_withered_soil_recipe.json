@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:withered_soil"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:compressed_withered_soil",
+    "count": 1
+  }
+}

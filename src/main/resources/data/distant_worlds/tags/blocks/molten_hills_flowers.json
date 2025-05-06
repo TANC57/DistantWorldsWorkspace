@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:culafite_mushroom",
+    "distant_worlds:lioress",
+    "distant_worlds:molten_sprouts",
+    "distant_worlds:otrebore",
+    "minecraft:air"
+  ]
+}

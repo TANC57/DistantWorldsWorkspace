@@ -1,0 +1,11 @@
+{
+  "parent": "distant_worlds:custom/potted_flower",
+  "textures": {
+    "all": "distant_worlds:block/rinyot",
+    "particle": "distant_worlds:block/rinyot",
+    "flowerpot": "distant_worlds:block/flower_pot",
+    "plant": "distant_worlds:block/rinyot",
+    "dirt": "distant_worlds:block/withered_soil"
+  },
+  "render_type": "cutout"
+}

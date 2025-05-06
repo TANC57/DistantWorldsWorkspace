@@ -1,0 +1,33 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "fralite_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Fralite Hoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEquipment"
+    },
+    "harvestLevel": 2,
+    "efficiency": 5.0,
+    "attackSpeed": 3.0,
+    "enchantability": 8,
+    "damageVsEntity": 2.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

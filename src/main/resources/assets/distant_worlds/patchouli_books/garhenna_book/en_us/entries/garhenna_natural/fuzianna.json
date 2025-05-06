@@ -1,0 +1,19 @@
+{
+	"name": "Fuzianna",
+	"icon": "distant_worlds:fuzianna",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 8,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:fuzianna",
+			"link_recipe": "true",
+			"text": "Fuzianna are tall plants found in the the Dead Valley biome. When harvested, you will receive this plant and can extract edible fucianna jelly from it. For convenience, you can plant a fucianna stick in a flower pot and get fucianna jelly some time after using bone meal. And poisoned potatoes, when used, will stop the release of jelly."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:fuzianna_jelly_recipe"
+		}
+	]
+}

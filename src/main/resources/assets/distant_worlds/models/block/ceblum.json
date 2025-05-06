@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/ceblum",
+    "particle": "distant_worlds:block/ceblum"
+  },
+  "render_type": "cutout"
+}

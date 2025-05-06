@@ -1,0 +1,19 @@
+{
+	"name": "Огромные кулафитовые грибы",
+	"icon": "distant_worlds:culafite_shroomlight",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 7,
+	"advancement": "distant_worlds:molten_hills_explore",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Просторы биома Раскалённые холмы стали отличным местом для роста кулафитовых грибов, где те достигли огромных размеров и заполнили всё открытое пространство.$(br)Их стебли могут быть добыты и переработаны в декоративные блоки, а из каждой части верхушки можно получить по несколько кулафитовых грибов.$(br)Кулафитовый грибосвет является отличным источником для освещения темных уголков мира и сгодится для декора."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/culafite_mushroom"
+			]
+		}
+	]
+}

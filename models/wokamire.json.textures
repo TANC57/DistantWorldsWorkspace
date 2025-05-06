@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wokamire_stick": "wokamire_stick",
+        "wokamire": "wokamire"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "distant_worlds:layered_mud"
+          }
+        },
+        "state": {
+          "Name": "distant_worlds:coarse_layered_mud"
+        }
+      }
+    ]
+  }
+}

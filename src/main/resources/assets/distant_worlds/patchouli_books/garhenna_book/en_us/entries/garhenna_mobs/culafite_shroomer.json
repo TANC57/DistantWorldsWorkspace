@@ -1,0 +1,34 @@
+{
+	"name": "Culafite Shroomer",
+	"icon": "distant_worlds:culafite_mushroom",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 3,
+	"advancement": "distant_worlds:experienced_mushroom_picker",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Culafite Shroomer",
+			"item": "distant_worlds:culafite_shroomer_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 0$(#660066)$(br)Attack: Peaceful$()$(br)Culafite Shroomer is a small land mob that is peaceful to the player. These creatures are the main food for Noarhorns.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Culafite Shroomer Cap",
+			"item": "distant_worlds:culafite_shroomer_cap",
+			"text": "You can get an accessory called the Culafite hroomer Cap from them. When worn on the head, feeds the player when the food level is less than half. When used, loses durability.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/culafite_mushroom",
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

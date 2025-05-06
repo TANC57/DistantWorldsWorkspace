@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "distant_worlds:block/garsale_pressure_plate"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,134 @@
+{
+  "_fv": 57,
+  "_type": "block",
+  "definition": {
+    "texture": "lithum_blocks_top",
+    "textureTop": "lithum_blocks_top",
+    "textureLeft": "lithum_energy_converter",
+    "textureFront": "lithum_energy_converter",
+    "textureRight": "lithum_energy_converter",
+    "textureBack": "lithum_energy_converter",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Lithum Converter",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 4.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEnvironment"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 15,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 1,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "BLACK_TERRACOTTA",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "DEEPSLATE_TILES"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 3,
+    "unbreakable": false,
+    "breakHarvestLevel": 2,
+    "isBonemealable": false,
+    "hasInventory": true,
+    "guiBoundTo": "LithumConverterGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 1,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": true,
+    "energyInitial": 0,
+    "energyCapacity": 100000,
+    "energyMaxReceive": 1000,
+    "energyMaxExtract": 2000,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "LithumConverterUpdateTick"
+    },
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 25,
+    "frequencyOnChunk": 25,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 200
+  }
+}

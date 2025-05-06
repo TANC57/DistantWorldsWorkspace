@@ -1,0 +1,17 @@
+{
+	"name": "Обратная Связь",
+	"icon": "minecraft:writable_book",
+	"category": "distant_worlds:misc_information",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Буду благодарен, если вы сообщите мне о найденных ошибках, поделитесь своими идеями или сможете помочь с локализацией. Если вы можете предложить свою помощь, свяжитесь со мной в соцсетях."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Ссылки",
+			"text": "Нажмите на текст, чтобы перейти по ссылке!$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/distant-worlds)Distant Worlds | Curseforge$(/l)$(br2)$(l:https://modrinth.com/mod/distant-worlds)Distant Worlds | Modrinth$(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Distant Worlds | MCreator$(/l)$(br2)$(l:https://discord.com/invite/PmYRE6Y)Discord сервер$(/l)$(br2)$(l:https://patreon.com/TANC57)Страница Patreon$(/l)"
+		}
+	]
+}

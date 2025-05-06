@@ -1,0 +1,55 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="distant_worlds"
+version="1.1.1"
+displayName="Distant Worlds"
+updateJSONURL="https://raw.githubusercontent.com/TANC57/DistantWorlds/main/distant_worlds_mod_updates.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/distant-worlds\n-----\nModrinth: https://modrinth.com/mod/distant-worlds\n-----\nMCreator: https://mcreator.net/modification/92563/distant-worlds\n-----\nPatreon: https://patreon.com/TANC57\n-----"
+logoFile="logo.png"
+credits="Created using mod maker MCreator"
+authors="TANC57, MCreator"
+description="Distant Worlds mod is full of new game elements in the style of techno magic. Let's explore new dimension with different biomes, fight and tame mobs, use many building or functional blocks and discover new crafting method!"
+
+[[dependencies.distant_worlds]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.distant_worlds]]
+    modId="curios"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.distant_worlds]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.distant_worlds]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.distant_worlds]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.distant_worlds]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

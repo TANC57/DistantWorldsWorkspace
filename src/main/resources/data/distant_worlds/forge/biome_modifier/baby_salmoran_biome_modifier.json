@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "distant_worlds:dead_valley",
+  "spawners": {
+    "type": "distant_worlds:baby_salmoran",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

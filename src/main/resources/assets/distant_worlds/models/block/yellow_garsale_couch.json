@@ -1,0 +1,11 @@
+{
+  "parent": "distant_worlds:custom/garsale_couch",
+  "textures": {
+    "all": "distant_worlds:block/yellow_garsale_couch_side",
+    "particle": "distant_worlds:block/yellow_garsale_couch_side",
+    "0": "distant_worlds:block/yellow_garsale_couch_top",
+    "1": "distant_worlds:block/yellow_garsale_couch_side",
+    "2": "distant_worlds:block/garsale_bookshelf_top"
+  },
+  "render_type": "solid"
+}

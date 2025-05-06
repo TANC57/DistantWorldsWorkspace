@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:salmoran_scales"
+    },
+    "b": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:salmoran_armor_helmet",
+    "count": 1
+  }
+}

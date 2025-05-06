@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "distant_worlds:molten_hills",
+  "spawners": {
+    "type": "distant_worlds:culafite_shroomer",
+    "weight": 5,
+    "minCount": 2,
+    "maxCount": 2
+  }
+}

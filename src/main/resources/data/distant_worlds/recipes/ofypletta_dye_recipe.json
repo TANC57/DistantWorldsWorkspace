@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:ofypletta"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_dye",
+    "count": 2
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Afolla"
+      },
+      {
+        "value": "CUSTOM:Walis"
+      },
+      {
+        "value": "CUSTOM:Suwonna"
+      },
+      {
+        "value": "CUSTOM:Aphlavis"
+      },
+      {
+        "value": "CUSTOM:Ulbiseaf"
+      },
+      {
+        "value": "CUSTOM:Crewanolla"
+      },
+      {
+        "value": "CUSTOM:Ceblum"
+      },
+      {
+        "value": "CUSTOM:Rinyot"
+      },
+      {
+        "value": "CUSTOM:Irotine"
+      },
+      {
+        "value": "CUSTOM:Lafosia"
+      },
+      {
+        "value": "CUSTOM:Prifonna"
+      },
+      {
+        "value": "CUSTOM:Lioress"
+      },
+      {
+        "value": "CUSTOM:Otrebore"
+      },
+      {
+        "value": "CUSTOM:AsmuldaBerryBush"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:helyst_nugget"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:helyst_crystal",
+    "count": 1
+  }
+}

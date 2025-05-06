@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:molten_hills",
+  "features": "distant_worlds:yaknir_roots_on_mushroom_feature",
+  "step": "vegetal_decoration"
+}

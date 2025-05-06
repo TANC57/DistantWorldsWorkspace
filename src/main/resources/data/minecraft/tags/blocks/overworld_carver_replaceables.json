@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:revelite",
+    "distant_worlds:lifeless_grass",
+    "distant_worlds:layered_mud",
+    "distant_worlds:fralite",
+    "distant_worlds:withered_soil",
+    "distant_worlds:lithum",
+    "distant_worlds:overgrown_fralite"
+  ]
+}

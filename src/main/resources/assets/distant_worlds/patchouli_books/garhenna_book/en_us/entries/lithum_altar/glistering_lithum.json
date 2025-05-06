@@ -1,0 +1,21 @@
+{
+	"name": "Glistering Lithum",
+	"icon": "distant_worlds:glistering_lithum",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 2,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:glistering_lithum_recipe",
+			"text": "Glistering lithum is used to strengthen the foundation of a Lithum Altar."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

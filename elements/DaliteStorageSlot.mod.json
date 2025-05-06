@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "empty_dalite_storage_slot.png",
+    "name": "Dalite Storage",
+    "amount": 1
+  }
+}

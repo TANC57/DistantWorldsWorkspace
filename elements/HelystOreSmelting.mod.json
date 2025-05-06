@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 5.0,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:HelystOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HelystNugget"
+    },
+    "name": "helyst_ore_smelting",
+    "namespace": "mod"
+  }
+}

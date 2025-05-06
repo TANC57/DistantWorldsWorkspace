@@ -1,0 +1,105 @@
+{
+  "_fv": 57,
+  "_type": "biome",
+  "definition": {
+    "name": "Sticky Marshes",
+    "groundBlock": {
+      "value": "CUSTOM:LayeredMud"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Fralite"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Fralite"
+    },
+    "airColor": {
+      "value": -11004120,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -9563608,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.crimson_forest.loop"
+    },
+    "additionsSound": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "music": {
+      "value": "ambient.crimson_forest.loop"
+    },
+    "moodSound": {
+      "value": "ambient.crimson_forest.mood"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:GarsaleLeafParticle"
+    },
+    "particlesProbability": 0.1,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.88,
+      "max": 1.12
+    },
+    "genHumidity": {
+      "min": -1.12,
+      "max": -0.88
+    },
+    "genContinentalness": {
+      "min": 0.39,
+      "max": 0.63
+    },
+    "genErosion": {
+      "min": 0.78,
+      "max": 1.02
+    },
+    "genWeirdness": {
+      "min": -0.2287,
+      "max": 0.0113
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Big trees",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:GarsaleLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:GarsaleLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

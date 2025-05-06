@@ -1,0 +1,19 @@
+{
+	"name": "Фуцианна",
+	"icon": "distant_worlds:fuzianna",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 8,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:fuzianna",
+			"link_recipe": "true",
+			"text": "Фуцианна - высокие растения, находящиеся в биоме Долина мёртвых. При сборе вы получите это растение и сможете добывать из него съедобное желе фуцианны. Для удобства вы можете посадить палочку фуцианны в цветочный горшок и получать желе фуцианны через некоторое время после использования костной муки. А ядовитый картофель при использовании остановит выделение желе."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:fuzianna_jelly_recipe"
+		}
+	]
+}

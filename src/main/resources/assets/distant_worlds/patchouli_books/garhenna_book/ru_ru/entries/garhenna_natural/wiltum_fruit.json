@@ -1,0 +1,33 @@
+{
+	"name": "Фрукт вильтума",
+	"icon": "distant_worlds:wiltum_fruit",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 5,
+	"advancement": "distant_worlds:at_the_very_top",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_fruit",
+			"link_recipe": "true",
+			"text": "Из листвы дерева вильтума с небольшим шансом вы можете получить фрукт вильтума, способный понизить уровень истощения гархенны, благодаря своим сильным целебным свойствам. Из него вы можете создать Коктейль вильтума, что способен нейтрализовать некоторые виды ядов. Ещё вы можете создать эликсир вильтума, который понизит уровень истощения и даст временную защиту на длительное время. Фрукты вильтума также можно хранить по несколько штук в больших ящиках."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:wiltum_cocktail_recipe",
+			"recipe2": "distant_worlds:wiltum_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:wiltum_fruit_box_recipe",
+			"recipe2": "distant_worlds:wiltum_fruit_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/wiltum_trees"
+			]
+		}
+	]
+}

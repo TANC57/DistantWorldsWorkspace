@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/afolla",
+    "particle": "distant_worlds:block/afolla"
+  },
+  "render_type": "cutout"
+}

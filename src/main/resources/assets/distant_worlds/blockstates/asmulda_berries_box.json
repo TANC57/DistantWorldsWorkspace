@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "distant_worlds:block/asmulda_berries_box"
+    },
+    "type=top": {
+      "model": "distant_worlds:block/asmulda_berries_box_top"
+    },
+    "type=double": {
+      "model": "distant_worlds:block/asmulda_berries_box_full"
+    }
+  }
+}

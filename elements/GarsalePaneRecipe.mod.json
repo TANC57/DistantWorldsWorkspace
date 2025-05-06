@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GarsalePlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:GarsalePlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:GarsalePlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:GarsalePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GarsalePane"
+    },
+    "name": "garsale_pane_recipe",
+    "namespace": "mod"
+  }
+}

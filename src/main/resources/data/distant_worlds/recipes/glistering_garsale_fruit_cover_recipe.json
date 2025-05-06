@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:firon_ingot"
+    },
+    "b": {
+      "item": "distant_worlds:garsale_fruit"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:glistering_garsale_fruit",
+    "count": 1
+  }
+}

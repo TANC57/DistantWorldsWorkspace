@@ -1,0 +1,34 @@
+{
+	"name": "Кулафитовый грибер",
+	"icon": "distant_worlds:culafite_mushroom",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 3,
+	"advancement": "distant_worlds:experienced_mushroom_picker",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Кулафитовый грибер",
+			"item": "distant_worlds:culafite_shroomer_spawn_egg",
+			"text": "$(l)$(#990000)Здоровье: 10$(#336600)$(br)Броня: 0$(#660066)$(br)Атака: мирный$()$(br) Кулафитовый грибер это небольшой наземный моб, мирный по отношению к игроку. Эти существа являются основной добычей для нархорнов.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Шляпка кулафитового грибера",
+			"item": "distant_worlds:culafite_shroomer_cap",
+			"text": "Изредка из них вы можете получить аксесуар под названием шляпка кулафитового грибера. При ношении на голове кормит игрока, когда уровень сытости меньше половины. При использовании теряет прочность.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/culafite_mushroom",
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

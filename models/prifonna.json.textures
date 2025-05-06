@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "prifonna",
+        "1": "prifonna_leaves_top",
+        "2": "prifonna_leaves_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

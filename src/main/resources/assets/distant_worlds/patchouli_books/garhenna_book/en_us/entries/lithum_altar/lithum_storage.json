@@ -1,0 +1,44 @@
+{
+	"name": "Lithum Storage",
+	"icon": "distant_worlds:lithum_storage_advanced",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 5,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "The furnace crystals, which form dalite energy in themselves, would not be enough to fully store large reserves of energy. To do this, it is necessary to create accumulative Lithum Storages.$(br)Also, slightly smaller supplies of energy can be taken with you in portable Dalite Storages. They can be placed in lithum storage to replenish or return their internal energy supply."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Lithum Storages",
+			"recipe": "distant_worlds:lithum_storage_initial_recipe",
+			"recipe2": "distant_worlds:lithum_storage_extended_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Lithum Storages",
+			"recipe": "distant_worlds:lithum_storage_advanced_recipe",
+			"text": "Each of these can be used as storage in a Lithum Altar."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Dalite Storages",
+			"recipe": "distant_worlds:dalite_storage_initial_recipe",
+			"recipe2": "distant_worlds:dalite_storage_extended_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Dalite Storages",
+			"recipe": "distant_worlds:dalite_storage_advanced_recipe",
+			"text": "Use them to transfer energy between storages, or to take the last of the energy from a storage before breaking it. Also, when worn as a necklace, can be used as an energy source."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

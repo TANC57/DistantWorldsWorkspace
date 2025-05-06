@@ -1,0 +1,44 @@
+{
+	"name": "Firon Armor",
+	"icon": "distant_worlds:firon_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Firon Armor protects the wearer from high temperatures, and is also capable of instantly removing a fire outside of the ignition source in a complete set.$(br)While fully equipped, sneak after the jump to deal damage and ignite entities nearby!"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_helmet",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Helmet$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()$(br2)Firon Helmet improves vision in the lava when equipped.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_chestplate",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Chestplate$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_leggings",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Leggings$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()$(br2)Protects against burns when walking on the surface of the lava.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_boots",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Boots$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()$(br2)Firon Boots will help you stay on the surface of lava if you catch that delicate balance.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/firon",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

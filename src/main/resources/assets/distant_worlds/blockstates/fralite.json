@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/fralite"
+      },
+      {
+        "model": "distant_worlds:block/fralite",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/fralite",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/fralite",
+        "y": 270
+      }
+    ]
+  }
+}

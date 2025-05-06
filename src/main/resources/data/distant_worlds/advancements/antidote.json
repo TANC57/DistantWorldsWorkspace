@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:wiltum_cocktail"
+    },
+    "title": {
+      "translate": "advancements.antidote.title"
+    },
+    "description": {
+      "translate": "advancements.antidote.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "antidote": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "distant_worlds:at_the_very_top"
+}

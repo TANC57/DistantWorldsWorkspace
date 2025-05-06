@@ -1,0 +1,1159 @@
+{
+  "credit": "Made by TANC57 with Blockbench",
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes_block"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes_block"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes_block"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes_block"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes_block"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes_block"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        16,
+        8
+      ],
+      "to": [
+        17.5,
+        21,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        16,
+        8
+      ],
+      "to": [
+        17.5,
+        21,
+        8
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        -5,
+        8
+      ],
+      "to": [
+        17.5,
+        0,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        -5,
+        8
+      ],
+      "to": [
+        17.5,
+        0,
+        8
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        8,
+        -5
+      ],
+      "to": [
+        17.5,
+        8,
+        0
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        8,
+        -5
+      ],
+      "to": [
+        17.5,
+        8,
+        0
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        8,
+        16
+      ],
+      "to": [
+        17.5,
+        8,
+        21
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -1.5,
+        8,
+        16
+      ],
+      "to": [
+        17.5,
+        8,
+        21
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -5,
+        8,
+        -1.5
+      ],
+      "to": [
+        0,
+        8,
+        17.5
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "x",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        -5,
+        8,
+        -1.5
+      ],
+      "to": [
+        0,
+        8,
+        17.5
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "x",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        8,
+        -1.5
+      ],
+      "to": [
+        21,
+        8,
+        17.5
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "x",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        16,
+        8,
+        -1.5
+      ],
+      "to": [
+        21,
+        8,
+        17.5
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "x",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 90,
+          "texture": "#noarhorn_spikes"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#noarhorn_spikes"
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            0,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            0
+          ],
+          "texture": "#noarhorn_spikes"
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "rotation": 270,
+          "texture": "#noarhorn_spikes"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "fixed": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "groups": [
+    0,
+    {
+      "name": "Spikes",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "TAG:minecraft:beds"
+      },
+      {
+        "value": "Blocks.SLIME_BLOCK"
+      },
+      {
+        "value": "TAG:distant_worlds:garsale_couch_blocks"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "bouncy_blocks",
+    "namespace": "mod"
+  }
+}

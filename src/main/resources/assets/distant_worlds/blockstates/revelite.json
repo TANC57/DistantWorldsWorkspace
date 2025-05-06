@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/revelite"
+      },
+      {
+        "model": "distant_worlds:block/revelite",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/revelite",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/revelite",
+        "y": 270
+      }
+    ]
+  }
+}

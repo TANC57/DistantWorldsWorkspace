@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "empty_wither_totem_slot.png",
+    "name": "Wither Totem",
+    "amount": 1
+  }
+}

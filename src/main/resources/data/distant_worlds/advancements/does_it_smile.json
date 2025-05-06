@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:garsale_fruit"
+    },
+    "title": {
+      "translate": "advancements.does_it_smile.title"
+    },
+    "description": {
+      "translate": "advancements.does_it_smile.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "does_it_smile": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:sticky_marshes_explore"
+}

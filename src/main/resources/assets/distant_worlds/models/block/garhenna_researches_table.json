@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/garhenna_researches_table",
+  "textures": {
+    "all": "distant_worlds:block/garsale_planks",
+    "particle": "distant_worlds:block/garsale_planks",
+    "0": "distant_worlds:block/garhenna_researches_table"
+  },
+  "render_type": "cutout"
+}

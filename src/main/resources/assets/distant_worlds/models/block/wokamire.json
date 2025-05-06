@@ -1,0 +1,10 @@
+{
+  "parent": "distant_worlds:custom/wokamire",
+  "textures": {
+    "all": "distant_worlds:block/wokamire",
+    "particle": "distant_worlds:block/wokamire",
+    "wokamire_stick": "distant_worlds:block/wokamire_stick",
+    "wokamire": "distant_worlds:block/wokamire"
+  },
+  "render_type": "cutout"
+}

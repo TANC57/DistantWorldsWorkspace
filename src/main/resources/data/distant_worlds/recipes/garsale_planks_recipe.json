@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:garsale_log"
+    }
+  ],
+  "result": {
+    "item": "distant_worlds:garsale_planks",
+    "count": 4
+  }
+}

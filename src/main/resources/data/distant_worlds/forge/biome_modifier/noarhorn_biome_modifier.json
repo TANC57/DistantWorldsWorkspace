@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "distant_worlds:molten_hills",
+  "spawners": {
+    "type": "distant_worlds:noarhorn",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

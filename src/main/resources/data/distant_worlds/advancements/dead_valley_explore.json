@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:withered_soil"
+    },
+    "title": {
+      "translate": "advancements.dead_valley_explore.title"
+    },
+    "description": {
+      "translate": "advancements.dead_valley_explore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dead_valley_explore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "distant_worlds:dead_valley"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "distant_worlds:garhenna_explore"
+}

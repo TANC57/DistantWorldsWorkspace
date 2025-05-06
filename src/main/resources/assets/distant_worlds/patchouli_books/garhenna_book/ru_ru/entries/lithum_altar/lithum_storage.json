@@ -1,0 +1,44 @@
+{
+	"name": "Литумовое хранилище",
+	"icon": "distant_worlds:lithum_storage_advanced",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 5,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Самих только кристаллов печи, которые формируют в себе далитовую энергию, было бы недостаточно для полноценного хранения больших запасов энергии. Для этого необходимо создать накопительные литумовые хранилища. Также немного меньшие запасы энергии можно брать с собой в переносных далитовых хранилищах. Они могут быть помещены в литумовые хранилища для пополнения или возврата своего внутреннего запаса энергии."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Литумовые хранилища",
+			"recipe": "distant_worlds:lithum_storage_initial_recipe",
+			"recipe2": "distant_worlds:lithum_storage_extended_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Литумовые хранилища",
+			"recipe": "distant_worlds:lithum_storage_advanced_recipe",
+			"text": "Каждый из них может быть использован, как хранилище в литумовом алтаре."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Далиовые хранилища",
+			"recipe": "distant_worlds:dalite_storage_initial_recipe",
+			"recipe2": "distant_worlds:dalite_storage_extended_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Далиовые хранилища",
+			"recipe": "distant_worlds:dalite_storage_advanced_recipe",
+			"text": "Используйте их для переноса энергии между хранилищами, или чтобы забрать остатки энергии из хранилища, прежде чем разрушить его. Также, когда одето как ожерелье, может использоваться в качестве источника энергии."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

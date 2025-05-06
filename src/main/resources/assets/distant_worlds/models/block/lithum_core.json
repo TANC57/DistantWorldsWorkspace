@@ -1,0 +1,11 @@
+{
+  "parent": "distant_worlds:custom/lithum_core",
+  "textures": {
+    "all": "distant_worlds:block/lithum_blocks_top",
+    "particle": "distant_worlds:block/lithum_blocks_top",
+    "0": "distant_worlds:block/lithum_core_top",
+    "1": "distant_worlds:block/lithum_core_side",
+    "2": "distant_worlds:block/lithum_blocks_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,62 @@
+{
+  "_fv": 57,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "charged_wither_totem",
+    "customModelName": "Normal",
+    "name": "Charged Wither Totem",
+    "rarity": "UNCOMMON",
+    "slotType": "WitherTotemSlot",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorlds"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "ChargedWitherTotemMakeItemGlow"
+    },
+    "customProperties": {},
+    "states": [],
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "onRightClickedInAir": {
+      "name": "ChargedWitherTotemRightclicked"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

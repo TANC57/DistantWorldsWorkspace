@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "helyst_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Helyst Shovel",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DistantWorldsEquipment"
+    },
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 6.5,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:HelystCrystal"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

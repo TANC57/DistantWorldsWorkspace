@@ -1,0 +1,82 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dalite_indicator_overlay.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 15,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_depletion_varintegergarhenna",
+          "text": {
+            "fixedValue": "Depletion: <VAR:integer:GarhennaDepletion>/20000",
+            "name": "DaliteIndicatorOverlayReturnDepletion"
+          },
+          "color": {
+            "value": -13210,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 37,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_adaptation_varintegergarhenn",
+          "text": {
+            "fixedValue": "Adaptation: <VAR:integer:GarhennaAdaptation>/5",
+            "name": "DaliteIndicatorOverlayReturnAdaptation"
+          },
+          "color": {
+            "value": -13210,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 37,
+          "y": 173
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_permanent_immunity_varinteger",
+          "text": {
+            "fixedValue": "Permanent Immunity: <VAR:integer:PermanentGarhennaImmunity>/5",
+            "name": "DaliteIndicatorOverlayReturnPermanentImmunity"
+          },
+          "color": {
+            "value": -13210,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 37,
+          "y": 187
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "DaliteIndicatorOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 18,
+      "oy": 12,
+      "snapOnGrid": true
+    }
+  }
+}

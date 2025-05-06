@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "distant_worlds:block/polished_fralite",
+    "top": "distant_worlds:block/polished_fralite",
+    "side": "distant_worlds:block/polished_fralite"
+  },
+  "render_type": "solid"
+}

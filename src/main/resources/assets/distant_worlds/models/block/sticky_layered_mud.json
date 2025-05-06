@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "distant_worlds:block/sticky_layered_mud",
+    "particle": "distant_worlds:block/sticky_layered_mud"
+  },
+  "render_type": "solid"
+}

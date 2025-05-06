@@ -1,0 +1,8 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "distant_worlds:culafite_shroomer_cap",
+    "distant_worlds:salmoran_crown"
+  ]
+}

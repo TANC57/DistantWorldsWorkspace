@@ -1,0 +1,20 @@
+{
+	"name": "Инструменты нархорна",
+	"icon": "distant_worlds:noarhorn_axe",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 5,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_axe_recipe",
+			"text": "Вы также можете использовать шипы нарха для изготовления топора нарха, который немного увеличит шанс выпадения гарсалевых фруктов и фруктов вильтума."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:lithum_items"
+    },
+    "b": {
+      "item": "distant_worlds:dalite_crystal"
+    },
+    "c": {
+      "item": "distant_worlds:dalite_storage_initial"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:dalite_storage_extended",
+    "count": 1
+  }
+}

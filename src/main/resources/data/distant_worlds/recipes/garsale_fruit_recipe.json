@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:garsale_fruit_box"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garsale_fruit",
+    "count": 9
+  }
+}

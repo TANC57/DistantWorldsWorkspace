@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:FraliteBall"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 1.5,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "FraliteBallProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "FraliteBallProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "FraliteBallWhileProjectleFlyingTick"
+    }
+  }
+}

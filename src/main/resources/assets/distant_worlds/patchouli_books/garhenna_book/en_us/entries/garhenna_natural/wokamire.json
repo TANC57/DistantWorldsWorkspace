@@ -1,0 +1,19 @@
+{
+	"name": "Wokamire",
+	"icon": "distant_worlds:wokamire",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 9,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wokamire",
+			"link_recipe": "true",
+			"text": "Wokamire - you can often find these tall, bamboo-like plants in the Dead Valley biome. Drying sheets of Raw Wokamire in a furnace will produce a material similar to leather."
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:raw_wokamire"
+		}
+	]
+}

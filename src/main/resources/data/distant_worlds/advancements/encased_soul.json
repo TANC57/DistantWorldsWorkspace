@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:helyst_crystal"
+    },
+    "title": {
+      "translate": "advancements.encased_soul.title"
+    },
+    "description": {
+      "translate": "advancements.encased_soul.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "encased_soul": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:dead_valley_explore"
+}

@@ -1,0 +1,140 @@
+{
+  "mappings": {
+    "afolla": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "afolla",
+        "dirt": "layered_mud"
+      },
+      "name": "afolla"
+    },
+    "otrebore": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "otrebore",
+        "dirt": "overgrown_fralite_top"
+      },
+      "name": "otrebore"
+    },
+    "crewanolla": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "crewanolla",
+        "dirt": "withered_soil"
+      },
+      "name": "crewanolla"
+    },
+    "rinyot": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "rinyot",
+        "dirt": "withered_soil"
+      },
+      "name": "rinyot"
+    },
+    "ceblum": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "ceblum",
+        "dirt": "withered_soil"
+      },
+      "name": "ceblum"
+    },
+    "culafite_mushroom": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "culafite_mushroom",
+        "dirt": "overgrown_fralite_top"
+      },
+      "name": "culafite_mushroom"
+    },
+    "aphlavis": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "aphlavis",
+        "dirt": "layered_mud"
+      },
+      "name": "aphlavis"
+    },
+    "default": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "garsale_sapling",
+        "dirt": "layered_mud"
+      },
+      "name": "default"
+    },
+    "suwonna": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "suwonna",
+        "dirt": "layered_mud"
+      },
+      "name": "suwonna"
+    },
+    "lafosia": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "lafosia",
+        "dirt": "layered_mud"
+      },
+      "name": "lafosia"
+    },
+    "walis": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "walis",
+        "dirt": "layered_mud"
+      },
+      "name": "walis"
+    },
+    "ulbiseaf": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "ulbiseaf",
+        "dirt": "withered_soil"
+      },
+      "name": "ulbiseaf"
+    },
+    "wiltum": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "wiltum_sapling",
+        "dirt": "withered_soil"
+      },
+      "name": "wiltum"
+    },
+    "lioress": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "lioress",
+        "dirt": "overgrown_fralite_top"
+      },
+      "name": "lioress"
+    },
+    "irotine": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "irotine",
+        "dirt": "layered_mud"
+      },
+      "name": "irotine"
+    },
+    "asmulda": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "asmulda_bush_1",
+        "dirt": "layered_mud"
+      },
+      "name": "asmulda"
+    },
+    "wokamire": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "wokamire",
+        "dirt": "withered_soil"
+      },
+      "name": "wokamire"
+    }
+  }
+}

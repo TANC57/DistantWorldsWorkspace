@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/tall_sticky_sprouts_bottom",
+    "particle": "distant_worlds:block/tall_sticky_sprouts_bottom"
+  },
+  "render_type": "cutout"
+}

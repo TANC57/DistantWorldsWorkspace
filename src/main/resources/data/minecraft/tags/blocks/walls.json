@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:polished_revelite_wall",
+    "distant_worlds:revelite_brick_wall",
+    "distant_worlds:polished_fralite_wall",
+    "distant_worlds:fralite_brick_wall",
+    "distant_worlds:polished_lithum_wall",
+    "distant_worlds:lithum_brick_wall"
+  ]
+}

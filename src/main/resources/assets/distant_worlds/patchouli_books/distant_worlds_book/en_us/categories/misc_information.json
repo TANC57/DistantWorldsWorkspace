@@ -1,0 +1,6 @@
+{
+	"name": "Misc Information",
+	"description": "This category contains additional information.",
+	"icon": "distant_worlds:textures/screens/misc_information_icon.png",
+	"sortnum": 1
+}

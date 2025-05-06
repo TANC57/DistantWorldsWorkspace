@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:dalite_nugget"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:dalite_crystal",
+    "count": 2
+  }
+}

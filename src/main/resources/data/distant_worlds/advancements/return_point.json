@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:return_ring"
+    },
+    "title": {
+      "translate": "advancements.return_point.title"
+    },
+    "description": {
+      "translate": "advancements.return_point.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "return_point": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "distant_worlds:distant_worlds_explore"
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Deadly Potion",
+    "achievementDescription": "Drink a Special Elixir to lower Permanent Immunity",
+    "achievementIcon": {
+      "value": "CUSTOM:CulafiteElixir"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 50,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:StayForWhile"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"40\" y=\"42\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

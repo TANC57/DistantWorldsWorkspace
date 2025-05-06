@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Use Return Ring (Curios)",
+    "keyBindingCategoryKey": "distant_worlds",
+    "onKeyPressed": {
+      "name": "UseReturnRingOnKeyPressed"
+    }
+  }
+}

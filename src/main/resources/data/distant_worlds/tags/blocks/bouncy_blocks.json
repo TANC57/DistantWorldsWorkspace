@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:beds",
+    "minecraft:slime_block",
+    "#distant_worlds:garsale_couch_blocks"
+  ]
+}

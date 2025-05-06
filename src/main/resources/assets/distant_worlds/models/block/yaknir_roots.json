@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/yaknir_roots",
+    "particle": "distant_worlds:block/yaknir_roots"
+  },
+  "render_type": "cutout"
+}

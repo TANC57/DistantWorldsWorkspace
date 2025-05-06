@@ -1,0 +1,61 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "ambient.nether_wastes.mood",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "ambient.nether_wastes.loop",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "distant_worlds:burning_plains_particle"
+      },
+      "probability": 0.001
+    },
+    "foliage_color": 10387789,
+    "grass_color": -5417957,
+    "sky_color": -11198440,
+    "fog_color": -11198440,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

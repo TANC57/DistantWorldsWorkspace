@@ -1,0 +1,32 @@
+{
+	"name": "Loteress",
+	"icon": "distant_worlds:glowing_pollen",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 7,
+	"advancement": "distant_worlds:trees_are_watching",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Loteress",
+			"item": "distant_worlds:loteress_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 0$(#660066)$(br)Attack: Special$()$(br)Loteress is a flying support mob. They are found in the Sticky Marshes biome and will not be hostile to the player by themselves. Their ability is to spew pollen profusely for 4 seconds if there is a Toran nearby with less than full health.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "All Torans in range during this time will be subject to Regeneration effect of higher and higher levels, up to 4, and all living entities vulnerable to pollen will be poisoned. After using this ability, it will be restored within 20 seconds. If you hit Lotheress who hasn't used ability recently, there is a 70% chance to drop some of the pollen and inflict a weak poison effect on entities vulnerable to the pollen in a small radius. To defend yourself, you can use a shield after hitting."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:glowing_pollen_jar_recipe",
+			"text": "From these creatures you can get Glowing Pollen and Sticky Garsale Bark with a small chance. Glowing Pollen is an ingredient for crafting an accessory called the Glowing Pollen Jar. When worn around the neck, it is able to scatter glowing pollen nearby and temporarily illuminate an area while losing durability. Jar can be filled with 3 Glowing Pollen on crafting table."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees",
+				"distant_worlds:garhenna_mobs/toran"
+			]
+		}
+	]
+}

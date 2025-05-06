@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:firon_ingot"
+    },
+    "title": {
+      "translate": "advancements.incandescent_forever.title"
+    },
+    "description": {
+      "translate": "advancements.incandescent_forever.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "incandescent_forever": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:burning_world"
+}

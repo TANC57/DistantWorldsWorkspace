@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PolishedReveliteWall"
+      },
+      {
+        "value": "CUSTOM:ReveliteBrickWall"
+      },
+      {
+        "value": "CUSTOM:PolishedFraliteWall"
+      },
+      {
+        "value": "CUSTOM:FraliteBrickWall"
+      },
+      {
+        "value": "CUSTOM:PolishedLithumWall"
+      },
+      {
+        "value": "CUSTOM:LithumBrickWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

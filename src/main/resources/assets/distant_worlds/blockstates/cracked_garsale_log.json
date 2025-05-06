@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "distant_worlds:block/cracked_garsale_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "distant_worlds:block/cracked_garsale_log"
+    },
+    "axis=z": {
+      "model": "distant_worlds:block/cracked_garsale_log",
+      "x": 90
+    }
+  }
+}

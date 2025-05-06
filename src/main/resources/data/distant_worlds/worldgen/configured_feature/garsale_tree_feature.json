@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "distant_worlds:structure_feature",
+          "config": {
+            "structure": "distant_worlds:garsale",
+            "ignored_blocks": [
+              "minecraft:structure_block",
+              "minecraft:air"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "distant_worlds:structure_feature",
+          "config": {
+            "structure": "distant_worlds:garsale_low",
+            "ignored_blocks": [
+              "minecraft:structure_block",
+              "minecraft:air"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "distant_worlds:structure_feature",
+          "config": {
+            "structure": "distant_worlds:garsale_tall",
+            "ignored_blocks": [
+              "minecraft:structure_block",
+              "minecraft:air"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

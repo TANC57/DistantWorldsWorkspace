@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:asmulda_berries"
+    },
+    "title": {
+      "translate": "advancements.bright_clusters.title"
+    },
+    "description": {
+      "translate": "advancements.bright_clusters.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bright_clusters": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:burning_plains_explore"
+}

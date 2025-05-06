@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:garsale_slab"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garsale_crate",
+    "count": 1
+  }
+}

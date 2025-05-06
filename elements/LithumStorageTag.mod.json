@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LithumStorageInitial"
+      },
+      {
+        "value": "CUSTOM:LithumStorageExtended"
+      },
+      {
+        "value": "CUSTOM:LithumStorageAdvanced"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_storage",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "distant_worlds:structure_feature",
+  "config": {
+    "structure": "distant_worlds:garsale_wide",
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:air"
+    ],
+    "offset": [
+      -2,
+      0,
+      -2
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "_fv": 57,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Main",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If enabled, you will receive guide books during the game",
+            "vardisplay": "Grant Guide Books",
+            "varname": "grant_guide_books",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          }
+        ]
+      },
+      {
+        "category": "Teleportation",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "If enabled, teleporting to mod dimensions can only be done from a certain other dimension",
+            "vardisplay": "Require Dimension",
+            "varname": "require_dimension",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6.0,
+            "textDefault": "",
+            "comment": "Maximum height required for teleportation to Garhenna dimension (Null value allows any)",
+            "vardisplay": "Garhenna Teleportation Height",
+            "varname": "garhenna_teleportation_height",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 1,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Allows players to teleport to other dimensions from the mod's dimensions",
+            "vardisplay": "Allow Portals",
+            "varname": "allow_portals",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          }
+        ]
+      },
+      {
+        "category": "Researches",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Modifier for the time required for one research attempt",
+            "vardisplay": "Research Time Modifier",
+            "varname": "research_time_modifier",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Modifier of experience gained after completing research",
+            "vardisplay": "Research Experience Reward Modifier",
+            "varname": "research_experience_reward_modifier",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          }
+        ]
+      },
+      {
+        "category": "Rituals",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Modifier of the energy required for the ritual",
+            "vardisplay": "Required Energy Modifier",
+            "varname": "required_energy_modifier",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Modifier for the experience levels required for the ritual",
+            "vardisplay": "Required Experience Modifier",
+            "varname": "required_experience_modifier",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Modifier of recovery after ritual",
+            "vardisplay": "Recovery Modifier",
+            "varname": "recovery_modifier",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          }
+        ]
+      },
+      {
+        "category": "Garhenna",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 1,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Garhenna Depletion effect will not be applied to you in this dimension",
+            "vardisplay": "Disable Garhenna Depletion",
+            "varname": "disable_garhenna_depletion",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 20000.0,
+            "textDefault": "",
+            "comment": "Maximum number of Garhenna Depletion points at which player dies. Other negative effects will also be applied depending on this value",
+            "vardisplay": "Max Garhenna Depletion",
+            "varname": "max_garhenna_depletion",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:AlphaSalmoran"
+          }
+        ]
+      }
+    ],
+    "file": "distantworlds-common",
+    "configType": 0
+  }
+}

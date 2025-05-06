@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FuziannaJelly"
+      },
+      {
+        "value": "CUSTOM:FuziannaJelly"
+      },
+      {
+        "value": "CUSTOM:FuziannaJelly"
+      },
+      {
+        "value": "CUSTOM:FuziannaJelly"
+      },
+      {
+        "value": "CUSTOM:GlisteringWiltumFruit"
+      },
+      {
+        "value": "CUSTOM:FuziannaJelly"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WiltumElixir"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlisteringWiltumElixir"
+    },
+    "name": "glistering_wiltum_elixir_recipe",
+    "namespace": "mod"
+  }
+}

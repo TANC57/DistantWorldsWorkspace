@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "tag": "distant_worlds:wiltum_couch_items"
+    },
+    "b": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:yellow_wiltum_couch",
+    "count": 1
+  }
+}

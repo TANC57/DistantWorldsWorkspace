@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:culafite_elixir"
+    },
+    "title": {
+      "translate": "advancements.deadly_potion.title"
+    },
+    "description": {
+      "translate": "advancements.deadly_potion.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deadly_potion": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "distant_worlds:stay_for_while"
+}

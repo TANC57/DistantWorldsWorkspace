@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Burning Plains",
+    "achievementDescription": "Enter the Burning Plains biome",
+    "achievementIcon": {
+      "value": "CUSTOM:LifelessGrass"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:GarhennaExplore"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"29\" y=\"65\"><field name=\"biome\">CUSTOM:BurningPlains</field><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

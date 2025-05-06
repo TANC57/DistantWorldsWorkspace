@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "distant_worlds:block/fralite",
+    "top": "distant_worlds:block/overgrown_fralite_top",
+    "side": "distant_worlds:block/fralite",
+    "overlay": "distant_worlds:block/overgrown_fralite_side",
+    "particle": "distant_worlds:block/fralite"
+  },
+  "render_type": "cutout_mipped"
+}

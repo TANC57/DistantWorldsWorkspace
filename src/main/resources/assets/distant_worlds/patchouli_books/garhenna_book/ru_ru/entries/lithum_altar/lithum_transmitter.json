@@ -1,0 +1,21 @@
+{
+	"name": "Литумовый передатчик",
+	"icon": "distant_worlds:lithum_transmitter",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 6,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_transmitter_recipe",
+			"text": "Литумовые передатчики нужны, чтобы формировать поток далитовой энергии от хранилищ в ядро, где она будет задействована непосредственно для поддержания текущего ритуала."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

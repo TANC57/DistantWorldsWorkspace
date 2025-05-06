@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "distant_worlds:block/polished_revelite_slab"
+    },
+    "type=top": {
+      "model": "distant_worlds:block/polished_revelite_slab_top"
+    },
+    "type=double": {
+      "model": "distant_worlds:block/polished_revelite_slab_full"
+    }
+  }
+}

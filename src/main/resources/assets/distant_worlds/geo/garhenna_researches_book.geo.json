@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.garhenna_researches_book",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Everything",
+					"pivot": [-0.5, 16, 0]
+				},
+				{
+					"name": "Book",
+					"parent": "Everything",
+					"pivot": [-4, 17, 0],
+					"cubes": [
+						{"origin": [-4.75, 16.5, -5], "size": [2, 2, 10], "inflate": 0.05, "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "Book",
+					"pivot": [-4, 18.5, 0],
+					"cubes": [
+						{"origin": [-4.5, 17, -5], "size": [8, 2, 10], "uv": [0, 12]},
+						{"origin": [3.5, 19, -5], "size": [1, 0, 10], "uv": [16, 0]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "Book",
+					"pivot": [-4, 16.5, -4.5],
+					"cubes": [
+						{"origin": [-4.5, 16, -5], "size": [8, 2, 10], "uv": [0, 0]},
+						{"origin": [3.5, 16, -5], "size": [1, 0, 10], "uv": [16, 12]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone3",
+					"pivot": [3, 17.499, -4.5],
+					"rotation": [0, -25, 0],
+					"cubes": [
+						{"origin": [2.5, 17.499, -7], "size": [2, 0, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "Book",
+					"pivot": [-4.5, 17.5, 0],
+					"cubes": [
+						{"origin": [-4.5, 17.499, -5], "size": [8, 0, 10], "uv": [18, 0]}
+					]
+				},
+				{
+					"name": "Particle",
+					"parent": "Everything",
+					"pivot": [-0.5, 17.5, 0],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 13.5, 0], "size": [8, 8, 0], "uv": [44, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Particle",
+					"pivot": [-0.5, 17.5, 0],
+					"cubes": [
+						{"origin": [-4.5, 13.5, 0], "size": [8, 8, 0], "uv": [44, 8]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "Particle",
+					"pivot": [-0.5, 17.5, 0],
+					"cubes": [
+						{"origin": [-4.5, 13.5, 0], "size": [8, 8, 0], "uv": [44, 8]}
+					]
+				}
+			]
+		}
+	]
+}

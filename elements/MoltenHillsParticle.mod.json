@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "molten_hills_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.0,
+    "speedFactor": 0.5,
+    "gravity": 0.1,
+    "maxAge": 40,
+    "maxAgeDiff": 30,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.01,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

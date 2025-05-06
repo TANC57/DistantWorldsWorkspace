@@ -1,0 +1,6 @@
+{
+	"name": "Материалы",
+	"description": "Эта категория содержит сводку материалов для крафта, добавляемых измерением Гархенны.",
+	"icon": "distant_worlds:textures/screens/garhenna_materials_icon.png",
+	"sortnum": 1
+}

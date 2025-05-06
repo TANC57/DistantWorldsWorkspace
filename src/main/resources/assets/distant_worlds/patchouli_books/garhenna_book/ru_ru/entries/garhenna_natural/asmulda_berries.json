@@ -1,0 +1,31 @@
+{
+	"name": "Ягоды азмульды",
+	"icon": "distant_worlds:asmulda_berries",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 1,
+	"advancement": "distant_worlds:bright_clusters",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:asmulda_berries",
+			"link_recipe": "true",
+			"text": "Азмульда – кислые ягоды, растущие небольшими кустами в биоме Пылающие равнины. Эти ягоды имеют слабые целебные и питательные свойства, но могут быть использованы в создании вкусной еды, как пирог азмульды. Эликсир азмульды может быть использован, для понижения уровня истощения и временной защиты в измерении Гархенны. Вы можете посадить ягоды азмульды на безжизненной почве и ускорять их рост с помощью костной муки. Кроме этого, ягоды азмульды хорошо хранятся в небольших ящиках."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Связанные рецепты",
+			"recipe": "distant_worlds:asmulda_pie_recipe",
+			"recipe2": "distant_worlds:asmulda_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Хранение в Ящиках",
+			"recipe": "distant_worlds:asmulda_berries_box_recipe",
+			"recipe2": "distant_worlds:asmulda_berries_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

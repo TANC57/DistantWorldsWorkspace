@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:layered_mud"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:compressed_layered_mud",
+    "count": 1
+  }
+}

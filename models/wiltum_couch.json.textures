@@ -1,0 +1,116 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "red_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "default"
+    },
+    "orange": {
+      "map": {
+        "0": "orange_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "orange"
+    },
+    "yellow": {
+      "map": {
+        "0": "yellow_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "yellow"
+    },
+    "lime": {
+      "map": {
+        "0": "lime_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "lime"
+    },
+    "green": {
+      "map": {
+        "0": "green_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "green"
+    },
+    "cyan": {
+      "map": {
+        "0": "cyan_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "cyan"
+    },
+    "light_blue": {
+      "map": {
+        "0": "light_blue_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "light_blue"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "blue"
+    },
+    "purple": {
+      "map": {
+        "0": "purple_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "purple"
+    },
+    "magenta": {
+      "map": {
+        "0": "magenta_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "magenta"
+    },
+    "pink": {
+      "map": {
+        "0": "pink_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "pink"
+    },
+    "brown": {
+      "map": {
+        "0": "brown_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "brown"
+    },
+    "white": {
+      "map": {
+        "0": "white_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "white"
+    },
+    "light_gray": {
+      "map": {
+        "0": "light_gray_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "light_gray"
+    },
+    "gray": {
+      "map": {
+        "0": "gray_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "gray"
+    },
+    "black": {
+      "map": {
+        "0": "black_wiltum_couch",
+        "1": "wiltum_couch"
+      },
+      "name": "black"
+    }
+  }
+}

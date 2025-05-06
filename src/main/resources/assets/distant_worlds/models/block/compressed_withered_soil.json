@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "distant_worlds:block/compressed_withered_soil",
+    "particle": "distant_worlds:block/compressed_withered_soil"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,82 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "wither_totem_overlay.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 143,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x_varintegerreturnringx",
+          "text": {
+            "fixedValue": "X= <VAR:integer:ReturnRingX>",
+            "name": "WitherTotemOverlayReturnX"
+          },
+          "color": {
+            "value": -811973,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 165,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_y_varintegerreturnringy",
+          "text": {
+            "fixedValue": "Y= <VAR:integer:ReturnRingY>",
+            "name": "WitherTotemOverlayReturnY"
+          },
+          "color": {
+            "value": -811973,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 165,
+          "y": 173
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_z_varintegerreturnringz",
+          "text": {
+            "fixedValue": "Z= <VAR:integer:ReturnRingZ>",
+            "name": "WitherTotemOverlayReturnZ"
+          },
+          "color": {
+            "value": -811973,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 165,
+          "y": 187
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "WitherTotemOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 22,
+      "oy": 12,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"name": "Toran",
+	"icon": "distant_worlds:sticky_garsale_bark",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 6,
+	"advancement": "distant_worlds:trees_are_watching",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Toran",
+			"item": "distant_worlds:toran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 6$()$(br)Toran is a large ground mob found in the Sticky Marshes biome. They look like living Garsale Trees and may not be visible in their habitat. After attacking, he will knock you back and apply a new effect named Sticky Shackles. Upon death, it drops Garsale Wood and Sticky Garsale Bark with a small chance.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Sticky Shackles",
+			"item": "minecraft:potion{Potion:\"distant_worlds:sticky_shackles_potion\"}",
+			"text": "This effect will deal damage to entity equal to the effect level after falling more than half a block."
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:garsale_slime",
+			"text": "Sticky Garsale Bark can be smelted into Garsale Slime."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees",
+				"distant_worlds:garhenna_mobs/loteress"
+			]
+		}
+	]
+}

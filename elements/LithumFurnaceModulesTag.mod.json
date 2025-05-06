@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ModuleCalmFlame"
+      },
+      {
+        "value": "CUSTOM:ModuleRagingFlame"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_furnace_modules",
+    "namespace": "mod"
+  }
+}

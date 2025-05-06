@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GarsaleFence"
+      },
+      {
+        "value": "CUSTOM:GarsaleFenceGate"
+      },
+      {
+        "value": "CUSTOM:WiltumFence"
+      },
+      {
+        "value": "CUSTOM:WiltumFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "wooden_fences",
+    "namespace": "minecraft"
+  }
+}

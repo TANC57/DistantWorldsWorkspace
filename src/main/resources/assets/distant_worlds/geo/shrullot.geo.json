@@ -1,0 +1,97 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.shrullot",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "AnimatedBody",
+					"pivot": [0, 11, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "AnimatedBody",
+					"pivot": [0, 16, 7],
+					"rotation": [-20, 0, 0],
+					"cubes": [
+						{"origin": [-8, 8.6778, -6.82726], "size": [16, 8, 16], "inflate": 0.25, "uv": [64, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Head",
+					"pivot": [0, 20.6778, 1.13225],
+					"cubes": [
+						{"origin": [-8, 16.6778, 1.13225], "size": [16, 8, 0], "pivot": [0, 20.6778, 1.13225], "rotation": [0, 45, 0], "uv": [0, 60], "mirror": true},
+						{"origin": [-8, 16.6778, 1.13225], "size": [16, 8, 0], "pivot": [0, 20.6778, 1.13225], "rotation": [0, -45, 0], "uv": [0, 60]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "AnimatedBody",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-6, 5, -6], "size": [12, 12, 12], "uv": [0, 20]},
+						{"origin": [-8, 8, -7], "size": [16, 6, 10], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "Body",
+					"pivot": [0, 16, 7],
+					"cubes": [
+						{"origin": [-8, 14.77041, -8.95952], "size": [16, 4, 16], "pivot": [0, 11, 0], "rotation": [-20, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "Body",
+					"pivot": [75, 16, 7]
+				},
+				{
+					"name": "bone2",
+					"parent": "Body",
+					"pivot": [0, 6.35021, 6.35644],
+					"cubes": [
+						{"origin": [-8, 3.35021, -9.64356], "size": [16, 4, 16], "pivot": [0, 11, 0], "rotation": [20, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Rod1",
+					"pivot": [0, 11, 0.5],
+					"cubes": [
+						{"origin": [-17.5, 9, -1], "size": [3, 10, 3], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Rod2",
+					"pivot": [0, 11, 0.5],
+					"cubes": [
+						{"origin": [14.5, 9, -1], "size": [3, 10, 3], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Rod3",
+					"pivot": [0, 11, 0.5],
+					"cubes": [
+						{"origin": [-1.5, 9, 15], "size": [3, 10, 3], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Rod4",
+					"pivot": [0, 11, -0.5],
+					"cubes": [
+						{"origin": [-1.5, 9, -18], "size": [3, 10, 3], "uv": [48, 0]}
+					]
+				}
+			]
+		}
+	]
+}

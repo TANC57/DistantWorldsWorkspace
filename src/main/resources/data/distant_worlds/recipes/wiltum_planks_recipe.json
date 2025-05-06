@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:wiltum_log"
+    }
+  ],
+  "result": {
+    "item": "distant_worlds:wiltum_planks",
+    "count": 4
+  }
+}

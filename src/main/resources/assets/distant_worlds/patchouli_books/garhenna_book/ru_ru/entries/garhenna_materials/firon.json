@@ -1,0 +1,57 @@
+{
+	"name": "Файрон",
+	"icon": "distant_worlds:firon_ingot",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:firon_nugget",
+			"text": "Файрон – ценная руда, которая встречается по всему измерению Гархенны в небольшом количестве. Разрушив руду, вы получите сырой файрон, который в дальнейшем должен быть переплавлен в самородок файнона. Файроновый слиток может быть создан из 9 самородков. Файроновые слитки, как и всё снаряжение из этого материала, не восприимчивы к высоким температурам огня или лавы."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:firon_ingot_recipe",
+			"recipe2": "distant_worlds:firon_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_firon_block_recipe",
+			"recipe2": "distant_worlds:raw_firon_recipe"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"advancement": "distant_worlds:does_it_smile",
+			"item": "distant_worlds:glistering_garsale_fruit",
+			"text": "Кроме всего прочего, вы можете покрыть гарсалевый фрукт слоем файрона и получить сияющий гарсалевый фрукт. Он обладает очень сильными целебными свойствами и способен насытить вас на долгое время. Сияющие гарсалевые фрукты также можно хранить в больших ящиках.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:does_it_smile",
+			"title": "Связанные рецепты",
+			"recipe": "distant_worlds:glistering_garsale_fruit_cover_recipe",
+			"recipe2": "distant_worlds:glistering_garsale_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:does_it_smile",
+			"title": "Хранение в ящиках",
+			"recipe": "distant_worlds:glistering_garsale_fruit_box_recipe",
+			"recipe2": "distant_worlds:glistering_garsale_fruit_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/firon_tools",
+				"distant_worlds:garhenna_armor/firon_armor",
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

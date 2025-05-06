@@ -1,0 +1,6 @@
+{
+	"name": "Special Thanks",
+	"description": "This category contains special entries about those who have become part of the Distant Worlds mod.",
+	"icon": "distant_worlds:textures/screens/special_thanks_icon.png",
+	"sortnum": 3
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "distant_worlds:textures/screens/distant_worlds_background.png",
+    "icon": {
+      "item": "distant_worlds:distant_worlds_book"
+    },
+    "title": {
+      "translate": "advancements.distant_worlds_explore.title"
+    },
+    "description": {
+      "translate": "advancements.distant_worlds_explore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "distant_worlds_explore": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

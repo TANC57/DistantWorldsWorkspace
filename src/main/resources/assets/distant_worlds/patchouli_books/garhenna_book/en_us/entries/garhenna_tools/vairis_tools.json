@@ -1,0 +1,22 @@
+{
+	"name": "Vairis Tools",
+	"icon": "distant_worlds:vairis_sword",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 3,
+	"advancement": "distant_worlds:living_metal",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:vairis_sword",
+			"text": "A nimble twin-bladed Vairis sword allows you to quickly deal damage to the enemy and can apply the Sticky Shackles effect to them.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)80 000 DE$() and following items:$(li)Vairis Crystal$(o) [Main]$()$(li)Vairis Crystal $(o)[x3]$()$(li)Stick $(o)[x2]$()$(br2)Recovery after full ritual: $(#992032)$(l)1000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/vairis",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

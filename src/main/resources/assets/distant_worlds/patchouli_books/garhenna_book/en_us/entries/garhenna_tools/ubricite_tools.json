@@ -1,0 +1,22 @@
+{
+	"name": "Ubricite Tools",
+	"icon": "distant_worlds:ubricite_hammer",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 4,
+	"advancement": "distant_worlds:strong_shell",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:ubricite_hammer",
+			"text": "Using Ubricite Ingot, you can create an Ubricite Hammer that can break blocks immediately from a 3x3 block territory.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)40 000 DE$() and following items:$(li)Ubricite Ingot$(o) [Main]$()$(li)Ubricite Ingot $(o)[x4]$()$(li)Stick $(o)[x2]$()$(br2)Recovery after full ritual: $(#992032)$(l)800 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/booglian",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

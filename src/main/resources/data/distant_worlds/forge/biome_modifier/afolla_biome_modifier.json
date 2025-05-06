@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:burning_plains",
+  "features": "distant_worlds:afolla",
+  "step": "vegetal_decoration"
+}

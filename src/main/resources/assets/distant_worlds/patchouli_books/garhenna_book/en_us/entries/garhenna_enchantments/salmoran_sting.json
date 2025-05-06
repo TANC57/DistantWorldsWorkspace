@@ -1,0 +1,21 @@
+{
+	"name": "Salmoran Sting",
+	"icon": "distant_worlds:salmoran_eye",
+	"category": "distant_worlds:garhenna_enchantments",
+	"sortnum": 2,
+	"advancement": "distant_worlds:born_to_crawl",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Salmoran Sting",
+			"item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"distant_worlds:salmoran_sting\",lvl:5s}]}",
+			"text": "When a victim is struck by a weapon with this enchantment, they will receive a Suppression effect that prevents them from regenerating health. This treasure enchantment can only be found in the structures of the Dead Valley biome."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/salmorans"
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:asmulda_berries"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:asmulda_pie",
+    "count": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"name": "Убрицитовые инструменты",
+	"icon": "distant_worlds:ubricite_hammer",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 4,
+	"advancement": "distant_worlds:strong_shell",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:ubricite_hammer",
+			"text": "Используя убрицитовый слиток, вы можете создать убрицитовый молот, который может мгновенно разбивать блоки с территории блоков 3x3.$(br)Может быть создано на литумовом алтаре, используя $(#ea7f17)$(l)40 000 DE$() и следующие предметы:$(li)Убрицитовый слиток$(o) [Основной]$()$(li)Убрицитовый слиток $(o)[x4]$()$(li)Палка $(o)[x2]$()$(br2)Восстановление после полного ритуала: $(#992032)$(l)800 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/booglian",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

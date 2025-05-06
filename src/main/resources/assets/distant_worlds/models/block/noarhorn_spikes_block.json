@@ -1,0 +1,10 @@
+{
+  "parent": "distant_worlds:custom/noarhorn_spikes_block",
+  "textures": {
+    "all": "distant_worlds:block/noarhorn_spikes_block",
+    "particle": "distant_worlds:block/noarhorn_spikes_block",
+    "noarhorn_spikes": "distant_worlds:block/noarhorn_spikes",
+    "noarhorn_spikes_block": "distant_worlds:block/noarhorn_spikes_block"
+  },
+  "render_type": "cutout_mipped"
+}

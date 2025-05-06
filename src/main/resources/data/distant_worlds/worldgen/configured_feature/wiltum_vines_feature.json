@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:air"
+    },
+    "state": {
+      "Name": "distant_worlds:wiltum_vines",
+      "Properties": {
+        "waterlogged": "false"
+      }
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "distant_worlds:culafite_mushroom_tall"
+    }
+  ],
+  "result": {
+    "item": "distant_worlds:culafite_mushroom",
+    "count": 2
+  }
+}

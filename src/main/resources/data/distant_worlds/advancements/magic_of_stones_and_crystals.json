@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:dalite_staff"
+    },
+    "title": {
+      "translate": "advancements.magic_of_stones_and_crystals.title"
+    },
+    "description": {
+      "translate": "advancements.magic_of_stones_and_crystals.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magic_of_stones_and_crystals": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "distant_worlds:inner_spark"
+}

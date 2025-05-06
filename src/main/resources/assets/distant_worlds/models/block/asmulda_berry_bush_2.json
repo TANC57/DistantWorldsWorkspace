@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/asmulda_bush_2",
+    "particle": "distant_worlds:block/asmulda_bush_2"
+  },
+  "render_type": "cutout"
+}

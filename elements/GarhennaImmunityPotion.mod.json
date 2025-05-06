@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Garhenna immunity",
+    "splashName": "Splash Potion of Garhenna immunity",
+    "lingeringName": "Lingering Potion of Garhenna immunity",
+    "arrowName": "Arrow of Garhenna immunity",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:GarhennaImmunity"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

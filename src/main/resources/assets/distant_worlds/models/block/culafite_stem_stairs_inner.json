@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "distant_worlds:block/chiseled_culafite_mushroom_stem",
+    "top": "distant_worlds:block/chiseled_culafite_mushroom_stem",
+    "side": "distant_worlds:block/chiseled_culafite_mushroom_stem"
+  },
+  "render_type": "solid"
+}

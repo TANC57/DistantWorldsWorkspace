@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:lifeless_grass"
+    },
+    "title": {
+      "translate": "advancements.burning_plains_explore.title"
+    },
+    "description": {
+      "translate": "advancements.burning_plains_explore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "burning_plains_explore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "distant_worlds:burning_plains"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "distant_worlds:garhenna_explore"
+}

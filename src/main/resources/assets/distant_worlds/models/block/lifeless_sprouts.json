@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/lifeless_sprouts",
+    "particle": "distant_worlds:block/lifeless_sprouts"
+  },
+  "render_type": "cutout"
+}

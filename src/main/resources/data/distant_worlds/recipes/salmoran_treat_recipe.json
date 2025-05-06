@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bbb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:fuzianna_jelly"
+    },
+    "b": {
+      "item": "distant_worlds:wiltum_fruit"
+    },
+    "c": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:salmoran_treat",
+    "count": 1
+  }
+}

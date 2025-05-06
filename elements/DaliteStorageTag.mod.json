@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DaliteStorageInitial"
+      },
+      {
+        "value": "CUSTOM:DaliteStorageExtended"
+      },
+      {
+        "value": "CUSTOM:DaliteStorageAdvanced"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "dalite_storage",
+    "namespace": "mod"
+  }
+}

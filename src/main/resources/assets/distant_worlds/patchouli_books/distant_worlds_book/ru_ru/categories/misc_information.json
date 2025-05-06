@@ -1,0 +1,6 @@
+{
+	"name": "Разная информация",
+	"description": "Эта категория содержит дополнительную информацию.",
+	"icon": "distant_worlds:textures/screens/misc_information_icon.png",
+	"sortnum": 1
+}

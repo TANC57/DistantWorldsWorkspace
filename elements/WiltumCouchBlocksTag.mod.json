@@ -1,0 +1,64 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RedWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:OrangeWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:YellowWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:LimeWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:GreenWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:CyanWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:LightBlueWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:BlueWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:PurpleWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:MagentaWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:PinkWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:BrownWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:WhiteWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:LightGrayWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:GrayWiltumCouch"
+      },
+      {
+        "value": "CUSTOM:BlackWiltumCouch"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "wiltum_couch_blocks",
+    "namespace": "mod"
+  }
+}

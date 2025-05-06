@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LayeredMud"
+      },
+      {
+        "value": "CUSTOM:StickyLayeredMud"
+      },
+      {
+        "value": "CUSTOM:CoarseLayeredMud"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "toran_spawnable_on_tag",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.is_it_a_sun.title"
+    },
+    "description": {
+      "translate": "advancements.is_it_a_sun.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "is_it_a_sun": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:adventure/spyglass_at_dragon"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:firon_helmet"
+    },
+    "title": {
+      "translate": "advancements.fire_breathing_warrior.title"
+    },
+    "description": {
+      "translate": "advancements.fire_breathing_warrior.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_breathing_warrior": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "distant_worlds:incandescent_forever"
+}

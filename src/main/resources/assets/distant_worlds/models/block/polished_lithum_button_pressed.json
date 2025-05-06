@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "distant_worlds:block/polished_lithum"
+  },
+  "render_type": "solid"
+}

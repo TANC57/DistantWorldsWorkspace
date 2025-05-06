@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": { "model": "distant_worlds:block/asmulda_berry_bush_0" },
+    "age=1": { "model": "distant_worlds:block/asmulda_berry_bush_1" },
+    "age=2": { "model": "distant_worlds:block/asmulda_berry_bush_2" },
+    "age=3": { "model": "distant_worlds:block/asmulda_berry_bush_3" }
+  }
+}

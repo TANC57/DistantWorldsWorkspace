@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "distant_worlds:block/tall_sticky_sprouts"
+    },
+    "half=lower": {
+      "model": "distant_worlds:block/tall_sticky_sprouts_bottom"
+    }
+  }
+}

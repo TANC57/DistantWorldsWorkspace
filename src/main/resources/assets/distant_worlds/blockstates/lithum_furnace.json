@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=false": { "model": "distant_worlds:block/lithum_furnace" },
+    "lit=true": { "model": "distant_worlds:block/lithum_furnace_lit" }
+  }
+}

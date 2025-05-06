@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:fuzianna_jelly"
+    },
+    "b": {
+      "item": "distant_worlds:wokamire"
+    },
+    "c": {
+      "item": "distant_worlds:wiltum_fruit"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:wiltum_cocktail",
+    "count": 1
+  }
+}

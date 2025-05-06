@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "valid_base_block": {
+      "Name": "distant_worlds:overgrown_fralite"
+    },
+    "stem_state": {
+      "Name": "distant_worlds:culafite_mushroom_stem",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "hat_state": {
+      "Name": "distant_worlds:culafite_mushroom_block"
+    },
+    "decor_state": {
+      "Name": "distant_worlds:culafite_shroomlight"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#replaceable_by_trees"
+    },
+    "planted": "true"
+  }
+}

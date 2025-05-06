@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/potted_prifonna",
+  "textures": {
+    "all": "distant_worlds:block/prifonna",
+    "particle": "distant_worlds:block/prifonna",
+    "0": "distant_worlds:block/potted_prifonna"
+  },
+  "render_type": "cutout"
+}

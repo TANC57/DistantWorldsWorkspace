@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "distant_worlds:garsale_lantern"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:caged_garsale_lantern",
+    "count": 1
+  }
+}

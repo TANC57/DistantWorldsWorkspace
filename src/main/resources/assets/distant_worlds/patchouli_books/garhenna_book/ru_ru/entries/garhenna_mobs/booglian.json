@@ -1,0 +1,32 @@
+{
+	"name": "Буглин",
+	"icon": "distant_worlds:ubricite_crystal",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 2,
+	"advancement": "distant_worlds:strong_shell",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Буглин",
+			"item": "distant_worlds:booglian_spawn_egg",
+			"text": "$(l)$(#990000)Здоровье: 15$(#336600)$(br)Броня: 6$(#660066)$(br)Атака: 4$()$(br)Буглин – наземный моб с хорошей защитой в виде панциря, состоящего из кристаллов убрицита. Если вы постараетесь атаковать его, то он спрячется в свой непробиваемый панцирь.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:ubricite_ingot_recipe",
+			"text": "Из него вы можете получить кристаллы убрицита, которые используются в создании слитков убрицита."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/ubricite_tools",
+				"distant_worlds:garhenna_armor/ubricite_armor"
+			]
+		}
+	]
+}

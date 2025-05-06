@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "distant_worlds:textures/screens/revelite.png",
+    "icon": {
+      "item": "distant_worlds:garhenna_book"
+    },
+    "title": {
+      "translate": "advancements.garhenna_explore.title"
+    },
+    "description": {
+      "translate": "advancements.garhenna_explore.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "garhenna_explore": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

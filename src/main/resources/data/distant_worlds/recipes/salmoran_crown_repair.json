@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "distant_worlds:salmoran_crown"
+    },
+    {
+      "item": "distant_worlds:salmoran_eye"
+    }
+  ],
+  "result": {
+    "item": "distant_worlds:salmoran_crown",
+    "count": 1
+  }
+}

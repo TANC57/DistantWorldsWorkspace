@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GarsaleWood"
+      },
+      {
+        "value": "CUSTOM:GarsaleLog"
+      },
+      {
+        "value": "CUSTOM:CrackedGarsaleLog"
+      },
+      {
+        "value": "CUSTOM:StickyGarsaleLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "garsale_log",
+    "namespace": "forge"
+  }
+}

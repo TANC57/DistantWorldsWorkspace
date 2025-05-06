@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "distant_worlds:block/garsale_box_bottom",
+    "top": "distant_worlds:block/culafite_mushroom_box",
+    "side": "distant_worlds:block/small_garsale_box_side"
+  },
+  "render_type": "solid"
+}

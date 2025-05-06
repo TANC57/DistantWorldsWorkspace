@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:AsmuldaBerries"
+    },
+    "enableFuel": false,
+    "fuelPower": {
+      "fixedValue": 1600.0
+    },
+    "hasDispenseBehavior": true,
+    "dispenseSuccessCondition": {
+      "name": "AsmuldaBerriesDispenseSuccessfullyIf"
+    },
+    "dispenseResultItemstack": {
+      "name": "AsmuldaBerriesOnDispenseAttemptWithResult"
+    },
+    "compostLayerChance": 0.39999999999999997
+  }
+}

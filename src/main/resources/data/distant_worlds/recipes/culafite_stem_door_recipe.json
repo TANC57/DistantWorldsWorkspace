@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:chiseled_culafite_stem"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:culafite_stem_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/salmoran_egg",
+  "textures": {
+    "all": "distant_worlds:block/salmoran_egg_cracked_block",
+    "particle": "distant_worlds:block/salmoran_egg_cracked_block",
+    "0": "distant_worlds:block/salmoran_egg_cracked_block"
+  },
+  "render_type": "solid"
+}

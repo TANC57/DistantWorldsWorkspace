@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:FloweringGarsaleLeaves"
+      },
+      {
+        "value": "CUSTOM:GarsaleLeaves"
+      },
+      {
+        "value": "CUSTOM:WiltumLeaves"
+      },
+      {
+        "value": "CUSTOM:FloweringWiltumLeaves"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "leaves",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "distant_worlds:revelite"
+  },
+  "result": "distant_worlds:revelite_tiles"
+}

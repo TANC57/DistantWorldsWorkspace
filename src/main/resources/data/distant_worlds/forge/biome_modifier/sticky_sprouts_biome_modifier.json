@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:sticky_marshes",
+  "features": "distant_worlds:sticky_sprouts",
+  "step": "vegetal_decoration"
+}

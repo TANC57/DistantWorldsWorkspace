@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CobbledRevelite"
+      },
+      {
+        "value": "CUSTOM:CobbledFralite"
+      },
+      {
+        "value": "CUSTOM:CobbledLithum"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "cobblestone_blocks",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:blocks/ofypletta_bottom",
+    "particle": "distant_worlds:blocks/ofypletta_bottom"
+  }
+}

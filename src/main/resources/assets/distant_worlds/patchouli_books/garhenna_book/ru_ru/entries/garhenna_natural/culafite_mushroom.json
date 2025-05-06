@@ -1,0 +1,33 @@
+{
+	"name": "Кулафитовый гриб",
+	"icon": "distant_worlds:culafite_mushroom",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 6,
+	"advancement": "distant_worlds:experienced_mushroom_picker",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": "true",
+			"item": "distant_worlds:culafite_mushroom",
+			"text": "Кулафитовые грибы встречаются в биоме Раскалённые холмы. Эти растения имеют негативные свойства, которые могут быть немного ослаблены в кулафитовом супе, или усилены в кулафитовом эликсире, что способен понизить уровень постоянного иммунитета. Кулафитовые грибы также можно хранить в небольших ящиках."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Связанные рецепты",
+			"recipe": "distant_worlds:culafite_mushroom_stew_recipe",
+			"recipe2": "distant_worlds:culafite_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Хранение в ящиках",
+			"recipe": "distant_worlds:culafite_mushrooms_box_recipe",
+			"recipe2": "distant_worlds:culafite_mushroom_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/huge_culafite_mushrooms"
+			]
+		}
+	]
+}

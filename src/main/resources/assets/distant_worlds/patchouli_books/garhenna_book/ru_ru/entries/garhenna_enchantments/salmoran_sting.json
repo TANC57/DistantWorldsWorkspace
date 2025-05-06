@@ -1,0 +1,21 @@
+{
+	"name": "Жало сальморана",
+	"icon": "distant_worlds:salmoran_eye",
+	"category": "distant_worlds:garhenna_enchantments",
+	"sortnum": 2,
+	"advancement": "distant_worlds:born_to_crawl",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Жало сальморана",
+			"item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"distant_worlds:salmoran_sting\",lvl:5s}]}",
+			"text": "Когда жертва поражена оружием с этим зачарованием, на неё накладывается эффект Подавление, который не позволяет ей восстанавливать здоровье. Это трофейное зачарование можно найти только в структурах биома долина мёртвых."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/salmorans"
+			]
+		}
+	]
+}

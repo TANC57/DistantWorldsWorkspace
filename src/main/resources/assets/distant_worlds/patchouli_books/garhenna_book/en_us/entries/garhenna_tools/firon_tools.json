@@ -1,0 +1,56 @@
+{
+	"name": "Firon Tools",
+	"icon": "distant_worlds:firon_sword",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "When destroying the block, sneak to smelt it and increase the amount of obtained materials according to the fortune enchantment applied. The tool loses some of its durability in the process. And on hitting, they are able to set fire susceptible living creatures on fire.$(br)Firon Sword, with enough durability, is able to lose some of it and launch a fire charge in the direction of your swing, after which it will need time before using this ability again. The Firon Multi-Tool combines all Firon Tools with their abilities and is capable of launching a whole volley of fire charges."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_sword",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Sword$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_pickaxe",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Pickaxe$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_axe",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Axe$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_shovel",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Shovel$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_hoe",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Netherite Hoe$(o) [Main]$()$(li)Firon Ingot $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_multitool",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)200 000 DE$() and following items:$(li)Firon Ingot$(o) [Main]$()$(li)Firon Sword$(li)Firon Pickaxe$(li)Firon Axe$(li)Firon Shovel$(li)Firon Hoe$(br2)Recovery after full ritual: $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/firon",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

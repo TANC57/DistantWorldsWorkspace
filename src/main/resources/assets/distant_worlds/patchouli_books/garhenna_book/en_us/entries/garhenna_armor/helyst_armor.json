@@ -1,0 +1,44 @@
+{
+	"name": "Helyst Armor",
+	"icon": "distant_worlds:helyst_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 2,
+	"advancement": "distant_worlds:encased_soul",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Helyst Armor is very durable and, based on Salmoran armor, it can protect you even more effectively not only from the poisonous stings of Salmorans, but also from the Suppression effect."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_helmet",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Helmet$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_chestplate",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Chestplate$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_leggings",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Leggings$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_boots",
+			"text": "Can be crafted on Lithum Altar, using $(#ea7f17)$(l)120 000 DE$() and following items:$(li)Salmoran Boots$(o) [Main]$()$(li)Helyst Crystal $(o)[x4]$()$(br2)Recovery after full ritual: $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/helyst",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

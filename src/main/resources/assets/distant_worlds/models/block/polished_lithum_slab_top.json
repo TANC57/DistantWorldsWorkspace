@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "distant_worlds:block/polished_lithum",
+    "top": "distant_worlds:block/polished_lithum",
+    "side": "distant_worlds:block/polished_lithum"
+  },
+  "render_type": "solid"
+}

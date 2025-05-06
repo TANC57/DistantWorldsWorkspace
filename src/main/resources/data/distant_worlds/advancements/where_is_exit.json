@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_door"
+    },
+    "title": {
+      "translate": "advancements.where_is_exit.title"
+    },
+    "description": {
+      "translate": "advancements.where_is_exit.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "where_is_exit": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "distant_worlds:return_point"
+}

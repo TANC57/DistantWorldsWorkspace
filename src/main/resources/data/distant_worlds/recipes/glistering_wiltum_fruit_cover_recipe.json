@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:helyst_crystal"
+    },
+    "b": {
+      "item": "distant_worlds:wiltum_fruit"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:glistering_wiltum_fruit",
+    "count": 1
+  }
+}

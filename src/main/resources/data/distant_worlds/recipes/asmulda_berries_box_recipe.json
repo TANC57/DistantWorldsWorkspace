@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:asmulda_berries"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:asmulda_berries_box",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "distant_worlds:block/culafite_mushrooms_box"
+    },
+    "type=top": {
+      "model": "distant_worlds:block/culafite_mushrooms_box_top"
+    },
+    "type=double": {
+      "model": "distant_worlds:block/culafite_mushrooms_box_full"
+    }
+  }
+}

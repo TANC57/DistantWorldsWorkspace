@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "curelite_core_particle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.19999999999999998,
+    "height": 0.19999999999999998,
+    "scale": 1.7000000000000002,
+    "speedFactor": 0.0,
+    "gravity": 0.0,
+    "maxAge": 30,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

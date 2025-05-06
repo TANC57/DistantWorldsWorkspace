@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/yaknir_roots"
+      },
+      {
+        "model": "distant_worlds:block/yaknir_roots_short"
+      }
+    ]
+  }
+}

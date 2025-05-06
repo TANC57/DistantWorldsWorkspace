@@ -1,0 +1,64 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RedGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:OrangeGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:YellowGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:LimeGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:GreenGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:CyanGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:LightBlueGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:BlueGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:PurpleGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:MagentaGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:PinkGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:BrownGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:WhiteGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:LightGrayGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:GrayGarsaleCouch"
+      },
+      {
+        "value": "CUSTOM:BlackGarsaleCouch"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "garsale_couch_blocks",
+    "namespace": "mod"
+  }
+}

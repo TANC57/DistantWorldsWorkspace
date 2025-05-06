@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LifelessGrass"
+      },
+      {
+        "value": "CUSTOM:LithumTiles"
+      },
+      {
+        "value": "CUSTOM:WitheredSoil"
+      },
+      {
+        "value": "CUSTOM:LayeredMud"
+      },
+      {
+        "value": "CUSTOM:OvergrownFralite"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lithum_altar_upper_layer_frame_blocks",
+    "namespace": "mod"
+  }
+}

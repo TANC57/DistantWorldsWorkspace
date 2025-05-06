@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "distant_worlds:burning_plains",
+  "spawners": {
+    "type": "distant_worlds:crouthil",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

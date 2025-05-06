@@ -1,0 +1,89 @@
+{
+	"name": "Modules",
+	"icon": "distant_worlds:module_empty",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 9,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Having made your choice in the direction of efficiency or speed, or maybe adding new useful properties to the blocks, you can customize the process of rituals to your taste. As you already understood, the following items will be available to you to change the characteristics of various blocks of the Lithum Altar."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_empty",
+			"text": "Empty Module can be found in various Garhenna dimension structures. It is used to create any modules for a Lithum Altar.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_charmed_pedestal",
+			"title": "Charmed Pedestal",
+			"text": "Gives a chance not to spend the item on the pedestal during the ritual.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Blaze Powder$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_increased_storage",
+			"title": "Increased Storage",
+			"text": "Increases the maximum amount of stored energy, but it will slowly evaporate to its normal value.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Ender Chest$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_calm_flame",
+			"title": "Calm Flame",
+			"text": "Slows down the process of generating dalite energy, with some chance does not consume fuel.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Blast Furnace$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_raging_flame",
+			"title": "Raging Flame",
+			"text": "Accelerates the processes of fuel consumption and the production of dalite energy, but in a smaller amount.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Blast Furnace$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_calm_spark",
+			"title": "Calm Spark",
+			"text": "Slows down the process of generating dalite energy, with some chance does not spend FE.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Redstone Block$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_raging_spark",
+			"title": "Raging Spark",
+			"text": "Accelerates the consumption of FE and the production of dalite energy.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Redstone Block$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_flow_filter",
+			"title": "Flow Filter",
+			"text": "Slows down the rate of energy transfer to the core, but also reduces the resulting DRP. Drops Raw Curelite with some chance.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Ender Crystal$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_flow_amplification",
+			"title": "Flow Amplification",
+			"text": "Increases the rate of energy transfer to the core, but also increases the resulting DRP.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Ender Crystal$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_core_stabilization",
+			"title": "Core Stabilization",
+			"text": "Increases the cost of energy and the chance of a successful ritual.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Curelite $(o)[x5]$()$(li)Anvil$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_core_destabilization",
+			"title": "Core Destabilization",
+			"text": "Reduces energy costs and the chance of a successful ritual.$(br)Can be crafted on Lithum Altar, using $(#ea7f17)$(l)10 000 DE$() and following items:$(li)Empty Module$(o) [Main]$()$(li)Dalite Crystal $(o)[x5]$()$(li)Anvil$(br)Recovery after full ritual: $(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		}
+	]
+}

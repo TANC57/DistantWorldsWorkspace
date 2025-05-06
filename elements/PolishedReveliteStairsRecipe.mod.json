@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      },
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      },
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      },
+      {
+        "value": "CUSTOM:PolishedRevelite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedReveliteStairs"
+    },
+    "name": "polished_revelite_stairs_recipe",
+    "namespace": "mod"
+  }
+}

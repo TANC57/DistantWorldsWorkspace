@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "distant_worlds:salmoran_eye"
+    },
+    "c": {
+      "item": "distant_worlds:salmoran_scales"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:salmoran_crown",
+    "count": 1
+  }
+}

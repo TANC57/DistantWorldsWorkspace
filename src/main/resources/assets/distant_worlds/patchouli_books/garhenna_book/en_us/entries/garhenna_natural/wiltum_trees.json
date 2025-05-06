@@ -1,0 +1,31 @@
+{
+	"name": "Wiltum Trees",
+	"icon": "distant_worlds:wiltum_sapling",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 4,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_sapling",
+			"link_recipe": "true",
+			"text": "Wiltum Trees grow in abundance in the Dead Valley biome and can be grown by you from saplings, including wide species of trees from 4 adjacent saplings. These trees are made from Wiltum Wood, which can be stripped or recycled into a variety of other decorative and functional blocks."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_core",
+			"link_recipe": "true",
+			"text": "Wiltum Core is found at the top of a tree behind its foliage and can be processed into wood or used as decorative lighting."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/wiltum_fruit"
+			]
+		}
+	]
+}

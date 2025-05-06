@@ -1,0 +1,91 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AsmuldaBerries"
+      },
+      {
+        "value": "CUSTOM:RawFiron"
+      },
+      {
+        "value": "CUSTOM:FironNugget"
+      },
+      {
+        "value": "CUSTOM:FironIngot"
+      },
+      {
+        "value": "CUSTOM:MoltenFralite"
+      },
+      {
+        "value": "CUSTOM:FraliteHeart"
+      },
+      {
+        "value": "CUSTOM:RawCurelite"
+      },
+      {
+        "value": "CUSTOM:Curelite"
+      },
+      {
+        "value": "CUSTOM:NoarhornSpike"
+      },
+      {
+        "value": "CUSTOM:UbriciteCrystal"
+      },
+      {
+        "value": "CUSTOM:CulafiteMushroom"
+      },
+      {
+        "value": "CUSTOM:RawDalite"
+      },
+      {
+        "value": "CUSTOM:DaliteNugget"
+      },
+      {
+        "value": "CUSTOM:DaliteCrystal"
+      },
+      {
+        "value": "CUSTOM:GarsaleFruit"
+      },
+      {
+        "value": "CUSTOM:StickyGarsaleBark"
+      },
+      {
+        "value": "CUSTOM:GlowingPollen"
+      },
+      {
+        "value": "CUSTOM:RawVairis"
+      },
+      {
+        "value": "CUSTOM:VairisCrystal"
+      },
+      {
+        "value": "CUSTOM:SalmoranScales"
+      },
+      {
+        "value": "CUSTOM:SalmoranEye"
+      },
+      {
+        "value": "CUSTOM:WiltumFruit"
+      },
+      {
+        "value": "CUSTOM:RawHelyst"
+      },
+      {
+        "value": "CUSTOM:HelystNugget"
+      },
+      {
+        "value": "CUSTOM:HelystCrystal"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "researched_garhenna_items",
+    "namespace": "mod"
+  }
+}

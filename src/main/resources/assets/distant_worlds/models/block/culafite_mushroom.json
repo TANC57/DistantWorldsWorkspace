@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:block/culafite_mushroom",
+    "particle": "distant_worlds:block/culafite_mushroom"
+  },
+  "render_type": "cutout"
+}

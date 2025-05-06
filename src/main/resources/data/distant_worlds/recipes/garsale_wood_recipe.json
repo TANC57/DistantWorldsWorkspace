@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:garsale_log"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garsale_wood",
+    "count": 3
+  }
+}

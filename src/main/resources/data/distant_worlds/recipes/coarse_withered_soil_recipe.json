@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:withered_soil"
+    },
+    "b": {
+      "item": "distant_worlds:cobbled_lithum"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:coarse_withered_soil",
+    "count": 4
+  }
+}

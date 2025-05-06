@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "noarhorn_spikes": "noarhorn_spikes",
+        "noarhorn_spikes_block": "noarhorn_spikes_block"
+      },
+      "name": "default"
+    }
+  }
+}

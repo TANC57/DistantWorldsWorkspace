@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:vairis_helmet"
+    },
+    "title": {
+      "translate": "advancements.nature_knight.title"
+    },
+    "description": {
+      "translate": "advancements.nature_knight.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nature_knight": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:living_metal"
+}

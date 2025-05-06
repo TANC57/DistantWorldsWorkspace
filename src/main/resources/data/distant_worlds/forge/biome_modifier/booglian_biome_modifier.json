@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "distant_worlds:burning_plains",
+  "spawners": {
+    "type": "distant_worlds:booglian",
+    "weight": 12,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

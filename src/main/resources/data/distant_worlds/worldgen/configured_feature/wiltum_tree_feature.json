@@ -1,0 +1,61 @@
+{
+  "type": "distant_worlds:wiltum_tree_feature",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "distant_worlds:structure_feature",
+          "config": {
+            "structure": "distant_worlds:wiltum",
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "distant_worlds:structure_feature",
+          "config": {
+            "structure": "distant_worlds:wiltum_low",
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "distant_worlds:structure_feature",
+          "config": {
+            "structure": "distant_worlds:wiltum_tall",
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

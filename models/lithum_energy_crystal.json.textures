@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lithum_energy_crystal",
+        "1": "lithum_blocks_top"
+      },
+      "name": "default"
+    }
+  }
+}

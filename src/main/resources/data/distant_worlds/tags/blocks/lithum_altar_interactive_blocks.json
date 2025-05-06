@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "distant_worlds:lithum_furnace",
+    "distant_worlds:lithum_storage_initial",
+    "distant_worlds:lithum_storage_extended",
+    "distant_worlds:lithum_storage_advanced",
+    "distant_worlds:lithum_pedestal",
+    "distant_worlds:lithum_core",
+    "distant_worlds:lithum_transmitter",
+    "distant_worlds:lithum_converter"
+  ]
+}

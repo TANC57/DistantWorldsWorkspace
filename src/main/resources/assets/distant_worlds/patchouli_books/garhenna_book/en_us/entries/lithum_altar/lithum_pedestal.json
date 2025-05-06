@@ -1,0 +1,21 @@
+{
+	"name": "Lithum Pedestal",
+	"icon": "distant_worlds:lithum_pedestal",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 7,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_pedestal_recipe",
+			"text": "Lithium Pedestals are additional places to store items that will be used at the beginning of the ritual. A pedestal containing a certain item will emit a small amount of dalite sparks into the air. Prematurely ending the ritual will not return items to their pedestals."
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

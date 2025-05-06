@@ -1,0 +1,131 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bnbttextlocalizedname",
+          "text": {
+            "fixedValue": "<BNBT:text:LocalizedName>",
+            "name": "LithumStorageGUIReturnName"
+          },
+          "color": {
+            "value": -8756653,
+            "falpha": 0.0
+          },
+          "x": 177,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:distant_worlds:dalite_storage"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:distant_worlds:dalite_storage"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:distant_worlds:lithum_storage_modules"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_empty_module.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Module2ImageDisplayCondition"
+          },
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_empty_input.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "InputImageDisplayCondition"
+          },
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_empty_output.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "OutputImageDisplayCondition"
+          },
+          "x": 168,
+          "y": 80
+        }
+      }
+    ],
+    "onTick": {
+      "name": "LithumStorageGUIWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

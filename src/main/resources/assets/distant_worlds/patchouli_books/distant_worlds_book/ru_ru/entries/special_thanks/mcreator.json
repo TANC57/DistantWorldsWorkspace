@@ -1,0 +1,19 @@
+{
+	"name": "MCreator",
+	"icon": "distant_worlds:textures/screens/mcreator_logo.png",
+	"category": "distant_worlds:special_thanks",
+	"read_by_default": "true",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Хочу выразить особую благодарность $(#ea7f17)$(l)Команде MCreator$() и её сообществу за отличное программное обеспечение и поддержку!$(br2)Я рад, что вам понравился мой мод и вы присвоили ему статус MOTW.$(br2)Также особая благодарность $(#ea7f17)$(l)NerdyPuzzle$() за создание замечательных плагинов, которые позволили мне сделать этот мод намного лучше!"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Ссылки",
+			"text": "Нажмите на текст, чтобы перейти по ссылке!$(br2)$(l:https://mcreator.net/)Сайт MCreator$(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Также загляните на страницу мода на сайте MCreator!$(/l)"
+		}
+
+	]
+}

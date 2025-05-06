@@ -1,0 +1,31 @@
+{
+	"name": "Хёлист",
+	"icon": "distant_worlds:helyst_crystal",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 2,
+	"advancement": "distant_worlds:encased_soul",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:helyst_nugget",
+			"text": "Хёлист – завораживающие многогранные кристаллы голубого цвета. Не смотрите в них слишком долго, иначе можете пересечься взглядом с одной из заточенных там душ. Ценная руда хёлиста чаще всего встречается в литумовых наростах биома Долина мёртвых. Разрушив руду, вы получите сырой хёлист, который в дальнейшем должен быть переплавлен в самородок хёлиста. Цельный хёлистовый кристалл может быть создан из 9 самородков."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:helyst_crystal_recipe",
+			"recipe2": "distant_worlds:helyst_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_helyst_block_recipe",
+			"recipe2": "distant_worlds:raw_helyst_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/helyst_tools",
+				"distant_worlds:garhenna_armor/helyst_armor"
+			]
+		}
+	]
+}

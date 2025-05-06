@@ -1,0 +1,160 @@
+{
+  "_fv": 57,
+  "_type": "animatedentity",
+  "definition": {
+    "mobName": "Shrullot",
+    "mobLabel": "",
+    "mobModelTexture": "shrullot.png",
+    "mobModelGlowTexture": "shrullot_glowing.png",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "entityDataEntries": [],
+    "modelWidth": 0.7999999999999999,
+    "modelHeight": 1.0,
+    "modelShadowSize": 0.4,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -7595228,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -20931,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 1.0,
+    "movementSpeed": 0.30000000000000004,
+    "armorBaseValue": 2.0,
+    "trackingRange": 64,
+    "followRange": 8,
+    "health": 15,
+    "xpAmount": 5,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": true,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.skeleton_horse.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.irongolem.hurt"
+    },
+    "deathSound": {
+      "value": "entity.irongolem.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "whenMobDies": {
+      "name": "ShrullotEntityDies"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"avoid_entity\"><field name=\"entity\">EntityPlayer</field><field name=\"radius\">4</field><field name=\"farspeed\">1.4</field><field name=\"nearspeed\">1.2</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">LookAroundAdditionalCondition,LookAroundAdditionalCondition</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "shrullot.geo.json",
+    "groupName": "AnimatedBody",
+    "animation1": "idle",
+    "animation2": "",
+    "animation3": "",
+    "animation4": "",
+    "animation5": "",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": false,
+    "enable3": false,
+    "enable4": false,
+    "enable5": false,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
+    "breedable": false,
+    "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": false,
+    "eyeHeight": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "FraliteBallProjectile",
+    "rangedAttackInterval": 60,
+    "rangedAttackRadius": 3.9999999999999996,
+    "height": 0.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "ShrullotNaturalEntitySpawningCondition"
+    },
+    "spawningProbability": 1,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BurningPlains"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

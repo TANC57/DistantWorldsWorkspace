@@ -1,0 +1,12 @@
+{
+  "type": "distant_worlds:helyst_stalagmite_tall_feature",
+  "config": {
+    "structure": "distant_worlds:helyst_stalagmite_tall",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -2,
+      0
+    ]
+  }
+}

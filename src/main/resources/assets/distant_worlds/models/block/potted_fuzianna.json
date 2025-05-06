@@ -1,0 +1,9 @@
+{
+  "parent": "distant_worlds:custom/potted_fuzianna",
+  "textures": {
+    "all": "distant_worlds:block/fuzianna",
+    "particle": "distant_worlds:item/fuzianna_stick",
+    "0": "distant_worlds:block/potted_fuzianna"
+  },
+  "render_type": "cutout"
+}

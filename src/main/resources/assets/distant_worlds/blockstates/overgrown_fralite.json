@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "distant_worlds:block/overgrown_fralite"
+      },
+      {
+        "model": "distant_worlds:block/overgrown_fralite",
+        "y": 90
+      },
+      {
+        "model": "distant_worlds:block/overgrown_fralite",
+        "y": 180
+      },
+      {
+        "model": "distant_worlds:block/overgrown_fralite",
+        "y": 270
+      }
+    ]
+  }
+}

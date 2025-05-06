@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "distant_worlds:molten_hills",
+  "features": "distant_worlds:dalite_ore",
+  "step": "underground_ores"
+}

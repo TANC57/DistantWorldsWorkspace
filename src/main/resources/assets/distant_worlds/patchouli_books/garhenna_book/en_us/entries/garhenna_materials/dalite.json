@@ -1,0 +1,28 @@
+{
+	"name": "Dalite",
+	"icon": "distant_worlds:dalite_crystal",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 4,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:dalite_nugget",
+			"text": "You can often find it in the Molten Hills biome. By destroying its ore, you will get Raw Dalite, which must be smelted into a Dalite Nugget for further work. Using 5 Dalite Nuggets, you will be able to craft some Dalite Crystals. Pure Dalite is quite fragile, but has the ability to store, concentrate and transmit a special kind of energy."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:dalite_crystal_recipe",
+			"recipe2": "distant_worlds:dalite_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_dalite_block_recipe",
+			"recipe2": "distant_worlds:raw_dalite_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

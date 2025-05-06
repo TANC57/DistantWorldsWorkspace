@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Irotine"
+      },
+      {
+        "value": "CUSTOM:Lafosia"
+      },
+      {
+        "value": "CUSTOM:Prifonna"
+      },
+      {
+        "value": "CUSTOM:StickySprouts"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "sticky_marshes_flowers",
+    "namespace": "mod"
+  }
+}

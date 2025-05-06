@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:polished_revelite"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:polished_revelite_pressure_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fireball",
+    "hot_floor",
+    "in_fire",
+    "lava",
+    "on_fire"
+  ]
+}

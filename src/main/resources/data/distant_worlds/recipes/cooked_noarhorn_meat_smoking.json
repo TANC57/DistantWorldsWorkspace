@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 4,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "distant_worlds:noarhorn_meat"
+  },
+  "result": "distant_worlds:cooked_noarhorn_meat"
+}

@@ -1,0 +1,57 @@
+{
+	"name": "Firon",
+	"icon": "distant_worlds:firon_ingot",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:firon_nugget",
+			"text": "Firon is a valuable ore found throughout the Garhenna dimension in small quantities. By destroying the ore, you will get Raw Firon, which must later be smelted into a Firon Nugget. Firon Ingot can be crafted with 9 nuggets. Firon ingots, like all equipment made from this material, are not susceptible to the high temperatures of fire or lava."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:firon_ingot_recipe",
+			"recipe2": "distant_worlds:firon_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_firon_block_recipe",
+			"recipe2": "distant_worlds:raw_firon_recipe"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"advancement": "distant_worlds:does_it_smile",
+			"item": "distant_worlds:glistering_garsale_fruit",
+			"text": "Among other things, you can cover a Garsale Fruit with a layer of Firon and get a Glistering Garsale Fruit. It has very strong healing properties and is able to saturate you for a long time. Glistering Garsale Fruits can also be stored in large boxes.",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:does_it_smile",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:glistering_garsale_fruit_cover_recipe",
+			"recipe2": "distant_worlds:glistering_garsale_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:does_it_smile",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:glistering_garsale_fruit_box_recipe",
+			"recipe2": "distant_worlds:glistering_garsale_fruit_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/firon_tools",
+				"distant_worlds:garhenna_armor/firon_armor",
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

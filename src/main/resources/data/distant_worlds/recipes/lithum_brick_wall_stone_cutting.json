@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "distant_worlds:lithum"
+  },
+  "result": "distant_worlds:lithum_brick_wall"
+}

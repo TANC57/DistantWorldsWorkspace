@@ -1,0 +1,19 @@
+{
+	"name": "Вокамир",
+	"icon": "distant_worlds:wokamire",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 9,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wokamire",
+			"link_recipe": "true",
+			"text": "Вокамир - вы часто можете встретить эти высокие, похожие на бамбук растения в биоме Долина мёртвых. При высушивании листов сырого вокамира в печи, вы получите материал, похожий на кожу животных."
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:raw_wokamire"
+		}
+	]
+}

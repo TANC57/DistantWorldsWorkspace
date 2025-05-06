@@ -1,0 +1,11 @@
+{
+  "parent": "distant_worlds:custom/sticky_garsale_log",
+  "textures": {
+    "all": "distant_worlds:block/cracked_garsale_log",
+    "particle": "distant_worlds:block/cracked_garsale_log",
+    "0": "distant_worlds:block/garsale_log_top",
+    "1": "distant_worlds:block/cracked_garsale_log",
+    "2": "distant_worlds:block/sticky_garsale_log"
+  },
+  "render_type": "cutout_mipped"
+}

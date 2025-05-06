@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CookedNoarhornMeat"
+      },
+      {
+        "value": "CUSTOM:CookedSalmoranMeat"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "cooked_meats",
+    "namespace": "forge"
+  }
+}

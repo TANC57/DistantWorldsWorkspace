@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "distant_worlds:block/fralite_column_top",
+    "up": "distant_worlds:block/fralite_column_top",
+    "north": "distant_worlds:block/fralite_column_side",
+    "east": "distant_worlds:block/fralite_column_side",
+    "south": "distant_worlds:block/fralite_column_side",
+    "west": "distant_worlds:block/fralite_column_side",
+    "particle": "distant_worlds:block/fralite_column_top"
+  },
+  "render_type": "solid"
+}

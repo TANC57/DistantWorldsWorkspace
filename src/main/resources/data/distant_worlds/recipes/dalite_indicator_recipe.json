@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "distant_worlds:dalite_crystal"
+    },
+    "b": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:dalite_indicator",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:helyst_helmet"
+    },
+    "title": {
+      "translate": "advancements.cry_of_thousand_souls.title"
+    },
+    "description": {
+      "translate": "advancements.cry_of_thousand_souls.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cry_of_thousand_souls": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:encased_soul"
+}

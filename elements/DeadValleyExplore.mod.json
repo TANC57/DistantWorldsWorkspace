@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Dead Valley",
+    "achievementDescription": "Enter the Dead Valley biome",
+    "achievementIcon": {
+      "value": "CUSTOM:WitheredSoil"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:GarhennaExplore"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"54\" y=\"86\"><field name=\"biome\">CUSTOM:DeadValley</field><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

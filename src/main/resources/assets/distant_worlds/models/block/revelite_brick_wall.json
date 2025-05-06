@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "distant_worlds:block/revelite_bricks",
+    "particle": "distant_worlds:block/revelite_bricks"
+  },
+  "render_type": "solid"
+}

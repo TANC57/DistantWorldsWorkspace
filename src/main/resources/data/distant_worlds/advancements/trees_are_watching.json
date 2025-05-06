@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:sticky_garsale_bark"
+    },
+    "title": {
+      "translate": "advancements.trees_are_watching.title"
+    },
+    "description": {
+      "translate": "advancements.trees_are_watching.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trees_are_watching": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:sticky_marshes_explore"
+}

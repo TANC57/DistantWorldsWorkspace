@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "distant_worlds:blocks/vinretty_bottom",
+    "particle": "distant_worlds:blocks/vinretty_bottom"
+  }
+}

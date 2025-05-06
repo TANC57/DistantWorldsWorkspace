@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "distant_worlds:molten_hills",
+    "distant_worlds:sticky_marshes"
+  ],
+  "features": "distant_worlds:fralite_blob_feature",
+  "step": "raw_generation"
+}
