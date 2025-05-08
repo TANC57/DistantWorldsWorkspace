@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WiltumCocktail"
+      },
+      {
+        "value": "CUSTOM:GarsaleSlime"
+      },
+      {
+        "value": "CUSTOM:CulafiteMushroom"
+      },
+      {
+        "value": "CUSTOM:FraliteHeart"
+      },
+      {
+        "value": "CUSTOM:GlowingPollen"
+      },
+      {
+        "value": "CUSTOM:AncientGarhennaPapers"
+      },
+      {
+        "value": "CUSTOM:RawCurelite"
+      },
+      {
+        "value": "CUSTOM:AsmuldaBerries"
+      },
+      {
+        "value": "CUSTOM:GarsaleSapling"
+      },
+      {
+        "value": "CUSTOM:PottedLioress"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "garhenna_pouch_loot",
+    "namespace": "mod"
+  }
+}

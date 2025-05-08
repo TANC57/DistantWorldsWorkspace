@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "distant_worlds:garhenna_pouch"
+    },
+    "title": {
+      "translate": "advancements.noarhorn_out_of_bag.title"
+    },
+    "description": {
+      "translate": "advancements.noarhorn_out_of_bag.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "noarhorn_out_of_bag": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "distant_worlds:garhenna_explore"
+}

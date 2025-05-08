@@ -74,12 +74,18 @@ public class DistantWorldsModVariables {
 			clone.WitherTotemY = original.WitherTotemY;
 			clone.WitherTotemZ = original.WitherTotemZ;
 			clone.UbriciteArmorAbility = original.UbriciteArmorAbility;
+			clone.GarhennaPouchOpen = original.GarhennaPouchOpen;
 			if (!event.isWasDeath()) {
 				clone.GarhennaDepletion = original.GarhennaDepletion;
 				clone.GarhennaAdaptation = original.GarhennaAdaptation;
 				clone.RequiredDaliteEnergyLeft = original.RequiredDaliteEnergyLeft;
 				clone.DaliteEnergyTotal = original.DaliteEnergyTotal;
 				clone.MaxDaliteEnergyTotal = original.MaxDaliteEnergyTotal;
+				clone.UsedAltarX = original.UsedAltarX;
+				clone.UsedAltarY = original.UsedAltarY;
+				clone.UsedAltarZ = original.UsedAltarZ;
+				clone.UsedAltar = original.UsedAltar;
+				clone.UsedAltarSlot = original.UsedAltarSlot;
 			}
 		}
 	}
@@ -128,6 +134,12 @@ public class DistantWorldsModVariables {
 		public double RequiredDaliteEnergyLeft = 0;
 		public double DaliteEnergyTotal = 0;
 		public double MaxDaliteEnergyTotal = 0;
+		public double GarhennaPouchOpen = 0;
+		public double UsedAltarX = 0;
+		public double UsedAltarY = 0;
+		public double UsedAltarZ = 0;
+		public boolean UsedAltar = false;
+		public double UsedAltarSlot = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -149,6 +161,12 @@ public class DistantWorldsModVariables {
 			nbt.putDouble("RequiredDaliteEnergyLeft", RequiredDaliteEnergyLeft);
 			nbt.putDouble("DaliteEnergyTotal", DaliteEnergyTotal);
 			nbt.putDouble("MaxDaliteEnergyTotal", MaxDaliteEnergyTotal);
+			nbt.putDouble("GarhennaPouchOpen", GarhennaPouchOpen);
+			nbt.putDouble("UsedAltarX", UsedAltarX);
+			nbt.putDouble("UsedAltarY", UsedAltarY);
+			nbt.putDouble("UsedAltarZ", UsedAltarZ);
+			nbt.putBoolean("UsedAltar", UsedAltar);
+			nbt.putDouble("UsedAltarSlot", UsedAltarSlot);
 			return nbt;
 		}
 
@@ -167,6 +185,12 @@ public class DistantWorldsModVariables {
 			RequiredDaliteEnergyLeft = nbt.getDouble("RequiredDaliteEnergyLeft");
 			DaliteEnergyTotal = nbt.getDouble("DaliteEnergyTotal");
 			MaxDaliteEnergyTotal = nbt.getDouble("MaxDaliteEnergyTotal");
+			GarhennaPouchOpen = nbt.getDouble("GarhennaPouchOpen");
+			UsedAltarX = nbt.getDouble("UsedAltarX");
+			UsedAltarY = nbt.getDouble("UsedAltarY");
+			UsedAltarZ = nbt.getDouble("UsedAltarZ");
+			UsedAltar = nbt.getBoolean("UsedAltar");
+			UsedAltarSlot = nbt.getDouble("UsedAltarSlot");
 		}
 	}
 
@@ -204,6 +228,12 @@ public class DistantWorldsModVariables {
 					variables.RequiredDaliteEnergyLeft = message.data.RequiredDaliteEnergyLeft;
 					variables.DaliteEnergyTotal = message.data.DaliteEnergyTotal;
 					variables.MaxDaliteEnergyTotal = message.data.MaxDaliteEnergyTotal;
+					variables.GarhennaPouchOpen = message.data.GarhennaPouchOpen;
+					variables.UsedAltarX = message.data.UsedAltarX;
+					variables.UsedAltarY = message.data.UsedAltarY;
+					variables.UsedAltarZ = message.data.UsedAltarZ;
+					variables.UsedAltar = message.data.UsedAltar;
+					variables.UsedAltarSlot = message.data.UsedAltarSlot;
 				}
 			});
 			context.setPacketHandled(true);

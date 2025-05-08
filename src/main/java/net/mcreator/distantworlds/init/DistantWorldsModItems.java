@@ -228,6 +228,12 @@ public class DistantWorldsModItems {
 	public static final RegistryObject<Item> DALITE_STORAGE_INITIAL = REGISTRY.register("dalite_storage_initial", () -> new DaliteStorageInitialItem());
 	public static final RegistryObject<Item> DALITE_STORAGE_EXTENDED = REGISTRY.register("dalite_storage_extended", () -> new DaliteStorageExtendedItem());
 	public static final RegistryObject<Item> DALITE_STORAGE_ADVANCED = REGISTRY.register("dalite_storage_advanced", () -> new DaliteStorageAdvancedItem());
+	public static final RegistryObject<Item> FRALITE_BALL = REGISTRY.register("fralite_ball", () -> new FraliteBallItem());
+	public static final RegistryObject<Item> GARSALE_CRATE = REGISTRY.register("garsale_crate", () -> new GarsaleCrateItem());
+	public static final RegistryObject<Item> WILTUM_CRATE = REGISTRY.register("wiltum_crate", () -> new WiltumCrateItem());
+	public static final RegistryObject<Item> GLISTERING_WILTUM_FRUIT = REGISTRY.register("glistering_wiltum_fruit", () -> new GlisteringWiltumFruitItem());
+	public static final RegistryObject<Item> GLISTERING_WILTUM_ELIXIR = REGISTRY.register("glistering_wiltum_elixir", () -> new GlisteringWiltumElixirItem());
+	public static final RegistryObject<Item> CURELITE_TORCH = REGISTRY.register("curelite_torch", () -> new CureliteTorchItem());
 	public static final RegistryObject<Item> LIFELESS_GRASS = block(DistantWorldsModBlocks.LIFELESS_GRASS);
 	public static final RegistryObject<Item> LIFELESS_SPROUTS = block(DistantWorldsModBlocks.LIFELESS_SPROUTS);
 	public static final RegistryObject<Item> TALL_LIFELESS_SPROUTS = doubleBlock(DistantWorldsModBlocks.TALL_LIFELESS_SPROUTS);
@@ -425,6 +431,8 @@ public class DistantWorldsModItems {
 	public static final RegistryObject<Item> LITHUM_STORAGE_ADVANCED = block(DistantWorldsModBlocks.LITHUM_STORAGE_ADVANCED);
 	public static final RegistryObject<Item> LITHUM_TRANSMITTER = block(DistantWorldsModBlocks.LITHUM_TRANSMITTER);
 	public static final RegistryObject<Item> LITHUM_CORE = block(DistantWorldsModBlocks.LITHUM_CORE);
+	public static final RegistryObject<Item> CAGED_GARSALE_LANTERN = block(DistantWorldsModBlocks.CAGED_GARSALE_LANTERN);
+	public static final RegistryObject<Item> CULAFITE_MUSHROOM_TALL = doubleBlock(DistantWorldsModBlocks.CULAFITE_MUSHROOM_TALL);
 	public static final RegistryObject<Item> CULAFITE_MUSHROOM_ON_A_STICK = REGISTRY.register("culafite_mushroom_on_a_stick", () -> new CulafiteMushroomOnAStickItem());
 	public static final RegistryObject<Item> FRALITE_SWORD = REGISTRY.register("fralite_sword", () -> new FraliteSwordItem());
 	public static final RegistryObject<Item> FRALITE_PICKAXE = REGISTRY.register("fralite_pickaxe", () -> new FralitePickaxeItem());
@@ -517,16 +525,8 @@ public class DistantWorldsModItems {
 	public static final RegistryObject<Item> ASMULDA_BERRY_BUSH = block(DistantWorldsModBlocks.ASMULDA_BERRY_BUSH);
 	public static final RegistryObject<Item> POTTED_ASMULDA_BERRY_BUSH = block(DistantWorldsModBlocks.POTTED_ASMULDA_BERRY_BUSH);
 	public static final RegistryObject<Item> POTTED_WOKAMIRE = block(DistantWorldsModBlocks.POTTED_WOKAMIRE);
-	public static final RegistryObject<Item> FRALITE_BALL = REGISTRY.register("fralite_ball", () -> new FraliteBallItem());
-	public static final RegistryObject<Item> GARSALE_CRATE = REGISTRY.register("garsale_crate", () -> new GarsaleCrateItem());
-	public static final RegistryObject<Item> WILTUM_CRATE = REGISTRY.register("wiltum_crate", () -> new WiltumCrateItem());
-	public static final RegistryObject<Item> CAGED_GARSALE_LANTERN = block(DistantWorldsModBlocks.CAGED_GARSALE_LANTERN);
-	public static final RegistryObject<Item> GLISTERING_WILTUM_FRUIT = REGISTRY.register("glistering_wiltum_fruit", () -> new GlisteringWiltumFruitItem());
-	public static final RegistryObject<Item> GLISTERING_WILTUM_ELIXIR = REGISTRY.register("glistering_wiltum_elixir", () -> new GlisteringWiltumElixirItem());
-	public static final RegistryObject<Item> CULAFITE_MUSHROOM_TALL = doubleBlock(DistantWorldsModBlocks.CULAFITE_MUSHROOM_TALL);
 	public static final RegistryObject<Item> CURELITE_TORCH_GROUND = block(DistantWorldsModBlocks.CURELITE_TORCH_GROUND);
 	public static final RegistryObject<Item> CURELITE_TORCH_WALL = block(DistantWorldsModBlocks.CURELITE_TORCH_WALL);
-	public static final RegistryObject<Item> CURELITE_TORCH = REGISTRY.register("curelite_torch", () -> new CureliteTorchItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -470,6 +470,8 @@ public class DistantWorldsModBlocks {
 	public static final RegistryObject<Block> LITHUM_STORAGE_ADVANCED = REGISTRY.register("lithum_storage_advanced", () -> new LithumStorageAdvancedBlock());
 	public static final RegistryObject<Block> LITHUM_TRANSMITTER = REGISTRY.register("lithum_transmitter", () -> new LithumTransmitterBlock());
 	public static final RegistryObject<Block> LITHUM_CORE = REGISTRY.register("lithum_core", () -> new LithumCoreBlock());
+	public static final RegistryObject<Block> CAGED_GARSALE_LANTERN = REGISTRY.register("caged_garsale_lantern", () -> new CagedGarsaleLanternBlock());
+	public static final RegistryObject<Block> CULAFITE_MUSHROOM_TALL = REGISTRY.register("culafite_mushroom_tall", () -> new CulafiteMushroomTallBlock());
 	public static final RegistryObject<Block> POTTED_GARSALE_SAPLING = REGISTRY.register("potted_garsale_sapling", () -> new PottedGarsaleSaplingBlock());
 	public static final RegistryObject<Block> POTTED_WILTUM_SAPLING = REGISTRY.register("potted_wiltum_sapling", () -> new PottedWiltumSaplingBlock());
 	public static final RegistryObject<Block> POTTED_AFOLLA = REGISTRY.register("potted_afolla", () -> new PottedAfollaBlock());
@@ -492,8 +494,6 @@ public class DistantWorldsModBlocks {
 	public static final RegistryObject<Block> ASMULDA_BERRY_BUSH = REGISTRY.register("asmulda_berry_bush", () -> new AsmuldaBerryBushBlock());
 	public static final RegistryObject<Block> POTTED_ASMULDA_BERRY_BUSH = REGISTRY.register("potted_asmulda_berry_bush", () -> new PottedAsmuldaBerryBushBlock());
 	public static final RegistryObject<Block> POTTED_WOKAMIRE = REGISTRY.register("potted_wokamire", () -> new PottedWokamireBlock());
-	public static final RegistryObject<Block> CAGED_GARSALE_LANTERN = REGISTRY.register("caged_garsale_lantern", () -> new CagedGarsaleLanternBlock());
-	public static final RegistryObject<Block> CULAFITE_MUSHROOM_TALL = REGISTRY.register("culafite_mushroom_tall", () -> new CulafiteMushroomTallBlock());
 	public static final RegistryObject<Block> CURELITE_TORCH_GROUND = REGISTRY.register("curelite_torch_ground", () -> new CureliteTorchGroundBlock());
 	public static final RegistryObject<Block> CURELITE_TORCH_WALL = REGISTRY.register("curelite_torch_wall", () -> new CureliteTorchWallBlock());
 }

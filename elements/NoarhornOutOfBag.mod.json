@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Let Noarhorn Out Of Pouch",
+    "achievementDescription": "Open 100 Garhenna Pouches",
+    "achievementIcon": {
+      "value": "CUSTOM:GarhennaPouch"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:GarhennaExplore"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"138\" y=\"130\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

@@ -52,4 +52,10 @@ description="Distant Worlds mod is full of new game elements in the style of tec
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.distant_worlds]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

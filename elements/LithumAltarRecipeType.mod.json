@@ -1,0 +1,79 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "lithum_altar_jei.png",
+    "width": 176,
+    "height": 112,
+    "icon": {
+      "value": "CUSTOM:LithumCore"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:LithumCore"
+    },
+    "enableCraftingtable": true,
+    "title": "Lithum Altar",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 36,
+        "y": 14,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 18,
+        "y": 32,
+        "slotid": 2
+      },
+      {
+        "type": "INPUT",
+        "x": 18,
+        "y": 64,
+        "slotid": 3
+      },
+      {
+        "type": "INPUT",
+        "x": 36,
+        "y": 82,
+        "slotid": 4
+      },
+      {
+        "type": "INPUT",
+        "x": 68,
+        "y": 82,
+        "slotid": 5
+      },
+      {
+        "type": "INPUT",
+        "x": 86,
+        "y": 64,
+        "slotid": 6
+      },
+      {
+        "type": "INPUT",
+        "x": 86,
+        "y": 32,
+        "slotid": 7
+      },
+      {
+        "type": "INPUT",
+        "x": 68,
+        "y": 14,
+        "slotid": 8
+      },
+      {
+        "type": "OUTPUT",
+        "x": 140,
+        "y": 49,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 52,
+        "y": 48,
+        "slotid": 0
+      }
+    ]
+  }
+}
