@@ -12,7 +12,6 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
@@ -47,14 +46,6 @@ public class SimpleDaliteMagicProjectileHitsLivingEntityProcedure {
 						Mth.nextInt(RandomSource.create(), 3, 5), 0.25, 0.25, 0.25, 0.1);
 			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("distant_worlds:dalite_magic"))), immediatesourceentity,
 					sourceentity), (float) Math.floor(SummaryBonus));
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("Base Damage: " + BaseDamage)), false);
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("Power: " + BaseDamage * PowerBonus)), false);
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("Distance: " + BaseDamage * Math.max(PowerBonus, 1) * DistanceBonus)), false);
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("Summary Bonus Damage: " + Math.floor(SummaryBonus))), false);
 		}
 	}
 }

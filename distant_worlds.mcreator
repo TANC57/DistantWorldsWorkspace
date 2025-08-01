@@ -10369,7 +10369,7 @@
           "src/main/java/net/mcreator/distantworlds/item/GarhennaPouchItem.java"
         ]
       },
-      "path": "~/Garhenna/Items"
+      "path": "~/ByNuar"
     },
     {
       "name": "VillagerTrades",
@@ -14048,7 +14048,7 @@
           }
         ]
       },
-      "path": "~/Garhenna/Items"
+      "path": "~/ByNuar"
     },
     {
       "name": "WiltumTreeTowerLoot",
@@ -24948,7 +24948,7 @@
           "src/main/resources/data/distant_worlds/tags/items/garhenna_pouch_loot.json"
         ]
       },
-      "path": "~/Garhenna/Items"
+      "path": "~/ByNuar"
     },
     {
       "name": "GarhennaPouchKazhdyiTikVInvientarie",
@@ -24968,12 +24968,12 @@
           }
         ]
       },
-      "path": "~/Garhenna/Items"
+      "path": "~/ByNuar"
     },
     {
       "name": "GarhennaPuchTooltip",
       "type": "procedure",
-      "sortid": 1327,
+      "sortid": 1326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "garhenna_puch_tooltip",
@@ -24996,12 +24996,12 @@
           }
         ]
       },
-      "path": "~/Garhenna/Items"
+      "path": "~/ByNuar"
     },
     {
       "name": "NoarhornOutOfBag",
       "type": "achievement",
-      "sortid": 1328,
+      "sortid": 1327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "noarhorn_out_of_bag",
@@ -25010,12 +25010,12 @@
           "src/main/resources/data/distant_worlds/advancements/noarhorn_out_of_bag.json"
         ]
       },
-      "path": "~/Garhenna/Advancements"
+      "path": "~/ByNuar"
     },
     {
       "name": "LithumAltarRecipeType",
       "type": "jeirecipetype",
-      "sortid": 1329,
+      "sortid": 1328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lithum_altar_recipe_type",
@@ -25023,130 +25023,6 @@
         "files": [
           "src/main/java/net/mcreator/distantworlds/jei_recipes/LithumAltarRecipeTypeRecipe.java",
           "src/main/java/net/mcreator/distantworlds/jei_recipes/LithumAltarRecipeTypeRecipeCategory.java"
-        ]
-      },
-      "path": "~/ByNuar"
-    },
-    {
-      "name": "AltarProcedure",
-      "type": "procedure",
-      "sortid": 1330,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "altar_procedure",
-      "metadata": {
-        "return_type": "itemstack",
-        "files": [
-          "src/main/java/net/mcreator/distantworlds/procedures/AltarProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ByNuar"
-    },
-    {
-      "name": "LithumCoreRMB",
-      "type": "procedure",
-      "sortid": 1331,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithum_core_rmb",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/distantworlds/procedures/LithumCoreRMBProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ByNuar"
-    },
-    {
-      "name": "LithumAltarInterfaceUsloviiePokazaNalozhieniia",
-      "type": "procedure",
-      "sortid": 1332,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithum_altar_interface_usloviie_pokaza_nalozhieniia",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/distantworlds/procedures/LithumAltarInterfaceUsloviiePokazaNalozhieniiaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/ByNuar"
-    },
-    {
-      "name": "ItemInSlotOfCursedAltar",
-      "type": "procedure",
-      "sortid": 1333,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "item_in_slot_of_cursed_altar",
-      "metadata": {
-        "return_type": "entity",
-        "files": [
-          "src/main/java/net/mcreator/distantworlds/procedures/ItemInSlotOfCursedAltarProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "LithumAltarInterface",
-      "type": "overlay",
-      "sortid": 1334,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithum_altar_interface",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/distantworlds/client/screens/LithumAltarInterfaceOverlay.java"
         ]
       },
       "path": "~/ByNuar"
@@ -25271,15 +25147,15 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.distant_worlds.ubricite_armor_chestplate": "Убрицитовый нагрудник",
       "advancements.hot_snack.descr": "Заполучите сверкающий гарсалевый фрукт",
+      "item.distant_worlds.ubricite_armor_chestplate": "Убрицитовый нагрудник",
       "item.distant_worlds.helyst_pickaxe": "Хёлистовая кирка",
       "block.distant_worlds.wiltum_slab": "Вильтумовая плита",
       "block.distant_worlds.wiltum_pressure_plate": "Вильтумовая нажимная плита",
       "block.distant_worlds.lafosia": "Лафосия",
       "item.minecraft.lingering_potion.effect.ignition_potion": "Затяжное зелье воспламенения",
-      "item.distant_worlds.firon_pickaxe": "Файроновая кирка",
       "block.distant_worlds.wiltum_trapdoor": "Вильтумовый люк",
+      "item.distant_worlds.firon_pickaxe": "Файроновая кирка",
       "advancements.sticky_marshes_explore.title": "Липкие болота",
       "block.distant_worlds.garsale_log": "Гарсалевое бревно",
       "painting.distant_worlds.firon_sword_painting.title": "Firon Sword Painting",
@@ -25288,8 +25164,8 @@
       "entity.distant_worlds.salmoran": "Сальморан",
       "advancements.is_it_a_sun.descr": "Взгляните на странную окружающую среду измерения Гархенны через подзорную трубу",
       "item.distant_worlds.fralite_axe": "Фралитовый топор",
-      "item.distant_worlds.armored_noarhorn_spawn_egg": "Яйцо призыва бронированного нархорна",
       "block.distant_worlds.sticky_garsale_log": "Липкое гарсалевое бревно",
+      "item.distant_worlds.armored_noarhorn_spawn_egg": "Яйцо призыва бронированного нархорна",
       "block.distant_worlds.noarhorn_spikes_block": "Блок шипов нархорна",
       "block.distant_worlds.compressed_withered_soil": "Сжатая истощённая почва",
       "item.distant_worlds.toran_spawn_egg": "Яйцо призыва торана",
@@ -25314,21 +25190,21 @@
       "item.distant_worlds.salmoran_armor_boots": "Ботинки сальморана",
       "block.distant_worlds.potted_suwonna": "Сувонна в горшке",
       "advancements.traveled_all_over.descr": "Посетите все измерения и биомы добавляемые модом Далёкие Миры",
-      "block.distant_worlds.green_wiltum_couch": "Зелёный вильтумовый насест",
       "item.distant_worlds.salmoran_spawn_egg": "Яйцо призыва сальморана",
+      "block.distant_worlds.green_wiltum_couch": "Зелёный вильтумовый насест",
       "entity.distant_worlds.loteress": "Лотересс",
       "item.distant_worlds.helyst_sword": "Хёлистовый меч",
-      "item.distant_worlds.firon_boots": "Файроновые ботинки",
       "event.distant_worlds.behavior.follow": " следует за владельцем",
+      "item.distant_worlds.firon_boots": "Файроновые ботинки",
       "item.distant_worlds.module_increased_storage": "Модуль: Увеличенное хранилище",
       "block.distant_worlds.polished_revelite": "Полированный ревелит",
       "block.distant_worlds.revelite_brick_wall": "Стена ревелитовых кирпичей",
       "block.distant_worlds.potted_afolla": "Афолла в горшке",
-      "block.distant_worlds.mossy_fralite": "Мшистый фралит",
       "biome.distant_worlds.molten_hills": "Раскалённые холмы",
+      "block.distant_worlds.mossy_fralite": "Мшистый фралит",
       "advancements.awakened_stones.title": "Пробуждённые камни",
-      "item.distant_worlds.lithum_sword": "Литумовый меч",
       "advancements.living_metal.title": "Живой металл",
+      "item.distant_worlds.lithum_sword": "Литумовый меч",
       "advancements.does_it_smile.title": "Оно мне улыбается?",
       "item.distant_worlds.baby_salmoran_spawn_egg": "Яйцо призыва молодого сальморана",
       "block.distant_worlds.culafite_stem_pane": "Панель из кулафтового стебля",
@@ -25506,7 +25382,7 @@
       "event.distant_worlds.lithum_multiblock.noxp": "§l§2[§aНеобходимо уровней опыта: %1§2]",
       "block.distant_worlds.culafite_stem_door": "Дверь из кулафитового стебля",
       "advancements.encased_soul.descr": "Изучите хелист",
-      "item.distant_worlds.culafite_elixir": "Кулафитовый эликсир",
+      "item.distant_worlds.culafite_elixir": "Culafite Elixir",
       "block.distant_worlds.chiseled_culafite_stem": "Резной кулафитовый стебель",
       "block.distant_worlds.brown_wiltum_couch": "Коричневый вильтумовый насест",
       "curios.modifiers.wither_totem_slot": "Когда экипировано как тотем иссушителя:",
@@ -25766,7 +25642,7 @@
       "block.distant_worlds.black_wiltum_couch": "Чёрный вильтумовый насест",
       "enchantment.distant_worlds.oversaturation": "§6Перенасыщение",
       "item.distant_worlds.lithum_axe": "Литумовый топор",
-      "item.distant_worlds.glistering_wiltum_elixir": "Сияющий эликсир вильтума",
+      "item.distant_worlds.glistering_wiltum_elixir": "Glistering Wiltum Elixir",
       "item.distant_worlds.noarhorn_meat": "Мясо нархорна",
       "block.distant_worlds.cyan_wiltum_couch": "Бирюзовый вильтумовый насест",
       "advancements.awakened_stones.descr": "Изучите раскалённый фралит или фралитовое сердце",
@@ -25819,8 +25695,8 @@
       "event.distant_worlds.command.target_teleported": "Цель телепортирована в ",
       "biome.distant_worlds.dead_valley": "Долина мёртвых",
       "block.distant_worlds.raw_vairis_block": "Блок сырого вайриса",
-      "item.distant_worlds.glistering_garsale_elixir": "Сияющий гарсалевый эликсир",
       "entity.distant_worlds.baby_salmoran": "Молодой сальморан",
+      "item.distant_worlds.glistering_garsale_elixir": "Glistering Garsale Elixir",
       "item.distant_worlds.revelite_hoe": "Ревелитовая мотыга",
       "item.distant_worlds.firon_helmet": "Файроновый шлем",
       "block.distant_worlds.culafite_stem_trapdoor": "Люк из кулафитового стебля",
@@ -25894,15 +25770,15 @@
       "item.distant_worlds.culafite_shroomer_spawn_egg": "Яйцо призыва кулафитового грибера"
     },
     "en_us": {
-      "advancements.hot_snack.descr": "Get a Glistering Garsale Fruit",
       "item.distant_worlds.ubricite_armor_chestplate": "Ubricite Chestplate",
+      "advancements.hot_snack.descr": "Get a Glistering Garsale Fruit",
       "item.distant_worlds.helyst_pickaxe": "Helyst Pickaxe",
       "block.distant_worlds.wiltum_slab": "Wiltum Slab",
       "block.distant_worlds.wiltum_pressure_plate": "Wiltum Pressure Plate",
       "block.distant_worlds.lafosia": "Lafosia",
       "item.minecraft.lingering_potion.effect.ignition_potion": "Lingering Potion of Ignition",
-      "block.distant_worlds.wiltum_trapdoor": "Wiltum Trapdoor",
       "item.distant_worlds.firon_pickaxe": "Firon Pickaxe",
+      "block.distant_worlds.wiltum_trapdoor": "Wiltum Trapdoor",
       "advancements.sticky_marshes_explore.title": "Sticky Marshes",
       "block.distant_worlds.garsale_log": "Garsale Log",
       "painting.distant_worlds.firon_sword_painting.title": "Firon Sword",
@@ -25911,8 +25787,8 @@
       "entity.distant_worlds.salmoran": "Salmoran",
       "advancements.is_it_a_sun.descr": "Look at the strange environment of the Garhenna dimension through a spyglass",
       "item.distant_worlds.fralite_axe": "Fralite Axe",
-      "block.distant_worlds.sticky_garsale_log": "Sticky Garsale Log",
       "item.distant_worlds.armored_noarhorn_spawn_egg": "Armored Noarhorn Spawn Egg",
+      "block.distant_worlds.sticky_garsale_log": "Sticky Garsale Log",
       "block.distant_worlds.noarhorn_spikes_block": "Noarhorn Spikes Block",
       "block.distant_worlds.compressed_withered_soil": "Compressed Withered Soil",
       "item.distant_worlds.toran_spawn_egg": "Toran Spawn Egg",
@@ -25937,21 +25813,21 @@
       "item.distant_worlds.salmoran_armor_boots": "Salmoran Boots",
       "block.distant_worlds.potted_suwonna": "Potted Suwonna",
       "advancements.traveled_all_over.descr": "Visit all dimensions and biomes added by the Distant Worlds mod",
-      "item.distant_worlds.salmoran_spawn_egg": "Salmoran Spawn Egg",
       "block.distant_worlds.green_wiltum_couch": "Green Wiltum Couch",
+      "item.distant_worlds.salmoran_spawn_egg": "Salmoran Spawn Egg",
       "entity.distant_worlds.loteress": "Loteress",
       "item.distant_worlds.helyst_sword": "Helyst Sword",
-      "event.distant_worlds.behavior.follow": " follows the owner",
       "item.distant_worlds.firon_boots": "Firon Boots",
+      "event.distant_worlds.behavior.follow": " follows the owner",
       "item.distant_worlds.module_increased_storage": "Module: Increased Storage",
       "block.distant_worlds.polished_revelite": "Polished Revelite",
       "block.distant_worlds.revelite_brick_wall": "Revelite Brick Wall",
       "block.distant_worlds.potted_afolla": "Potted Afolla",
-      "biome.distant_worlds.molten_hills": "Molten Hills",
       "block.distant_worlds.mossy_fralite": "Mossy Fralite",
+      "biome.distant_worlds.molten_hills": "Molten Hills",
       "advancements.awakened_stones.title": "Awakened Stones",
-      "advancements.living_metal.title": "Living Metal",
       "item.distant_worlds.lithum_sword": "Lithum Sword",
+      "advancements.living_metal.title": "Living Metal",
       "advancements.does_it_smile.title": "Does It Smile At Me?",
       "item.distant_worlds.baby_salmoran_spawn_egg": "Baby Salmoran Spawn Egg",
       "block.distant_worlds.culafite_stem_pane": "Culafite Stem Pane",
@@ -26442,8 +26318,8 @@
       "event.distant_worlds.command.target_teleported": "Target is teleported to ",
       "biome.distant_worlds.dead_valley": "Dead Valley",
       "block.distant_worlds.raw_vairis_block": "Raw Vairis Block",
-      "item.distant_worlds.glistering_garsale_elixir": "Glistering Garsale Elixir",
       "entity.distant_worlds.baby_salmoran": "Baby Salmoran",
+      "item.distant_worlds.glistering_garsale_elixir": "Glistering Garsale Elixir",
       "item.distant_worlds.revelite_hoe": "Revelite Hoe",
       "item.distant_worlds.firon_helmet": "Firon Helmet",
       "block.distant_worlds.culafite_stem_trapdoor": "Culafite Stem Trapdoor",

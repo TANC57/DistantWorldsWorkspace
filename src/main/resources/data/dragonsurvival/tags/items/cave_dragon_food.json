@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "distant_worlds:asmulda_elixir",
+      "required": false
+    },
+    {
+      "id": "distant_worlds:garsale_elixir",
+      "required": false
+    },
+    {
+      "id": "distant_worlds:wiltum_elixir",
+      "required": false
+    },
+    {
+      "id": "distant_worlds:glistering_garsale_elixir",
+      "required": false
+    },
+    {
+      "id": "distant_worlds:glistering_wiltum_elixir",
+      "required": false
+    },
+    {
+      "id": "distant_worlds:culafite_elixir",
+      "required": false
+    }
+  ]
+}
