@@ -25011,21 +25011,6 @@
         ]
       },
       "path": "~/ByNuar"
-    },
-    {
-      "name": "LithumAltarRecipeType",
-      "type": "jeirecipetype",
-      "sortid": 1328,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lithum_altar_recipe_type",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/distantworlds/jei_recipes/LithumAltarRecipeTypeRecipe.java",
-          "src/main/java/net/mcreator/distantworlds/jei_recipes/LithumAltarRecipeTypeRecipeCategory.java"
-        ]
-      },
-      "path": "~/ByNuar"
     }
   ],
   "variable_elements": [
